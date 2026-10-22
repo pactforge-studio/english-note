@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-16",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "customer",
+      "word": "customer",
+      "pos": "名詞",
+      "meaning": "顧客・お客",
+      "example": "Each customer receives a receipt.",
+      "translation": "お客様にはそれぞれ領収書をお渡しします。",
+      "note": "商品やサービスを購入する人。customer serviceは顧客対応。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "従業員",
+        "経営者",
+        "応募者"
+      ],
+      "clozeDistractors": [
+        "employee",
+        "manager",
+        "applicant"
+      ]
+    },
+    {
+      "id": "purchase",
+      "word": "purchase",
+      "pos": "動詞",
+      "meaning": "購入する",
+      "example": "You can purchase tickets online.",
+      "translation": "チケットはオンラインで購入できます。",
+      "note": "buyより改まった表現。名詞では購入や購入品を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "返却する",
+        "延期する",
+        "修理する"
+      ],
+      "clozeDistractors": [
+        "postpone",
+        "repair",
+        "interview"
+      ]
+    },
+    {
+      "id": "receipt",
+      "word": "receipt",
+      "pos": "名詞",
+      "meaning": "領収書・レシート",
+      "example": "Please keep your receipt for a refund.",
+      "translation": "払い戻しのためにレシートを保管してください。",
+      "note": "支払いを受け取ったことを示す書類。pは発音しない。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "広告",
+        "日程",
+        "入口"
+      ],
+      "clozeDistractors": [
+        "advertisement",
+        "schedule",
+        "entrance"
+      ]
+    }
+  ]
+}

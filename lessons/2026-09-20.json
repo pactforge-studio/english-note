@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-20",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "invoice",
+      "word": "invoice",
+      "pos": "名詞",
+      "meaning": "請求書",
+      "example": "Please pay the invoice within thirty days.",
+      "translation": "請求書の金額を30日以内にお支払いください。",
+      "note": "代金の支払いを求める書類。支払済みを示すreceiptと区別する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "領収書",
+        "広告",
+        "旅程"
+      ],
+      "clozeDistractors": [
+        "advertisement",
+        "itinerary",
+        "brochure"
+      ]
+    },
+    {
+      "id": "budget",
+      "word": "budget",
+      "pos": "名詞",
+      "meaning": "予算",
+      "example": "The project must stay within the budget.",
+      "translation": "プロジェクトは予算内に収めなければなりません。",
+      "note": "使える費用の計画や上限。within budgetは予算内。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "給与",
+        "利益",
+        "倉庫"
+      ],
+      "clozeDistractors": [
+        "warehouse",
+        "receipt",
+        "entrance"
+      ]
+    },
+    {
+      "id": "expense",
+      "word": "expense",
+      "pos": "名詞",
+      "meaning": "費用・支出",
+      "example": "Travel is our largest expense this month.",
+      "translation": "今月の最大の支出は旅費です。",
+      "note": "何かにかかる費用。travel expensesで旅費。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "収入",
+        "利益",
+        "割引"
+      ],
+      "clozeDistractors": [
+        "income",
+        "profit",
+        "discount"
+      ]
+    }
+  ]
+}

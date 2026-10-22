@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-15",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "schedule",
+      "word": "schedule",
+      "pos": "名詞",
+      "meaning": "予定・日程",
+      "example": "The training schedule is on the website.",
+      "translation": "研修の日程はウェブサイトにあります。",
+      "note": "会議や研修などの予定表。on scheduleは予定どおり。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "給与",
+        "領収書",
+        "設備"
+      ],
+      "clozeDistractors": [
+        "salary",
+        "receipt",
+        "equipment"
+      ]
+    },
+    {
+      "id": "attend",
+      "word": "attend",
+      "pos": "動詞",
+      "meaning": "出席する",
+      "example": "All new employees must attend the training session.",
+      "translation": "新入社員は全員、研修に出席しなければなりません。",
+      "note": "attend a meetingのように、会議などを直接目的語に取る。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "製造する",
+        "払い戻す",
+        "包装する"
+      ],
+      "clozeDistractors": [
+        "manufacture",
+        "refund",
+        "wrap"
+      ]
+    },
+    {
+      "id": "department",
+      "word": "department",
+      "pos": "名詞",
+      "meaning": "部署・部門",
+      "example": "She works in the sales department.",
+      "translation": "彼女は営業部で働いています。",
+      "note": "会社や組織の一部門。sales departmentは営業部。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "交差点",
+        "請求書",
+        "乗客"
+      ],
+      "clozeDistractors": [
+        "intersection",
+        "invoice",
+        "passenger"
+      ]
+    }
+  ]
+}

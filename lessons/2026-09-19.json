@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-19",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "reservation",
+      "word": "reservation",
+      "pos": "名詞",
+      "meaning": "予約",
+      "example": "We have a reservation for two nights.",
+      "translation": "私たちは2泊の予約をしています。",
+      "note": "ホテルやレストランなどの予約。make a reservationで予約を入れる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "故障",
+        "給与",
+        "交差点"
+      ],
+      "clozeDistractors": [
+        "breakdown",
+        "salary",
+        "intersection"
+      ]
+    },
+    {
+      "id": "departure",
+      "word": "departure",
+      "pos": "名詞",
+      "meaning": "出発",
+      "example": "The departure time is printed on your ticket.",
+      "translation": "出発時刻はチケットに印刷されています。",
+      "note": "飛行機や列車などが出発すること。arrivalは到着。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "到着",
+        "支払い",
+        "採用"
+      ],
+      "clozeDistractors": [
+        "payment",
+        "recruitment",
+        "maintenance"
+      ]
+    },
+    {
+      "id": "luggage",
+      "word": "luggage",
+      "pos": "名詞",
+      "meaning": "旅行用の手荷物",
+      "example": "Please leave your luggage at the front desk.",
+      "translation": "手荷物をフロントにお預けください。",
+      "note": "スーツケースなどの荷物の総称。通常は数えない名詞。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "領収書",
+        "応募書類",
+        "給与"
+      ],
+      "clozeDistractors": [
+        "receipt",
+        "application",
+        "salary"
+      ]
+    }
+  ]
+}
