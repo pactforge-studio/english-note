@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-21",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "equipment",
+      "word": "equipment",
+      "pos": "名詞",
+      "meaning": "設備・機器",
+      "example": "The new equipment is easy to use.",
+      "translation": "新しい機器は使いやすいです。",
+      "note": "作業に使う機器などの総称。通常は数えない名詞で、equipmentsとはしない。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "応募者",
+        "乗客",
+        "日程"
+      ],
+      "clozeDistractors": [
+        "applicant",
+        "passenger",
+        "schedule"
+      ]
+    },
+    {
+      "id": "repair",
+      "word": "repair",
+      "pos": "動詞",
+      "meaning": "修理する",
+      "example": "A technician will repair the printer tomorrow.",
+      "translation": "技術者が明日プリンターを修理します。",
+      "note": "壊れた物を直す。名詞では修理。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "採用する",
+        "出席する",
+        "予約する"
+      ],
+      "clozeDistractors": [
+        "hire",
+        "attend",
+        "reserve"
+      ]
+    },
+    {
+      "id": "replace",
+      "word": "replace",
+      "pos": "動詞",
+      "meaning": "交換する・取り替える",
+      "example": "We need to replace the old batteries.",
+      "translation": "古い電池を取り替える必要があります。",
+      "note": "replace A with BでAをBに取り替える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "出席する",
+        "応募する",
+        "到着する"
+      ],
+      "clozeDistractors": [
+        "attend",
+        "apply",
+        "arrive"
+      ]
+    }
+  ]
+}

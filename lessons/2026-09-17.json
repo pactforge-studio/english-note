@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-17",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "delivery",
+      "word": "delivery",
+      "pos": "名詞",
+      "meaning": "配達・配送",
+      "example": "The delivery will arrive before noon.",
+      "translation": "荷物は正午前に届きます。",
+      "note": "商品を届けること。delivery dateは配達日。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "出席",
+        "面接",
+        "給与"
+      ],
+      "clozeDistractors": [
+        "attendance",
+        "interview",
+        "salary"
+      ]
+    },
+    {
+      "id": "address",
+      "word": "address",
+      "pos": "名詞",
+      "meaning": "住所",
+      "example": "Please write your address on this form.",
+      "translation": "この用紙に住所を記入してください。",
+      "note": "shipping addressは配送先住所。動詞では対処するなどの意味もある。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "職業",
+        "予算",
+        "故障"
+      ],
+      "clozeDistractors": [
+        "occupation",
+        "budget",
+        "breakdown"
+      ]
+    },
+    {
+      "id": "delay",
+      "word": "delay",
+      "pos": "名詞",
+      "meaning": "遅れ・遅延",
+      "example": "The flight has a two-hour delay.",
+      "translation": "その便には2時間の遅れがあります。",
+      "note": "交通や配送の遅れ。without delayは遅滞なく。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "割引",
+        "領収書",
+        "倉庫"
+      ],
+      "clozeDistractors": [
+        "discount",
+        "receipt",
+        "warehouse"
+      ]
+    }
+  ]
+}

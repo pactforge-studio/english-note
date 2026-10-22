@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-14",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "appointment",
+      "word": "appointment",
+      "pos": "名詞",
+      "meaning": "面会の約束・予約",
+      "example": "I have an appointment with the manager at ten.",
+      "translation": "10時に支配人と会う約束があります。",
+      "note": "人と会う時刻を決めた約束。make an appointmentで予約する。",
+      "etymology": "appoint（定める・任命する）に関連する名詞です。辞書の語源欄はappointを参照しています。",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/appointment"
+      ],
+      "meaningDistractors": [
+        "荷物の配送",
+        "商品の割引",
+        "勤務場所"
+      ],
+      "clozeDistractors": [
+        "receipt",
+        "warehouse",
+        "discount"
+      ]
+    },
+    {
+      "id": "confirm",
+      "word": "confirm",
+      "pos": "動詞",
+      "meaning": "確認する・確定する",
+      "example": "Please confirm your reservation by Friday.",
+      "translation": "金曜日までに予約を確認してください。",
+      "note": "予約や予定が確かであると確認する。confirm a reservationをひとまとまりで覚える。",
+      "etymology": "ラテン語confirmareに由来し、firmareは「堅固にする」の意味です。「確かなものにする」と確認・確定の意味を結びつけて覚えられます。",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/confirm"
+      ],
+      "meaningDistractors": [
+        "延期する",
+        "修理する",
+        "応募する"
+      ],
+      "clozeDistractors": [
+        "repair",
+        "hire",
+        "deliver"
+      ]
+    },
+    {
+      "id": "available",
+      "word": "available",
+      "pos": "形容詞",
+      "meaning": "利用できる・空いている",
+      "example": "The meeting room is available this afternoon.",
+      "translation": "会議室は今日の午後空いています。",
+      "note": "物なら利用可能、人なら時間が空いていることを表す。",
+      "etymology": "availに関連する形容詞です。辞書の語源欄はavailを参照しています。",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/available"
+      ],
+      "meaningDistractors": [
+        "高価な",
+        "破損した",
+        "混雑した"
+      ],
+      "clozeDistractors": [
+        "expensive",
+        "damaged",
+        "crowded"
+      ]
+    }
+  ]
+}

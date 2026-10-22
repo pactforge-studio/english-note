@@ -1,0 +1,713 @@
+{
+  "schemaVersion": 1,
+  "startDate": "2026-09-14",
+  "endDate": "2026-09-23",
+  "lessons": [
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-14",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "appointment",
+          "word": "appointment",
+          "pos": "名詞",
+          "meaning": "面会の約束・予約",
+          "example": "I have an appointment with the manager at ten.",
+          "translation": "10時に支配人と会う約束があります。",
+          "note": "人と会う時刻を決めた約束。make an appointmentで予約する。",
+          "etymology": "appoint（定める・任命する）に関連する名詞です。辞書の語源欄はappointを参照しています。",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/appointment"
+          ],
+          "meaningDistractors": [
+            "荷物の配送",
+            "商品の割引",
+            "勤務場所"
+          ],
+          "clozeDistractors": [
+            "receipt",
+            "warehouse",
+            "discount"
+          ]
+        },
+        {
+          "id": "confirm",
+          "word": "confirm",
+          "pos": "動詞",
+          "meaning": "確認する・確定する",
+          "example": "Please confirm your reservation by Friday.",
+          "translation": "金曜日までに予約を確認してください。",
+          "note": "予約や予定が確かであると確認する。confirm a reservationをひとまとまりで覚える。",
+          "etymology": "ラテン語confirmareに由来し、firmareは「堅固にする」の意味です。「確かなものにする」と確認・確定の意味を結びつけて覚えられます。",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/confirm"
+          ],
+          "meaningDistractors": [
+            "延期する",
+            "修理する",
+            "応募する"
+          ],
+          "clozeDistractors": [
+            "repair",
+            "hire",
+            "deliver"
+          ]
+        },
+        {
+          "id": "available",
+          "word": "available",
+          "pos": "形容詞",
+          "meaning": "利用できる・空いている",
+          "example": "The meeting room is available this afternoon.",
+          "translation": "会議室は今日の午後空いています。",
+          "note": "物なら利用可能、人なら時間が空いていることを表す。",
+          "etymology": "availに関連する形容詞です。辞書の語源欄はavailを参照しています。",
+          "sources": [
+            "https://www.merriam-webster.com/dictionary/available"
+          ],
+          "meaningDistractors": [
+            "高価な",
+            "破損した",
+            "混雑した"
+          ],
+          "clozeDistractors": [
+            "expensive",
+            "damaged",
+            "crowded"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-15",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "schedule",
+          "word": "schedule",
+          "pos": "名詞",
+          "meaning": "予定・日程",
+          "example": "The training schedule is on the website.",
+          "translation": "研修の日程はウェブサイトにあります。",
+          "note": "会議や研修などの予定表。on scheduleは予定どおり。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "給与",
+            "領収書",
+            "設備"
+          ],
+          "clozeDistractors": [
+            "salary",
+            "receipt",
+            "equipment"
+          ]
+        },
+        {
+          "id": "attend",
+          "word": "attend",
+          "pos": "動詞",
+          "meaning": "出席する",
+          "example": "All new employees must attend the training session.",
+          "translation": "新入社員は全員、研修に出席しなければなりません。",
+          "note": "attend a meetingのように、会議などを直接目的語に取る。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "製造する",
+            "払い戻す",
+            "包装する"
+          ],
+          "clozeDistractors": [
+            "manufacture",
+            "refund",
+            "wrap"
+          ]
+        },
+        {
+          "id": "department",
+          "word": "department",
+          "pos": "名詞",
+          "meaning": "部署・部門",
+          "example": "She works in the sales department.",
+          "translation": "彼女は営業部で働いています。",
+          "note": "会社や組織の一部門。sales departmentは営業部。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "交差点",
+            "請求書",
+            "乗客"
+          ],
+          "clozeDistractors": [
+            "intersection",
+            "invoice",
+            "passenger"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-16",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "customer",
+          "word": "customer",
+          "pos": "名詞",
+          "meaning": "顧客・お客",
+          "example": "Each customer receives a receipt.",
+          "translation": "お客様にはそれぞれ領収書をお渡しします。",
+          "note": "商品やサービスを購入する人。customer serviceは顧客対応。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "従業員",
+            "経営者",
+            "応募者"
+          ],
+          "clozeDistractors": [
+            "employee",
+            "manager",
+            "applicant"
+          ]
+        },
+        {
+          "id": "purchase",
+          "word": "purchase",
+          "pos": "動詞",
+          "meaning": "購入する",
+          "example": "You can purchase tickets online.",
+          "translation": "チケットはオンラインで購入できます。",
+          "note": "buyより改まった表現。名詞では購入や購入品を表す。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "返却する",
+            "延期する",
+            "修理する"
+          ],
+          "clozeDistractors": [
+            "postpone",
+            "repair",
+            "interview"
+          ]
+        },
+        {
+          "id": "receipt",
+          "word": "receipt",
+          "pos": "名詞",
+          "meaning": "領収書・レシート",
+          "example": "Please keep your receipt for a refund.",
+          "translation": "払い戻しのためにレシートを保管してください。",
+          "note": "支払いを受け取ったことを示す書類。pは発音しない。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "広告",
+            "日程",
+            "入口"
+          ],
+          "clozeDistractors": [
+            "advertisement",
+            "schedule",
+            "entrance"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-17",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "delivery",
+          "word": "delivery",
+          "pos": "名詞",
+          "meaning": "配達・配送",
+          "example": "The delivery will arrive before noon.",
+          "translation": "荷物は正午前に届きます。",
+          "note": "商品を届けること。delivery dateは配達日。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "出席",
+            "面接",
+            "給与"
+          ],
+          "clozeDistractors": [
+            "attendance",
+            "interview",
+            "salary"
+          ]
+        },
+        {
+          "id": "address",
+          "word": "address",
+          "pos": "名詞",
+          "meaning": "住所",
+          "example": "Please write your address on this form.",
+          "translation": "この用紙に住所を記入してください。",
+          "note": "shipping addressは配送先住所。動詞では対処するなどの意味もある。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "職業",
+            "予算",
+            "故障"
+          ],
+          "clozeDistractors": [
+            "occupation",
+            "budget",
+            "breakdown"
+          ]
+        },
+        {
+          "id": "delay",
+          "word": "delay",
+          "pos": "名詞",
+          "meaning": "遅れ・遅延",
+          "example": "The flight has a two-hour delay.",
+          "translation": "その便には2時間の遅れがあります。",
+          "note": "交通や配送の遅れ。without delayは遅滞なく。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "割引",
+            "領収書",
+            "倉庫"
+          ],
+          "clozeDistractors": [
+            "discount",
+            "receipt",
+            "warehouse"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-18",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "employee",
+          "word": "employee",
+          "pos": "名詞",
+          "meaning": "従業員",
+          "example": "Every employee has an identification card.",
+          "translation": "従業員は全員、身分証を持っています。",
+          "note": "雇われて働く人。employerは雇用する側。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "雇用主",
+            "顧客",
+            "訪問者"
+          ],
+          "clozeDistractors": [
+            "customer",
+            "visitor",
+            "passenger"
+          ]
+        },
+        {
+          "id": "apply",
+          "word": "apply",
+          "pos": "動詞",
+          "meaning": "応募する・申請する",
+          "example": "Please apply for the position online.",
+          "translation": "その職にはオンラインで応募してください。",
+          "note": "apply for a jobで仕事に応募する。apply toは適用されるという用法もある。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "支払う",
+            "配送する",
+            "製造する"
+          ],
+          "clozeDistractors": [
+            "pay",
+            "deliver",
+            "manufacture"
+          ]
+        },
+        {
+          "id": "experience",
+          "word": "experience",
+          "pos": "名詞",
+          "meaning": "経験",
+          "example": "Previous sales experience is required.",
+          "translation": "販売の実務経験が必要です。",
+          "note": "職務経験を述べるときによく使う。この意味では通常、数えない名詞。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "設備",
+            "住所",
+            "領収書"
+          ],
+          "clozeDistractors": [
+            "equipment",
+            "address",
+            "receipt"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-19",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "reservation",
+          "word": "reservation",
+          "pos": "名詞",
+          "meaning": "予約",
+          "example": "We have a reservation for two nights.",
+          "translation": "私たちは2泊の予約をしています。",
+          "note": "ホテルやレストランなどの予約。make a reservationで予約を入れる。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "故障",
+            "給与",
+            "交差点"
+          ],
+          "clozeDistractors": [
+            "breakdown",
+            "salary",
+            "intersection"
+          ]
+        },
+        {
+          "id": "departure",
+          "word": "departure",
+          "pos": "名詞",
+          "meaning": "出発",
+          "example": "The departure time is printed on your ticket.",
+          "translation": "出発時刻はチケットに印刷されています。",
+          "note": "飛行機や列車などが出発すること。arrivalは到着。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "到着",
+            "支払い",
+            "採用"
+          ],
+          "clozeDistractors": [
+            "payment",
+            "recruitment",
+            "maintenance"
+          ]
+        },
+        {
+          "id": "luggage",
+          "word": "luggage",
+          "pos": "名詞",
+          "meaning": "旅行用の手荷物",
+          "example": "Please leave your luggage at the front desk.",
+          "translation": "手荷物をフロントにお預けください。",
+          "note": "スーツケースなどの荷物の総称。通常は数えない名詞。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "領収書",
+            "応募書類",
+            "給与"
+          ],
+          "clozeDistractors": [
+            "receipt",
+            "application",
+            "salary"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-20",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "invoice",
+          "word": "invoice",
+          "pos": "名詞",
+          "meaning": "請求書",
+          "example": "Please pay the invoice within thirty days.",
+          "translation": "請求書の金額を30日以内にお支払いください。",
+          "note": "代金の支払いを求める書類。支払済みを示すreceiptと区別する。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "領収書",
+            "広告",
+            "旅程"
+          ],
+          "clozeDistractors": [
+            "advertisement",
+            "itinerary",
+            "brochure"
+          ]
+        },
+        {
+          "id": "budget",
+          "word": "budget",
+          "pos": "名詞",
+          "meaning": "予算",
+          "example": "The project must stay within the budget.",
+          "translation": "プロジェクトは予算内に収めなければなりません。",
+          "note": "使える費用の計画や上限。within budgetは予算内。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "給与",
+            "利益",
+            "倉庫"
+          ],
+          "clozeDistractors": [
+            "warehouse",
+            "receipt",
+            "entrance"
+          ]
+        },
+        {
+          "id": "expense",
+          "word": "expense",
+          "pos": "名詞",
+          "meaning": "費用・支出",
+          "example": "Travel is our largest expense this month.",
+          "translation": "今月の最大の支出は旅費です。",
+          "note": "何かにかかる費用。travel expensesで旅費。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "収入",
+            "利益",
+            "割引"
+          ],
+          "clozeDistractors": [
+            "income",
+            "profit",
+            "discount"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-21",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "equipment",
+          "word": "equipment",
+          "pos": "名詞",
+          "meaning": "設備・機器",
+          "example": "The new equipment is easy to use.",
+          "translation": "新しい機器は使いやすいです。",
+          "note": "作業に使う機器などの総称。通常は数えない名詞で、equipmentsとはしない。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "応募者",
+            "乗客",
+            "日程"
+          ],
+          "clozeDistractors": [
+            "applicant",
+            "passenger",
+            "schedule"
+          ]
+        },
+        {
+          "id": "repair",
+          "word": "repair",
+          "pos": "動詞",
+          "meaning": "修理する",
+          "example": "A technician will repair the printer tomorrow.",
+          "translation": "技術者が明日プリンターを修理します。",
+          "note": "壊れた物を直す。名詞では修理。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "採用する",
+            "出席する",
+            "予約する"
+          ],
+          "clozeDistractors": [
+            "hire",
+            "attend",
+            "reserve"
+          ]
+        },
+        {
+          "id": "replace",
+          "word": "replace",
+          "pos": "動詞",
+          "meaning": "交換する・取り替える",
+          "example": "We need to replace the old batteries.",
+          "translation": "古い電池を取り替える必要があります。",
+          "note": "replace A with BでAをBに取り替える。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "出席する",
+            "応募する",
+            "到着する"
+          ],
+          "clozeDistractors": [
+            "attend",
+            "apply",
+            "arrive"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-22",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "submit",
+          "word": "submit",
+          "pos": "動詞",
+          "meaning": "提出する",
+          "example": "Please submit your report by Monday.",
+          "translation": "月曜日までに報告書を提出してください。",
+          "note": "書類などを正式に提出する。締め切りのbyにも注目。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "出席する",
+            "到着する",
+            "通勤する"
+          ],
+          "clozeDistractors": [
+            "attend",
+            "arrive",
+            "commute"
+          ]
+        },
+        {
+          "id": "deadline",
+          "word": "deadline",
+          "pos": "名詞",
+          "meaning": "締め切り",
+          "example": "The deadline for applications is June first.",
+          "translation": "応募の締め切りは6月1日です。",
+          "note": "提出や完了の最終期限。meet a deadlineで締め切りを守る。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "予定表",
+            "休憩",
+            "設備"
+          ],
+          "clozeDistractors": [
+            "equipment",
+            "discount",
+            "receipt"
+          ]
+        },
+        {
+          "id": "approve",
+          "word": "approve",
+          "pos": "動詞",
+          "meaning": "承認する",
+          "example": "The director must approve the final design.",
+          "translation": "部長が最終デザインを承認しなければなりません。",
+          "note": "計画などを正式に認める。approve ofは賛成する。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "配送する",
+            "修理する",
+            "包装する"
+          ],
+          "clozeDistractors": [
+            "deliver",
+            "repair",
+            "wrap"
+          ]
+        }
+      ]
+    },
+    {
+      "schemaVersion": 1,
+      "date": "2026-09-23",
+      "level": "基礎〜600点",
+      "words": [
+        {
+          "id": "increase",
+          "word": "increase",
+          "pos": "動詞",
+          "meaning": "増やす・増える",
+          "example": "The company plans to increase production.",
+          "translation": "会社は生産を増やす予定です。",
+          "note": "数や量が増える、または増やす。名詞では増加。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "減らす",
+            "維持する",
+            "中止する"
+          ],
+          "clozeDistractors": [
+            "reduce",
+            "stop",
+            "cancel"
+          ]
+        },
+        {
+          "id": "improve",
+          "word": "improve",
+          "pos": "動詞",
+          "meaning": "改善する・向上させる",
+          "example": "We want to improve customer service.",
+          "translation": "私たちは顧客サービスを改善したいと考えています。",
+          "note": "今より良い状態にする。improvementは改善という名詞。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "延期する",
+            "廃止する",
+            "配送する"
+          ],
+          "clozeDistractors": [
+            "postpone",
+            "cancel",
+            "deliver"
+          ]
+        },
+        {
+          "id": "require",
+          "word": "require",
+          "pos": "動詞",
+          "meaning": "必要とする",
+          "example": "This position will require some travel.",
+          "translation": "この職務には出張がいくらか必要になります。",
+          "note": "必要条件を表す。be required toで〜することを求められる。",
+          "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+          "sources": [],
+          "meaningDistractors": [
+            "拒否する",
+            "回避する",
+            "延期する"
+          ],
+          "clozeDistractors": [
+            "reject",
+            "avoid",
+            "postpone"
+          ]
+        }
+      ]
+    }
+  ]
+}

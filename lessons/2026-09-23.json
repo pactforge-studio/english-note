@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-23",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "increase",
+      "word": "increase",
+      "pos": "動詞",
+      "meaning": "増やす・増える",
+      "example": "The company plans to increase production.",
+      "translation": "会社は生産を増やす予定です。",
+      "note": "数や量が増える、または増やす。名詞では増加。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "減らす",
+        "維持する",
+        "中止する"
+      ],
+      "clozeDistractors": [
+        "reduce",
+        "stop",
+        "cancel"
+      ]
+    },
+    {
+      "id": "improve",
+      "word": "improve",
+      "pos": "動詞",
+      "meaning": "改善する・向上させる",
+      "example": "We want to improve customer service.",
+      "translation": "私たちは顧客サービスを改善したいと考えています。",
+      "note": "今より良い状態にする。improvementは改善という名詞。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "延期する",
+        "廃止する",
+        "配送する"
+      ],
+      "clozeDistractors": [
+        "postpone",
+        "cancel",
+        "deliver"
+      ]
+    },
+    {
+      "id": "require",
+      "word": "require",
+      "pos": "動詞",
+      "meaning": "必要とする",
+      "example": "This position will require some travel.",
+      "translation": "この職務には出張がいくらか必要になります。",
+      "note": "必要条件を表す。be required toで〜することを求められる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "拒否する",
+        "回避する",
+        "延期する"
+      ],
+      "clozeDistractors": [
+        "reject",
+        "avoid",
+        "postpone"
+      ]
+    }
+  ]
+}

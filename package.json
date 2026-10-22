@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-site.mjs",
+    "check": "node scripts/test-english-study.mjs && node scripts/build-site.mjs && node scripts/check-runtime-links.mjs site"
+  }
+}

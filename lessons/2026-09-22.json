@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-22",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "submit",
+      "word": "submit",
+      "pos": "動詞",
+      "meaning": "提出する",
+      "example": "Please submit your report by Monday.",
+      "translation": "月曜日までに報告書を提出してください。",
+      "note": "書類などを正式に提出する。締め切りのbyにも注目。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "出席する",
+        "到着する",
+        "通勤する"
+      ],
+      "clozeDistractors": [
+        "attend",
+        "arrive",
+        "commute"
+      ]
+    },
+    {
+      "id": "deadline",
+      "word": "deadline",
+      "pos": "名詞",
+      "meaning": "締め切り",
+      "example": "The deadline for applications is June first.",
+      "translation": "応募の締め切りは6月1日です。",
+      "note": "提出や完了の最終期限。meet a deadlineで締め切りを守る。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "予定表",
+        "休憩",
+        "設備"
+      ],
+      "clozeDistractors": [
+        "equipment",
+        "discount",
+        "receipt"
+      ]
+    },
+    {
+      "id": "approve",
+      "word": "approve",
+      "pos": "動詞",
+      "meaning": "承認する",
+      "example": "The director must approve the final design.",
+      "translation": "部長が最終デザインを承認しなければなりません。",
+      "note": "計画などを正式に認める。approve ofは賛成する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "配送する",
+        "修理する",
+        "包装する"
+      ],
+      "clozeDistractors": [
+        "deliver",
+        "repair",
+        "wrap"
+      ]
+    }
+  ]
+}

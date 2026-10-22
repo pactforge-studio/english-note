@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-18",
+  "level": "基礎〜600点",
+  "words": [
+    {
+      "id": "employee",
+      "word": "employee",
+      "pos": "名詞",
+      "meaning": "従業員",
+      "example": "Every employee has an identification card.",
+      "translation": "従業員は全員、身分証を持っています。",
+      "note": "雇われて働く人。employerは雇用する側。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "雇用主",
+        "顧客",
+        "訪問者"
+      ],
+      "clozeDistractors": [
+        "customer",
+        "visitor",
+        "passenger"
+      ]
+    },
+    {
+      "id": "apply",
+      "word": "apply",
+      "pos": "動詞",
+      "meaning": "応募する・申請する",
+      "example": "Please apply for the position online.",
+      "translation": "その職にはオンラインで応募してください。",
+      "note": "apply for a jobで仕事に応募する。apply toは適用されるという用法もある。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "支払う",
+        "配送する",
+        "製造する"
+      ],
+      "clozeDistractors": [
+        "pay",
+        "deliver",
+        "manufacture"
+      ]
+    },
+    {
+      "id": "experience",
+      "word": "experience",
+      "pos": "名詞",
+      "meaning": "経験",
+      "example": "Previous sales experience is required.",
+      "translation": "販売の実務経験が必要です。",
+      "note": "職務経験を述べるときによく使う。この意味では通常、数えない名詞。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "設備",
+        "住所",
+        "領収書"
+      ],
+      "clozeDistractors": [
+        "equipment",
+        "address",
+        "receipt"
+      ]
+    }
+  ]
+}
