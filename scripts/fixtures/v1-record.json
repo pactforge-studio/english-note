@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "progress": {
+    "appointment": {
+      "stage": 0,
+      "due": "2026-10-10",
+      "last": "2026-09-14",
+      "errors": 0,
+      "correct": false
+    },
+    "confirm": {
+      "stage": 1,
+      "due": "2026-10-11",
+      "last": "2026-09-15",
+      "errors": 1,
+      "correct": true
+    },
+    "available": {
+      "stage": 2,
+      "due": "2026-10-12",
+      "last": "2026-09-16",
+      "errors": 2,
+      "correct": true
+    },
+    "schedule": {
+      "stage": 3,
+      "due": "2026-10-13",
+      "last": "2026-09-17",
+      "errors": 0,
+      "correct": false
+    },
+    "attend": {
+      "stage": 4,
+      "due": "2026-10-14",
+      "last": "2026-09-18",
+      "errors": 1,
+      "correct": true
+    },
+    "department": {
+      "stage": 0,
+      "due": "2026-10-15",
+      "last": "2026-09-14",
+      "errors": 2,
+      "correct": true
+    },
+    "customer": {
+      "stage": 1,
+      "due": "2026-10-16",
+      "last": "2026-09-15",
+      "errors": 0,
+      "correct": false
+    },
+    "purchase": {
+      "stage": 2,
+      "due": "2026-10-17",
+      "last": "2026-09-16",
+      "errors": 1,
+      "correct": true
+    },
+    "receipt": {
+      "stage": 3,
+      "due": "2026-10-18",
+      "last": "2026-09-17",
+      "errors": 2,
+      "correct": true
+    },
+    "delivery": {
+      "stage": 4,
+      "due": "2026-10-19",
+      "last": "2026-09-18",
+      "errors": 0,
+      "correct": false
+    },
+    "address": {
+      "stage": 0,
+      "due": "2026-10-20",
+      "last": "2026-09-14",
+      "errors": 1,
+      "correct": true
+    },
+    "delay": {
+      "stage": 1,
+      "due": "2026-10-21",
+      "last": "2026-09-15",
+      "errors": 2,
+      "correct": true
+    }
+  },
+  "awards": {
+    "2026-09-14:appointment": true,
+    "2026-09-15:confirm": true,
+    "2026-09-16:available": true,
+    "2026-09-17:schedule": true,
+    "2026-09-18:attend": true,
+    "2026-09-14:department": true,
+    "2026-09-15:customer": true,
+    "2026-09-16:purchase": true,
+    "2026-09-17:receipt": true,
+    "2026-09-18:delivery": true,
+    "2026-09-14:address": true,
+    "2026-09-15:delay": true
+  },
+  "exchanges": []
+}
