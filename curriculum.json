@@ -2586,9 +2586,9 @@
     {
       "id": "ph_drop_off",
       "phrase": "drop off",
-      "meaning": "～を預ける",
+      "meaning": "～を（所定の場所に）置いていく",
       "example": "Please drop off your rental car at the airport return area.",
-      "translation": "レンタカーを空港の返却場所に預けてください。",
+      "translation": "レンタカーは空港の返却場所で返してください。",
       "note": "車などを指定の場所へ届けて置いていくときに使う。",
       "meaningDistractors": [
         "～を飲み干す",
@@ -3479,7 +3479,7 @@
       "clozeDistractors": [
         "according to",
         "because of",
-        "instead of"
+        "by mistake"
       ],
       "seq": 48,
       "level": "L1",
