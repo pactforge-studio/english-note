@@ -5352,6 +5352,1413 @@
       "tags": [
         "物流"
       ]
+    },
+    {
+      "id": "ph_agree_with",
+      "phrase": "agree with",
+      "meaning": "～に賛成する",
+      "example": "I agree with your proposal to shorten our weekly staff meeting.",
+      "translation": "毎週の職員会議を短くするというあなたの提案に賛成します。",
+      "note": "意見や提案に同意するときは、withの後ろにその内容を置く。",
+      "meaningDistractors": [
+        "～を包む",
+        "～から降りる",
+        "～を使い切る"
+      ],
+      "clozeDistractors": [
+        "by train",
+        "on sale",
+        "at noon"
+      ],
+      "seq": 61,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_ask_for",
+      "phrase": "ask for",
+      "meaning": "～を求める",
+      "example": "Please ask for a receipt when you pay the taxi driver.",
+      "translation": "タクシーの運転手に料金を払うときは、領収書を求めてください。",
+      "note": "欲しい物や必要なものをforの後ろに置く。",
+      "meaningDistractors": [
+        "～を処分する",
+        "～を修理する",
+        "～を延期する"
+      ],
+      "clozeDistractors": [
+        "on foot",
+        "in stock",
+        "at home"
+      ],
+      "seq": 62,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_deal_with",
+      "phrase": "deal with",
+      "meaning": "～に対処する",
+      "example": "Our service team can deal with complaints about damaged deliveries.",
+      "translation": "当社のサービス担当チームは、配送品の破損についての苦情に対処できます。",
+      "note": "問題や問い合わせを取り扱うときに使う。",
+      "meaningDistractors": [
+        "～を祝う",
+        "～を予約する",
+        "～に投票する"
+      ],
+      "clozeDistractors": [
+        "by mistake",
+        "on average",
+        "at first"
+      ],
+      "seq": 63,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_depend_on",
+      "phrase": "depend on",
+      "meaning": "～に左右される",
+      "example": "Printing costs depend on the number of colors in each advertisement.",
+      "translation": "印刷費は、各広告に使う色の数に左右されます。",
+      "note": "結果や費用を左右する条件をonの後ろに置く。",
+      "meaningDistractors": [
+        "～を発表する",
+        "～に謝る",
+        "～を包む"
+      ],
+      "clozeDistractors": [
+        "in cash",
+        "on display",
+        "at present"
+      ],
+      "seq": 64,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_focus_on",
+      "phrase": "focus on",
+      "meaning": "～に集中する",
+      "example": "This morning, we will focus on choosing photographs for the new advertisement.",
+      "translation": "今朝は、新しい広告に使う写真を選ぶことに集中します。",
+      "note": "注意や作業の対象をonの後ろに置き、動詞ならing形にする。",
+      "meaningDistractors": [
+        "～を返却する",
+        "～から引退する",
+        "～を値引きする"
+      ],
+      "clozeDistractors": [
+        "on time",
+        "in total",
+        "by hand"
+      ],
+      "seq": 65,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_listen_to",
+      "phrase": "listen to",
+      "meaning": "～を聞く",
+      "example": "Please listen to the safety instructions before entering the storage area.",
+      "translation": "保管場所に入る前に、安全に関する説明を聞いてください。",
+      "note": "意識して聞く相手や内容をtoの後ろに置く。",
+      "meaningDistractors": [
+        "～を燃やす",
+        "～に請求する",
+        "～を取り消す"
+      ],
+      "clozeDistractors": [
+        "in advance",
+        "at least",
+        "by train"
+      ],
+      "seq": 66,
+      "level": "L1",
+      "tags": [
+        "施設",
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_refer_to",
+      "phrase": "refer to",
+      "meaning": "～を参照する",
+      "example": "Please refer to the chart when you explain our monthly expenses.",
+      "translation": "毎月の経費を説明するときは、その図表を参照してください。",
+      "note": "確認のために見る資料をtoの後ろに置く。",
+      "meaningDistractors": [
+        "～を梱包する",
+        "～を雇う",
+        "～を払い戻す"
+      ],
+      "clozeDistractors": [
+        "on duty",
+        "by mistake",
+        "in person"
+      ],
+      "seq": 67,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_talk_about",
+      "phrase": "talk about",
+      "meaning": "～について話す",
+      "example": "We will talk about the interview schedule at tomorrow’s staff meeting.",
+      "translation": "明日の職員会議で、面接の日程について話します。",
+      "note": "話題にする内容をaboutの後ろに置く。",
+      "meaningDistractors": [
+        "～を測る",
+        "～を交換する",
+        "～から輸入する"
+      ],
+      "clozeDistractors": [
+        "at most",
+        "on display",
+        "in stock"
+      ],
+      "seq": 68,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_think_about",
+      "phrase": "think about",
+      "meaning": "～について考える",
+      "example": "Please think about the target audience before choosing colors for the poster.",
+      "translation": "ポスターの色を選ぶ前に、想定する対象者について考えてください。",
+      "note": "検討したい事柄をaboutの後ろに置く。",
+      "meaningDistractors": [
+        "～を運び出す",
+        "～を値下げする",
+        "～に署名する"
+      ],
+      "clozeDistractors": [
+        "by chance",
+        "on duty",
+        "at noon"
+      ],
+      "seq": 69,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_work_on",
+      "phrase": "work on",
+      "meaning": "～に取り組む",
+      "example": "Our design team will work on the new brochure throughout the afternoon.",
+      "translation": "デザインチームは午後の間ずっと、新しいパンフレットの制作に取り組みます。",
+      "note": "制作や改善など、進めている仕事をonの後ろに置く。",
+      "meaningDistractors": [
+        "～を忘れる",
+        "～を食べ尽くす",
+        "～に違反する"
+      ],
+      "clozeDistractors": [
+        "in cash",
+        "on foot",
+        "at sea"
+      ],
+      "seq": 70,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_go_over",
+      "phrase": "go over",
+      "meaning": "～を詳しく確認する",
+      "example": "Let us go over the sales figures before we begin the budget discussion.",
+      "translation": "予算の議論を始める前に、売上の数字を詳しく確認しましょう。",
+      "note": "資料や数字を順に見直す意味で使う。",
+      "meaningDistractors": [
+        "～を眠らせる",
+        "～を着る",
+        "～に乗り遅れる"
+      ],
+      "clozeDistractors": [
+        "at home",
+        "in stock",
+        "by train"
+      ],
+      "seq": 71,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_point_out",
+      "phrase": "point out",
+      "meaning": "～を指摘する",
+      "example": "Please point out any errors in the draft before we print the posters.",
+      "translation": "ポスターを印刷する前に、原稿に誤りがあれば指摘してください。",
+      "note": "相手に気づいてほしい点を伝えるときに使う。",
+      "meaningDistractors": [
+        "～を飲み込む",
+        "～を輸送する",
+        "～に返金する"
+      ],
+      "clozeDistractors": [
+        "at noon",
+        "on foot",
+        "in total"
+      ],
+      "seq": 72,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_bring_up",
+      "phrase": "bring up",
+      "meaning": "～を話題に出す",
+      "example": "You can bring up your questions about overtime during the team meeting.",
+      "translation": "残業についての質問は、チーム会議で話題に出してかまいません。",
+      "note": "会話の中で新しい話題や質問を持ち出す意味。",
+      "meaningDistractors": [
+        "～を修理する",
+        "～を使い切る",
+        "～を冷やす"
+      ],
+      "clozeDistractors": [
+        "by hand",
+        "in cash",
+        "on sale"
+      ],
+      "seq": 73,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_write_down",
+      "phrase": "write down",
+      "meaning": "～を書き留める",
+      "example": "Please write down the delivery date while I confirm the other details.",
+      "translation": "私がほかの詳細を確認する間に、配達日を書き留めてください。",
+      "note": "忘れないように文字で記録するときに使う。",
+      "meaningDistractors": [
+        "～を孵化させる",
+        "～を飲み干す",
+        "～を焼き上げる"
+      ],
+      "clozeDistractors": [
+        "on average",
+        "at present",
+        "by train"
+      ],
+      "seq": 74,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_speak_up",
+      "phrase": "speak up",
+      "meaning": "もっと大きな声で話す",
+      "example": "Please speak up because the people near the door cannot hear you.",
+      "translation": "ドアの近くの人たちに聞こえないので、もっと大きな声で話してください。",
+      "note": "この文では発言内容ではなく、声の大きさを上げる意味。",
+      "meaningDistractors": [
+        "値段を下げる",
+        "列に並ぶ",
+        "荷物を預ける"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "by hand",
+        "on sale"
+      ],
+      "seq": 75,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_sign_up_for",
+      "phrase": "sign up for",
+      "meaning": "～に申し込む",
+      "example": "New employees can sign up for the training course through our staff website.",
+      "translation": "新入社員は、職員用ウェブサイトから研修講座に申し込めます。",
+      "note": "講座や活動に参加するための登録をするときに使う。",
+      "meaningDistractors": [
+        "～を取り壊す",
+        "～を使い果たす",
+        "～を追い越す"
+      ],
+      "clozeDistractors": [
+        "in front of",
+        "on behalf of",
+        "out of stock"
+      ],
+      "seq": 76,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_apply_for",
+      "phrase": "apply for",
+      "meaning": "～に応募する",
+      "example": "You can apply for the assistant position even without previous office experience.",
+      "translation": "事務の経験がなくても、そのアシスタント職に応募できます。",
+      "note": "希望する仕事や職をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を廃棄する",
+        "～を製造する",
+        "～を測定する"
+      ],
+      "clozeDistractors": [
+        "in cash",
+        "on duty",
+        "at sea"
+      ],
+      "seq": 77,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_look_for",
+      "phrase": "look for",
+      "meaning": "～を探す",
+      "example": "We need to look for a larger room for next month’s conference.",
+      "translation": "来月の会議のために、もっと大きな部屋を探す必要があります。",
+      "note": "見つけたい人や物をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を隠す",
+        "～を飲み干す",
+        "～を輸出する"
+      ],
+      "clozeDistractors": [
+        "by hand",
+        "on display",
+        "at noon"
+      ],
+      "seq": 78,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_pay_for",
+      "phrase": "pay for",
+      "meaning": "～の代金を払う",
+      "example": "The department will pay for the train tickets, so keep your receipts.",
+      "translation": "その部署が電車の切符代を払うので、領収書を保管してください。",
+      "note": "代金を負担する物やサービスをforの後ろに置く。",
+      "meaningDistractors": [
+        "～を延期する",
+        "～を修理する",
+        "～を解雇する"
+      ],
+      "clozeDistractors": [
+        "on foot",
+        "in stock",
+        "at first"
+      ],
+      "seq": 79,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_send_back",
+      "phrase": "send back",
+      "meaning": "～を返送する",
+      "example": "Please send back the damaged printer using the return label inside the box.",
+      "translation": "箱の中にある返送用ラベルを使って、破損したプリンターを返送してください。",
+      "note": "受け取った物を送り主に送り返すときに使う。",
+      "meaningDistractors": [
+        "～を煮込む",
+        "～を飲み干す",
+        "～を孵化させる"
+      ],
+      "clozeDistractors": [
+        "at present",
+        "on duty",
+        "by mistake"
+      ],
+      "seq": 80,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_call_back",
+      "phrase": "call back",
+      "meaning": "折り返し電話する",
+      "example": "Please call back after lunch when the accounts clerk returns to her desk.",
+      "translation": "経理担当者が席に戻る昼食後に、折り返し電話してください。",
+      "note": "相手に、あとでもう一度電話するときに使う。",
+      "meaningDistractors": [
+        "在庫を数える",
+        "料金を割り引く",
+        "荷物を開ける"
+      ],
+      "clozeDistractors": [
+        "in total",
+        "on sale",
+        "by train"
+      ],
+      "seq": 81,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_get_along_with",
+      "phrase": "get along with",
+      "meaning": "～とうまくやっていく",
+      "example": "I get along with my new colleagues and enjoy working on our shared projects.",
+      "translation": "新しい同僚たちとうまくやっており、一緒のプロジェクトで働くのを楽しんでいます。",
+      "note": "人との関係が良好であることを表す。",
+      "meaningDistractors": [
+        "～を使い果たす",
+        "～を取り壊す",
+        "～に請求する"
+      ],
+      "clozeDistractors": [
+        "in front of",
+        "out of stock",
+        "on behalf of"
+      ],
+      "seq": 82,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_hear_from",
+      "phrase": "hear from",
+      "meaning": "～から連絡をもらう",
+      "example": "We expect to hear from the applicant before arranging a second interview.",
+      "translation": "2回目の面接を手配する前に、応募者から連絡が来ると見込んでいます。",
+      "note": "連絡してくる人をfromの後ろに置く。",
+      "meaningDistractors": [
+        "～を雇う",
+        "～を叱る",
+        "～に送金する"
+      ],
+      "clozeDistractors": [
+        "on average",
+        "in total",
+        "at noon"
+      ],
+      "seq": 83,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_give_away",
+      "phrase": "give away",
+      "meaning": "～を無料で配る",
+      "example": "We will give away sample notebooks to visitors at the product exhibition.",
+      "translation": "製品展示会で、来場者に見本のノートを無料で配ります。",
+      "note": "この文では、代金を受け取らずに品物を渡す意味。",
+      "meaningDistractors": [
+        "～を有料で貸す",
+        "～を回収する",
+        "～を修理する"
+      ],
+      "clozeDistractors": [
+        "in advance",
+        "on foot",
+        "at home"
+      ],
+      "seq": 84,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_in_advance",
+      "phrase": "in advance",
+      "meaning": "事前に",
+      "example": "Please reserve the interview room in advance to avoid delays on the day.",
+      "translation": "当日の遅れを避けるため、面接室は事前に予約してください。",
+      "note": "予定している出来事より前に準備を済ませるときに使う。",
+      "meaningDistractors": [
+        "偶然に",
+        "無料で",
+        "順番に"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "pay for",
+        "listen to"
+      ],
+      "seq": 85,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_on_time",
+      "phrase": "on time",
+      "meaning": "時間どおりに",
+      "example": "The budget meeting started on time, exactly at nine as scheduled.",
+      "translation": "予算会議は、予定時刻の9時ちょうどに、時間どおりに始まりました。",
+      "note": "決められた時刻に遅れず、その時刻どおりであることを表す。",
+      "meaningDistractors": [
+        "無料で",
+        "誤って",
+        "秘密に"
+      ],
+      "clozeDistractors": [
+        "ask for",
+        "refer to",
+        "deal with"
+      ],
+      "seq": 86,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_in_time",
+      "phrase": "in time",
+      "meaning": "間に合って",
+      "example": "The replacement cable arrived in time for us to test the microphone before the presentation.",
+      "translation": "交換用ケーブルが間に合って届いたので、発表の前にマイクを試すことができました。",
+      "note": "ある行動や出来事に間に合うほど早いことを表す。",
+      "meaningDistractors": [
+        "在庫があって",
+        "値下げされて",
+        "徒歩で"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "pay for",
+        "talk about"
+      ],
+      "seq": 87,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_at_first",
+      "phrase": "at first",
+      "meaning": "最初は",
+      "example": "The new filing system seemed confusing at first, but practice made it easier.",
+      "translation": "新しい書類管理システムは最初は分かりにくく思えましたが、慣れると使いやすくなりました。",
+      "note": "あとで変わった状態と対比して、初めの段階を述べる。",
+      "meaningDistractors": [
+        "永久に",
+        "無料で",
+        "ひそかに"
+      ],
+      "clozeDistractors": [
+        "listen to",
+        "apply for",
+        "agree with"
+      ],
+      "seq": 88,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_for_example",
+      "phrase": "for example",
+      "meaning": "例えば",
+      "example": "The display uses recycled materials, for example, cardboard and old fabric.",
+      "translation": "その展示には、例えば段ボールや古い布など、再利用された材料を使っています。",
+      "note": "説明を分かりやすくするために具体例を挙げる表現。",
+      "meaningDistractors": [
+        "間違いなく",
+        "残念ながら",
+        "ひそかに"
+      ],
+      "clozeDistractors": [
+        "apply for",
+        "listen to",
+        "depend on"
+      ],
+      "seq": 89,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_in_addition",
+      "phrase": "in addition",
+      "meaning": "さらに",
+      "example": "The poster lists opening hours; in addition, it gives our contact number.",
+      "translation": "そのポスターには営業時間が記載されており、さらに連絡先の電話番号も載っています。",
+      "note": "前の情報に別の情報を加えるときに使う。",
+      "meaningDistractors": [
+        "反対に",
+        "偶然に",
+        "すぐ近くに"
+      ],
+      "clozeDistractors": [
+        "pay for",
+        "refer to",
+        "look for"
+      ],
+      "seq": 90,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_in_detail",
+      "phrase": "in detail",
+      "meaning": "詳しく",
+      "example": "The trainer explained the leave policy in detail and answered every question.",
+      "translation": "研修担当者は休暇制度について詳しく説明し、すべての質問に答えました。",
+      "note": "細かい点まで省略せずに説明するときに使う。",
+      "meaningDistractors": [
+        "無料で",
+        "海外で",
+        "順番を飛ばして"
+      ],
+      "clozeDistractors": [
+        "apply for",
+        "listen to",
+        "work on"
+      ],
+      "seq": 91,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_in_total",
+      "phrase": "in total",
+      "meaning": "合計で",
+      "example": "The two invoices amount to eighty dollars in total, including delivery charges.",
+      "translation": "2枚の請求書は、配送料を含めて合計80ドルです。",
+      "note": "複数の金額や数量をすべて足した結果を表す。",
+      "meaningDistractors": [
+        "平均して",
+        "それぞれ別々に",
+        "頭金として"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "ask for",
+        "pay for"
+      ],
+      "seq": 92,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_on_average",
+      "phrase": "on average",
+      "meaning": "平均して",
+      "example": "The shop spends fifty dollars on advertising each week on average.",
+      "translation": "その店は毎週、広告に平均して50ドルを使っています。",
+      "note": "複数の数値をならして得られる平均的な量を表す。",
+      "meaningDistractors": [
+        "合計で",
+        "無料で",
+        "一度だけ"
+      ],
+      "clozeDistractors": [
+        "listen to",
+        "refer to",
+        "agree with"
+      ],
+      "seq": 93,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_at_present",
+      "phrase": "at present",
+      "meaning": "現在は",
+      "example": "We have no vacancies at present, but another position may open next month.",
+      "translation": "現在は空きポストがありませんが、来月は別の職の募集が出るかもしれません。",
+      "note": "話している今の時点での状況を伝える。",
+      "meaningDistractors": [
+        "永久に",
+        "偶然に",
+        "無料で"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "pay for",
+        "apply for"
+      ],
+      "seq": 94,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_by_mistake",
+      "phrase": "by mistake",
+      "meaning": "誤って",
+      "example": "I paid the same invoice twice by mistake and requested a refund.",
+      "translation": "同じ請求書の代金を誤って2回支払ったので、返金を依頼しました。",
+      "note": "意図していなかった間違いによって起きたことを表す。",
+      "meaningDistractors": [
+        "予定どおりに",
+        "わざと",
+        "無料で"
+      ],
+      "clozeDistractors": [
+        "listen to",
+        "refer to",
+        "deal with"
+      ],
+      "seq": 95,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_under_construction",
+      "phrase": "under construction",
+      "meaning": "建設中で",
+      "example": "The new meeting hall is under construction and cannot host events yet.",
+      "translation": "新しい会議場は建設中で、まだ行事を開催できません。",
+      "note": "建物や道路を造る工事が進んでいる状態を表す。",
+      "meaningDistractors": [
+        "販売終了で",
+        "満席で",
+        "営業許可済みで"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "pay for",
+        "speak up"
+      ],
+      "seq": 96,
+      "level": "L1",
+      "tags": [
+        "施設",
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_out_of_order",
+      "phrase": "out of order",
+      "meaning": "故障して",
+      "example": "The ticket machine is out of order, so please use the service counter.",
+      "translation": "券売機は故障しているので、窓口をご利用ください。",
+      "note": "この文では、機械が壊れて正常に使えない状態を表す。",
+      "meaningDistractors": [
+        "準備が整って",
+        "特売になって",
+        "勤務に就いて"
+      ],
+      "clozeDistractors": [
+        "take part in",
+        "get along with",
+        "look forward to"
+      ],
+      "seq": 97,
+      "level": "L1",
+      "tags": [
+        "旅行",
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_on_display",
+      "phrase": "on display",
+      "meaning": "展示されて",
+      "example": "Our newest desk lamps are on display beside the entrance for customers to examine.",
+      "translation": "最新のデスクランプは、お客様が確かめられるよう、入口のそばに展示されています。",
+      "note": "商品などが人に見せるために並べられている状態を表す。",
+      "meaningDistractors": [
+        "売り切れて",
+        "修理中で",
+        "返送されて"
+      ],
+      "clozeDistractors": [
+        "look for",
+        "listen to",
+        "apply for"
+      ],
+      "seq": 98,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_in_progress",
+      "phrase": "in progress",
+      "meaning": "進行中で",
+      "example": "The budget review is in progress, so the final figures are not available.",
+      "translation": "予算の見直しは進行中なので、最終的な数字はまだ分かりません。",
+      "note": "作業がすでに始まっていて、まだ終わっていない状態を表す。",
+      "meaningDistractors": [
+        "完了して",
+        "中止になって",
+        "開始前で"
+      ],
+      "clozeDistractors": [
+        "pay for",
+        "speak up",
+        "look for"
+      ],
+      "seq": 99,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_in_the_meantime",
+      "phrase": "in the meantime",
+      "meaning": "その間に",
+      "example": "The designer is revising the poster; in the meantime, we can prepare the mailing list.",
+      "translation": "デザイナーがポスターを修正しているので、その間に私たちは送付先リストを用意できます。",
+      "note": "別の作業が進んでいる間や、次の出来事を待つ間を表す。",
+      "meaningDistractors": [
+        "永久に",
+        "無料で",
+        "予告なしに"
+      ],
+      "clozeDistractors": [
+        "look forward to",
+        "take part in",
+        "get along with"
+      ],
+      "seq": 100,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_is_ready_for",
+      "phrase": "is ready for",
+      "meaning": "～の準備ができている",
+      "example": "The new employee is ready for her first presentation after several practice sessions.",
+      "translation": "何度か練習を重ねて、その新入社員は初めての発表の準備ができています。",
+      "note": "準備の対象をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を欠席している",
+        "～を恐れている",
+        "～に反対している"
+      ],
+      "clozeDistractors": [
+        "in the morning",
+        "on the shelf",
+        "by the entrance"
+      ],
+      "seq": 101,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_is_good_at",
+      "phrase": "is good at",
+      "meaning": "～が得意だ",
+      "example": "Our new assistant is good at organizing files and can quickly locate any invoice.",
+      "translation": "新しいアシスタントは書類の整理が得意で、どの請求書もすぐに見つけられます。",
+      "note": "得意な活動をatの後ろに置き、動詞ならing形にする。",
+      "meaningDistractors": [
+        "～を欠席している",
+        "～を嫌っている",
+        "～に料金を請求する"
+      ],
+      "clozeDistractors": [
+        "at the counter",
+        "under the table",
+        "near the station"
+      ],
+      "seq": 102,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_is_different_from",
+      "phrase": "is different from",
+      "meaning": "～とは異なる",
+      "example": "The final poster is different from the draft because its background color has changed.",
+      "translation": "背景色が変わったため、完成したポスターは原稿とは異なります。",
+      "note": "比較するもう一方の物をfromの後ろに置く。",
+      "meaningDistractors": [
+        "～と同一である",
+        "～を待っている",
+        "～の代金を払う"
+      ],
+      "clozeDistractors": [
+        "on the shelf",
+        "after the meeting",
+        "by the window"
+      ],
+      "seq": 103,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_is_similar_to",
+      "phrase": "is similar to",
+      "meaning": "～に似ている",
+      "example": "This receipt is similar to the earlier one, with the same layout and colors.",
+      "translation": "この領収書は、レイアウトと色が同じで、前のものに似ています。",
+      "note": "見た目や性質が似ている比較対象をtoの後ろに置く。",
+      "meaningDistractors": [
+        "～を修理する",
+        "～に署名する",
+        "～を取り消す"
+      ],
+      "clozeDistractors": [
+        "before the interview",
+        "under the table",
+        "at the entrance"
+      ],
+      "seq": 104,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_is_pleased_with",
+      "phrase": "is pleased with",
+      "meaning": "～に満足している",
+      "example": "The store owner is pleased with the new advertisement because it attracts more customers.",
+      "translation": "新しい広告で客が増えているので、店主はその広告に満足しています。",
+      "note": "よいと感じて満足している対象をwithの後ろに置く。",
+      "meaningDistractors": [
+        "～に怒っている",
+        "～を配達する",
+        "～を返却する"
+      ],
+      "clozeDistractors": [
+        "in the morning",
+        "by the window",
+        "near the station"
+      ],
+      "seq": 105,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_is_worried_about",
+      "phrase": "is worried about",
+      "meaning": "～を心配している",
+      "example": "The accountant is worried about the missing receipts and cannot finish the expense report.",
+      "translation": "経理担当者は紛失した領収書のことを心配しており、経費報告書を完成させられません。",
+      "note": "不安に感じている事柄をaboutの後ろに置く。",
+      "meaningDistractors": [
+        "～を誇りに思う",
+        "～を値下げする",
+        "～を運び出す"
+      ],
+      "clozeDistractors": [
+        "on the shelf",
+        "under the table",
+        "at the counter"
+      ],
+      "seq": 106,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_is_proud_of",
+      "phrase": "is proud of",
+      "meaning": "～を誇りに思っている",
+      "example": "The supervisor is proud of the trainees because they completed every exercise correctly.",
+      "translation": "研修生たちが課題をすべて正しく終えたので、指導者は彼らを誇りに思っています。",
+      "note": "人や成果についてうれしく、立派だと感じる気持ちを表す。",
+      "meaningDistractors": [
+        "～を恥じている",
+        "～を包んでいる",
+        "～に返金する"
+      ],
+      "clozeDistractors": [
+        "after the meeting",
+        "behind the desk",
+        "across the street"
+      ],
+      "seq": 107,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_is_tired_of",
+      "phrase": "is tired of",
+      "meaning": "～にうんざりしている",
+      "example": "The clerk is tired of entering the same numbers into three separate forms.",
+      "translation": "その事務員は、同じ数字を3つの別々のフォームに入力することにうんざりしています。",
+      "note": "同じことが続いて嫌になった気持ちを表し、単なる体の疲れとは区別する。",
+      "meaningDistractors": [
+        "～を楽しみにしている",
+        "～を予約している",
+        "～に署名する"
+      ],
+      "clozeDistractors": [
+        "in the morning",
+        "by the entrance",
+        "on the shelf"
+      ],
+      "seq": 108,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_is_known_for",
+      "phrase": "is known for",
+      "meaning": "～で知られている",
+      "example": "The neighborhood bakery is known for its fresh bread and friendly service.",
+      "translation": "その近所のパン屋は、新鮮なパンと親しみやすい接客で知られています。",
+      "note": "評判になっている特徴をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を返品する",
+        "～を心配している",
+        "～に遅れている"
+      ],
+      "clozeDistractors": [
+        "under the table",
+        "at the station",
+        "after the meeting"
+      ],
+      "seq": 109,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_is_late_for",
+      "phrase": "is late for",
+      "meaning": "～に遅れている",
+      "example": "The presenter is late for the meeting because her train has been delayed.",
+      "translation": "電車が遅れているため、発表者は会議に遅れています。",
+      "note": "決められた時刻に間に合っていない行事や予定をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を中止する",
+        "～を主催する",
+        "～に賛成する"
+      ],
+      "clozeDistractors": [
+        "on the shelf",
+        "behind the desk",
+        "in the morning"
+      ],
+      "seq": 110,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_is_absent_from",
+      "phrase": "is absent from",
+      "meaning": "～を欠席している",
+      "example": "One trainee is absent from today’s workshop, so we will send him the materials.",
+      "translation": "研修生が1人、今日の講習を欠席しているので、その人に資料を送ります。",
+      "note": "出席するはずの場所や行事に来ていないことを表す。",
+      "meaningDistractors": [
+        "～を主催している",
+        "～の代金を払う",
+        "～を撮影している"
+      ],
+      "clozeDistractors": [
+        "by the window",
+        "under the table",
+        "at the counter"
+      ],
+      "seq": 111,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_is_available_for",
+      "phrase": "is available for",
+      "meaning": "～に対応できる時間がある",
+      "example": "The recruiter is available for a phone interview on Tuesday afternoon.",
+      "translation": "採用担当者は火曜日の午後、電話面接に対応できる時間があります。",
+      "note": "人を主語にすると、その予定に時間を割けることを表せる。",
+      "meaningDistractors": [
+        "～を拒否している",
+        "～に遅れている",
+        "～を忘れている"
+      ],
+      "clozeDistractors": [
+        "near the station",
+        "on the shelf",
+        "behind the desk"
+      ],
+      "seq": 112,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_as_well_as",
+      "phrase": "as well as",
+      "meaning": "～に加えて",
+      "example": "The advertisement includes our phone number as well as the store’s opening hours.",
+      "translation": "その広告には、店舗の営業時間に加えて、電話番号も記載されています。",
+      "note": "A as well as Bは、BだけでなくAも含むことを表す。",
+      "meaningDistractors": [
+        "～の代わりに",
+        "～を除いて",
+        "～とは反対に"
+      ],
+      "clozeDistractors": [
+        "take part in",
+        "get rid of",
+        "run out of"
+      ],
+      "seq": 113,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_even_though",
+      "phrase": "even though",
+      "meaning": "～だけれども",
+      "example": "The team approved the design even though the printing costs were higher than expected.",
+      "translation": "印刷費が予想より高かったけれども、チームはそのデザインを承認しました。",
+      "note": "事実として成り立つことを認めたうえで、意外な結果を続ける。",
+      "meaningDistractors": [
+        "～するために",
+        "～するとすぐに",
+        "～によると"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "instead of",
+        "next to"
+      ],
+      "seq": 114,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_even_if",
+      "phrase": "even if",
+      "meaning": "たとえ～でも",
+      "example": "We will hold the staff meeting even if only three people can attend.",
+      "translation": "たとえ3人しか出席できなくても、職員会議は開きます。",
+      "note": "起こるかどうか分からない条件にかかわらず、結果が変わらないことを表す。",
+      "meaningDistractors": [
+        "～するたびに",
+        "～するとすぐに",
+        "～するために"
+      ],
+      "clozeDistractors": [
+        "according to",
+        "because of",
+        "next to"
+      ],
+      "seq": 115,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_so_that",
+      "phrase": "so that",
+      "meaning": "～できるように",
+      "example": "Please speak slowly so that the new employees can follow your explanation.",
+      "translation": "新入社員が説明を理解できるように、ゆっくり話してください。",
+      "note": "目的を表すときは、後ろに主語と動詞のある文を続ける。",
+      "meaningDistractors": [
+        "～にもかかわらず",
+        "～の隣で",
+        "～によると"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "instead of",
+        "along with"
+      ],
+      "seq": 116,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_now_that",
+      "phrase": "now that",
+      "meaning": "今や～なので",
+      "example": "We can publish the advertisement now that the manager has approved the final design.",
+      "translation": "管理者が最終デザインを承認した今、その広告を掲載できます。",
+      "note": "新しく成立した状況を理由として、次にできることなどを述べる。",
+      "meaningDistractors": [
+        "～であるかのように",
+        "～する前に",
+        "たとえ～でも"
+      ],
+      "clozeDistractors": [
+        "according to",
+        "because of",
+        "next to"
+      ],
+      "seq": 117,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_as_if",
+      "phrase": "as if",
+      "meaning": "まるで～であるかのように",
+      "example": "The new intern speaks as if she has worked here for years.",
+      "translation": "新人のインターンは、まるでここで何年も働いているかのように話します。",
+      "note": "見た様子や聞いた印象を、ある状況にたとえて述べる。",
+      "meaningDistractors": [
+        "～するとすぐに",
+        "～するために",
+        "～する限り"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "instead of",
+        "according to"
+      ],
+      "seq": 118,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_rather_than",
+      "phrase": "rather than",
+      "meaning": "～するよりむしろ",
+      "example": "We will reuse the display boards rather than buy new ones for the exhibition.",
+      "translation": "展示会のために新しい展示用ボードを買うよりも、今あるものを再利用します。",
+      "note": "二つの選択肢を比べ、後ろの行動ではなく前の行動を選ぶことを表す。",
+      "meaningDistractors": [
+        "～すると同時に",
+        "～するたびに",
+        "～するために"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "according to",
+        "along with"
+      ],
+      "seq": 119,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_whether_or_not",
+      "phrase": "whether or not",
+      "meaning": "～かどうか",
+      "example": "Please tell payroll whether or not you received your salary this month.",
+      "translation": "今月の給与を受け取ったかどうか、給与担当者に伝えてください。",
+      "note": "そうである場合と、そうでない場合の両方を含めて確認する。",
+      "meaningDistractors": [
+        "～するために",
+        "～するとすぐに",
+        "～したせいで"
+      ],
+      "clozeDistractors": [
+        "in charge of",
+        "on behalf of",
+        "in front of"
+      ],
+      "seq": 120,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "経理"
+      ]
     }
   ],
   "grammar": [

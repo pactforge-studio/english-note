@@ -15,14 +15,15 @@ const categories=['品詞','時制','態','関係詞','前置詞と接続詞','�
 const fields=['id','seq','level','category','sentence','choices','answer','explanation','translation'].sort();
 assert.equal(curriculum.schemaVersion,2,'Grammar must not change the saved/curriculum schema.');
 assert.equal(words.length,150);
-assert.equal(phrases.length,60);
+assert.equal(phrases.length,120);
 assert.deepEqual(seqs(words),Array.from({length:150},(_,index)=>index+1),'Words must remain in consecutive seq order, including the frozen first 90.');
 assert.equal(hash(words.slice(0,90)),'61be552701b8e4fde351612ef2f27f543a0042fef576a57ad51631a14515f99c','All 90 existing word entries must remain byte-equivalent as JSON.');
-assert.equal(hash(phrases),'a0a3a3f9b690ce6f4c07c75cbd73308cabceff6fce3d4e327898300dce48c0e8','All 60 existing phrase entries must remain byte-equivalent as JSON.');
+assert.deepEqual(seqs(phrases),Array.from({length:120},(_,index)=>index+1),'All 120 phrases must remain in consecutive seq order.');
+assert.equal(hash(phrases.slice(0,60)),'a0a3a3f9b690ce6f4c07c75cbd73308cabceff6fce3d4e327898300dce48c0e8','All 60 existing phrase entries must remain byte-equivalent as JSON.');
 assert.ok(Array.isArray(grammar),'curriculum.grammar must be an array.');
 assert.equal(grammar.length,50);
 const ids=new Set([...words,...phrases,...grammar].map(item=>item.id));
-assert.equal(ids.size,260,'Word, phrase and grammar IDs must be globally unique.');
+assert.equal(ids.size,320,'Word, phrase and grammar IDs must be globally unique.');
 
 const counts=Object.fromEntries(categories.map(category=>[category,0]));
 const escaped=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -197,4 +198,4 @@ for(const item of grammar)answer(exhausted,item,true,yesterday);
 assert.deepEqual(dailyGrammar(exhausted,grammar,today),[],'An exhausted grammar curriculum yields no invented items.');
 assert.deepEqual(dailyWords(exhausted,words,today),words.slice(0,3));
 assert.deepEqual(dailyPhrases(exhausted,phrases,today),phrases.slice(0,3));
-console.log('Grammar: 50 valid entries/8 categories, original 90 words and 60 phrases frozen, 260 IDs, daily5 independence/reservation, v2 continuation, review/awards, merge/JSON/storage, v1 migration/backup and unknown-ID rejection passed.');
+console.log('Grammar: 50 valid entries/8 categories, original 90 words and 60 phrases frozen, 120 sequential phrases, 320 IDs, daily5 independence/reservation, v2 continuation, review/awards, merge/JSON/storage, v1 migration/backup and unknown-ID rejection passed.');
