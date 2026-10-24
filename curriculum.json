@@ -24,7 +24,10 @@
         "discount"
       ],
       "seq": 1,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     },
     {
       "id": "confirm",
@@ -49,7 +52,10 @@
         "deliver"
       ],
       "seq": 2,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
     },
     {
       "id": "available",
@@ -74,7 +80,10 @@
         "crowded"
       ],
       "seq": 3,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
     },
     {
       "id": "schedule",
@@ -97,7 +106,10 @@
         "equipment"
       ],
       "seq": 4,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
     },
     {
       "id": "attend",
@@ -120,7 +132,10 @@
         "wrap"
       ],
       "seq": 5,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
     },
     {
       "id": "department",
@@ -143,7 +158,10 @@
         "passenger"
       ],
       "seq": 6,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     },
     {
       "id": "customer",
@@ -166,7 +184,10 @@
         "applicant"
       ],
       "seq": 7,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
     },
     {
       "id": "purchase",
@@ -189,7 +210,10 @@
         "interview"
       ],
       "seq": 8,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
     },
     {
       "id": "receipt",
@@ -212,7 +236,10 @@
         "entrance"
       ],
       "seq": 9,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "delivery",
@@ -235,7 +262,10 @@
         "salary"
       ],
       "seq": 10,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
     },
     {
       "id": "address",
@@ -258,7 +288,10 @@
         "breakdown"
       ],
       "seq": 11,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
     },
     {
       "id": "delay",
@@ -281,7 +314,10 @@
         "warehouse"
       ],
       "seq": 12,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
     },
     {
       "id": "employee",
@@ -304,7 +340,10 @@
         "passenger"
       ],
       "seq": 13,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
     },
     {
       "id": "apply",
@@ -327,7 +366,10 @@
         "manufacture"
       ],
       "seq": 14,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
     },
     {
       "id": "experience",
@@ -350,7 +392,10 @@
         "receipt"
       ],
       "seq": 15,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
     },
     {
       "id": "reservation",
@@ -373,7 +418,10 @@
         "intersection"
       ],
       "seq": 16,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
     },
     {
       "id": "departure",
@@ -396,7 +444,10 @@
         "maintenance"
       ],
       "seq": 17,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
     },
     {
       "id": "luggage",
@@ -419,7 +470,10 @@
         "salary"
       ],
       "seq": 18,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
     },
     {
       "id": "invoice",
@@ -442,7 +496,10 @@
         "brochure"
       ],
       "seq": 19,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "budget",
@@ -465,7 +522,10 @@
         "entrance"
       ],
       "seq": 20,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "expense",
@@ -488,7 +548,10 @@
         "discount"
       ],
       "seq": 21,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "equipment",
@@ -511,7 +574,10 @@
         "schedule"
       ],
       "seq": 22,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
     },
     {
       "id": "repair",
@@ -534,7 +600,10 @@
         "reserve"
       ],
       "seq": 23,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
     },
     {
       "id": "replace",
@@ -557,7 +626,10 @@
         "arrive"
       ],
       "seq": 24,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
     },
     {
       "id": "submit",
@@ -580,7 +652,10 @@
         "commute"
       ],
       "seq": 25,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     },
     {
       "id": "deadline",
@@ -603,7 +678,10 @@
         "receipt"
       ],
       "seq": 26,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     },
     {
       "id": "approve",
@@ -626,7 +704,10 @@
         "wrap"
       ],
       "seq": 27,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "increase",
@@ -649,7 +730,10 @@
         "cancel"
       ],
       "seq": 28,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
     },
     {
       "id": "improve",
@@ -672,7 +756,10 @@
         "deliver"
       ],
       "seq": 29,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     },
     {
       "id": "require",
@@ -695,7 +782,1595 @@
         "postpone"
       ],
       "seq": 30,
-      "level": "L1"
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "agenda",
+      "word": "agenda",
+      "pos": "名詞",
+      "meaning": "議題一覧",
+      "example": "Please add the safety discussion to the agenda before tomorrow's meeting.",
+      "translation": "明日の会議の前に、安全に関する話し合いを議題一覧に加えてください。",
+      "note": "会議で話し合う項目の一覧。on the agendaで「議題に載って」。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "給料",
+        "倉庫",
+        "乗客"
+      ],
+      "clozeDistractors": [
+        "pillow",
+        "cabbage",
+        "ankle"
+      ],
+      "seq": 31,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "meeting",
+      "word": "meeting",
+      "pos": "名詞",
+      "meaning": "会議",
+      "example": "Our weekly meeting begins after everyone has read the sales report.",
+      "translation": "全員が売上報告書を読んだ後で、毎週の会議が始まります。",
+      "note": "have a meetingで会議を開く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "切符",
+        "引き出し",
+        "降雨"
+      ],
+      "clozeDistractors": [
+        "toothbrush",
+        "carpet",
+        "onion"
+      ],
+      "seq": 32,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "colleague",
+      "word": "colleague",
+      "pos": "名詞",
+      "meaning": "同僚",
+      "example": "My colleague at the next desk helped me organize these folders.",
+      "translation": "隣の机の同僚が、これらのフォルダーの整理を手伝ってくれました。",
+      "note": "一緒に働く相手を表す。my colleagueの形で紹介にも使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "領収書",
+        "階段",
+        "鉛筆"
+      ],
+      "clozeDistractors": [
+        "envelope",
+        "ceiling",
+        "bicycle"
+      ],
+      "seq": 33,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "applicant",
+      "word": "applicant",
+      "pos": "名詞",
+      "meaning": "応募者",
+      "example": "Each applicant must submit a resume before the application deadline.",
+      "translation": "各応募者は応募締め切り前に履歴書を提出しなければなりません。",
+      "note": "職や募集に応募する人。job applicantで求職の応募者。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "運賃",
+        "収納棚",
+        "消火器"
+      ],
+      "clozeDistractors": [
+        "stapler",
+        "curtain",
+        "cucumber"
+      ],
+      "seq": 34,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "interview",
+      "word": "interview",
+      "pos": "名詞",
+      "meaning": "面接",
+      "example": "The job interview will include questions about your previous work.",
+      "translation": "採用面接では、これまでの仕事について質問されます。",
+      "note": "job interviewは採用面接。質問をする場面で使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "送料",
+        "台所",
+        "毛布"
+      ],
+      "clozeDistractors": [
+        "watermelon",
+        "shoelace",
+        "chimney"
+      ],
+      "seq": 35,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "salary",
+      "word": "salary",
+      "pos": "名詞",
+      "meaning": "給料",
+      "example": "The company pays my salary into my bank account each month.",
+      "translation": "会社は毎月、私の給料を銀行口座に振り込みます。",
+      "note": "仕事に対して定期的に支払われる給与を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "歩道",
+        "封筒",
+        "窓ガラス"
+      ],
+      "clozeDistractors": [
+        "wardrobe",
+        "cabbage",
+        "ladder"
+      ],
+      "seq": 36,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "経理"
+      ]
+    },
+    {
+      "id": "training",
+      "word": "training",
+      "pos": "名詞",
+      "meaning": "研修",
+      "example": "New staff receive safety training before they operate the cutting machine.",
+      "translation": "新しいスタッフは切断機を操作する前に安全研修を受けます。",
+      "note": "receive trainingで研修を受ける。技能を身につける場面で使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "傘",
+        "硬貨",
+        "歩道"
+      ],
+      "clozeDistractors": [
+        "lettuce",
+        "thunder",
+        "wallpaper"
+      ],
+      "seq": 37,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "施設"
+      ]
+    },
+    {
+      "id": "contract",
+      "word": "contract",
+      "pos": "名詞",
+      "meaning": "契約書",
+      "example": "Both companies must sign the contract before construction work can begin.",
+      "translation": "建設工事を始めるには、両社が契約書に署名しなければなりません。",
+      "note": "sign a contractで契約書に署名する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "夕食",
+        "橋",
+        "運動靴"
+      ],
+      "clozeDistractors": [
+        "pumpkin",
+        "thunder",
+        "soap"
+      ],
+      "seq": 38,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "shift",
+      "word": "shift",
+      "pos": "名詞",
+      "meaning": "勤務時間帯",
+      "example": "My evening shift starts at six and ends at midnight.",
+      "translation": "私の夜の勤務時間帯は6時に始まり、深夜0時に終わります。",
+      "note": "work a shiftは決められた時間帯に勤務すること。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "植木鉢",
+        "ひざ",
+        "定規"
+      ],
+      "clozeDistractors": [
+        "teapot",
+        "ankle",
+        "lettuce"
+      ],
+      "seq": 39,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "店舗"
+      ]
+    },
+    {
+      "id": "staff",
+      "word": "staff",
+      "pos": "名詞",
+      "meaning": "職員",
+      "example": "All hotel staff must wear name badges while serving guests.",
+      "translation": "ホテルの職員は全員、客に対応する間は名札を着用しなければなりません。",
+      "note": "職場で働く人々をまとめて表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "雨量",
+        "砂糖",
+        "車輪"
+      ],
+      "clozeDistractors": [
+        "luggage",
+        "furniture",
+        "cutlery"
+      ],
+      "seq": 40,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "旅行"
+      ]
+    },
+    {
+      "id": "warehouse",
+      "word": "warehouse",
+      "pos": "名詞",
+      "meaning": "倉庫",
+      "example": "The warehouse stores spare parts until the repair shops need them.",
+      "translation": "修理店が必要とするまで、その倉庫で予備の部品を保管します。",
+      "note": "商品や部品を保管する建物。in a warehouseと使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "面接",
+        "割引",
+        "昼食"
+      ],
+      "clozeDistractors": [
+        "elbow",
+        "necklace",
+        "teaspoon"
+      ],
+      "seq": 41,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "package",
+      "word": "package",
+      "pos": "名詞",
+      "meaning": "小包",
+      "example": "The courier left a sealed package containing two books at reception.",
+      "translation": "配達員は本が2冊入った封をした小包を受付に置きました。",
+      "note": "送る品物を包んだ小包を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "夏",
+        "怒り",
+        "眠気"
+      ],
+      "clozeDistractors": [
+        "rainbow",
+        "headache",
+        "thunderstorm"
+      ],
+      "seq": 42,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "label",
+      "word": "label",
+      "pos": "名詞",
+      "meaning": "ラベル",
+      "example": "Write the recipient's address on the label attached to this box.",
+      "translation": "この箱に付いたラベルに受取人の住所を書いてください。",
+      "note": "物に貼る表示用の札。address labelは宛名ラベル。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "休暇",
+        "天候",
+        "騒音"
+      ],
+      "clozeDistractors": [
+        "horizon",
+        "fever",
+        "thunder"
+      ],
+      "seq": 43,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "shelf",
+      "word": "shelf",
+      "pos": "名詞",
+      "meaning": "棚",
+      "example": "Put the reference books on the shelf above the desk.",
+      "translation": "参考書を机の上方にある棚に置いてください。",
+      "note": "本や物を載せる横板状の棚を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "予算",
+        "指示",
+        "眠気"
+      ],
+      "clozeDistractors": [
+        "salary",
+        "permission",
+        "headache"
+      ],
+      "seq": 44,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "施設"
+      ]
+    },
+    {
+      "id": "stock",
+      "word": "stock",
+      "pos": "名詞",
+      "meaning": "在庫",
+      "example": "We have no printer paper in stock until the next delivery.",
+      "translation": "次の配送まで、プリンター用紙の在庫がありません。",
+      "note": "in stockは在庫がある状態、out of stockは在庫切れ。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "指",
+        "月曜日",
+        "笑い声"
+      ],
+      "clozeDistractors": [
+        "sunlight",
+        "anger",
+        "silence"
+      ],
+      "seq": 45,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "物流"
+      ]
+    },
+    {
+      "id": "refund",
+      "word": "refund",
+      "pos": "名詞",
+      "meaning": "返金",
+      "example": "The store issued a full refund for the broken kettle.",
+      "translation": "店は壊れたやかんの代金を全額返金しました。",
+      "note": "full refundで全額の返金。返品対応で使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "階段",
+        "夕焼け",
+        "昼寝"
+      ],
+      "clozeDistractors": [
+        "watermelon",
+        "ceiling",
+        "shoelace"
+      ],
+      "seq": 46,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "経理"
+      ]
+    },
+    {
+      "id": "discount",
+      "word": "discount",
+      "pos": "名詞",
+      "meaning": "割引",
+      "example": "This coupon gives customers a ten percent discount on office chairs.",
+      "translation": "このクーポンを使うと、客はオフィスチェアの代金が10パーセント割引になります。",
+      "note": "a discount onで商品の割引を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "港",
+        "手袋",
+        "歯痛"
+      ],
+      "clozeDistractors": [
+        "pillow",
+        "chimney",
+        "headache"
+      ],
+      "seq": 47,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "cashier",
+      "word": "cashier",
+      "pos": "名詞",
+      "meaning": "レジ係",
+      "example": "The cashier counted my coins and handed me a receipt.",
+      "translation": "レジ係は私の硬貨を数え、領収書を渡しました。",
+      "note": "会計を扱う係。店舗の支払い場面で使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "天井",
+        "皿",
+        "雪"
+      ],
+      "clozeDistractors": [
+        "ceiling",
+        "saucer",
+        "snow"
+      ],
+      "seq": 48,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "brochure",
+      "word": "brochure",
+      "pos": "名詞",
+      "meaning": "パンフレット",
+      "example": "The travel brochure includes photos and prices for each tour.",
+      "translation": "旅行のパンフレットには各ツアーの写真と料金が載っています。",
+      "note": "商品や旅行などを紹介する小冊子。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "足首",
+        "キャベツ",
+        "歯ブラシ"
+      ],
+      "clozeDistractors": [
+        "ankle",
+        "cabbage",
+        "toothbrush"
+      ],
+      "seq": 49,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "旅行"
+      ]
+    },
+    {
+      "id": "entrance",
+      "word": "entrance",
+      "pos": "名詞",
+      "meaning": "入口",
+      "example": "Visitors must show their tickets at the entrance to the museum.",
+      "translation": "来館者は博物館の入口で入場券を提示しなければなりません。",
+      "note": "at the entrance toで建物などの入口にいることを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "疲労",
+        "給料",
+        "故障"
+      ],
+      "clozeDistractors": [
+        "fatigue",
+        "salary",
+        "hunger"
+      ],
+      "seq": 50,
+      "level": "L1",
+      "tags": [
+        "施設",
+        "旅行"
+      ]
+    },
+    {
+      "id": "arrange",
+      "word": "arrange",
+      "pos": "動詞",
+      "meaning": "手配する",
+      "example": "Please arrange a taxi to take our visitors to the airport.",
+      "translation": "来客を空港まで送るタクシーを手配してください。",
+      "note": "arrange a taxiのように必要なものを手配するときに使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "噛む",
+        "燃やす",
+        "縫う"
+      ],
+      "clozeDistractors": [
+        "chew",
+        "ignite",
+        "stitch"
+      ],
+      "seq": 51,
+      "level": "L1",
+      "tags": [
+        "旅行",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "discuss",
+      "word": "discuss",
+      "pos": "動詞",
+      "meaning": "話し合う",
+      "example": "We will discuss the new safety rules at our team meeting.",
+      "translation": "チームの会議で新しい安全規則について話し合います。",
+      "note": "discussの直後に話題を置き、通常aboutを挟まない。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "揚げる",
+        "折り畳む",
+        "飲み込む"
+      ],
+      "clozeDistractors": [
+        "fry",
+        "fold",
+        "swallow"
+      ],
+      "seq": 52,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "invite",
+      "word": "invite",
+      "pos": "動詞",
+      "meaning": "招待する",
+      "example": "We plan to invite all employees to the anniversary dinner.",
+      "translation": "記念の夕食会に従業員全員を招待する予定です。",
+      "note": "invite someone toで人を行事などに招く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "凍らせる",
+        "量る",
+        "植える"
+      ],
+      "clozeDistractors": [
+        "freeze",
+        "weigh",
+        "plant"
+      ],
+      "seq": 53,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "会議"
+      ]
+    },
+    {
+      "id": "prepare",
+      "word": "prepare",
+      "pos": "動詞",
+      "meaning": "準備する",
+      "example": "Please prepare three printed copies of the report for tomorrow's meeting.",
+      "translation": "明日の会議用に、その報告書の印刷したものを3部準備してください。",
+      "note": "prepare something forで目的に合わせて準備する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "飲む",
+        "泳ぐ",
+        "眠る"
+      ],
+      "clozeDistractors": [
+        "drink",
+        "swim",
+        "sleep"
+      ],
+      "seq": 54,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "explain",
+      "word": "explain",
+      "pos": "動詞",
+      "meaning": "説明する",
+      "example": "Could you explain how to use this printer to the new assistant?",
+      "translation": "このプリンターの使い方を新しい助手に説明してもらえますか。",
+      "note": "explain something to someoneで人に内容を説明する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "揚げる",
+        "縫う",
+        "埋める"
+      ],
+      "clozeDistractors": [
+        "fry",
+        "sew",
+        "bury"
+      ],
+      "seq": 55,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "contact",
+      "word": "contact",
+      "pos": "動詞",
+      "meaning": "連絡する",
+      "example": "Please contact our support team by email if the screen stops working.",
+      "translation": "画面が動かなくなったら、サポートチームにメールで連絡してください。",
+      "note": "contactは人や部署を直接目的語に取る。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "焼く",
+        "凍らせる",
+        "剥く"
+      ],
+      "clozeDistractors": [
+        "bake",
+        "freeze",
+        "peel"
+      ],
+      "seq": 56,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "店舗"
+      ]
+    },
+    {
+      "id": "complete",
+      "word": "complete",
+      "pos": "動詞",
+      "meaning": "完成させる",
+      "example": "You must complete every section of this form before submitting it.",
+      "translation": "提出する前に、この用紙のすべての欄への記入を済ませなければなりません。",
+      "note": "complete a formは用紙への記入を最後まで済ませること。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "噛む",
+        "ゆでる",
+        "嗅ぐ"
+      ],
+      "clozeDistractors": [
+        "chew",
+        "boil",
+        "sniff"
+      ],
+      "seq": 57,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "人事"
+      ]
+    },
+    {
+      "id": "inspect",
+      "word": "inspect",
+      "pos": "動詞",
+      "meaning": "点検する",
+      "example": "Technicians inspect each lift for faults before the building opens.",
+      "translation": "建物が開く前に、技術者が各エレベーターに不具合がないか点検します。",
+      "note": "inspect something forで問題がないか詳しく調べる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べる",
+        "飲む",
+        "編む"
+      ],
+      "clozeDistractors": [
+        "eat",
+        "drink",
+        "knit"
+      ],
+      "seq": 58,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "pack",
+      "word": "pack",
+      "pos": "動詞",
+      "meaning": "箱詰めする",
+      "example": "Please pack these glass cups in sturdy boxes with soft padding.",
+      "translation": "これらのガラスのカップを、柔らかい緩衝材と一緒に丈夫な箱に詰めてください。",
+      "note": "pack something inで品物を容器などに詰める。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ゆでる",
+        "植える",
+        "飲む"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "plant",
+        "drink"
+      ],
+      "seq": 59,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "collect",
+      "word": "collect",
+      "pos": "動詞",
+      "meaning": "受け取る",
+      "example": "You can collect your repaired shoes from the counter after four.",
+      "translation": "修理済みの靴は4時以降にカウンターで受け取れます。",
+      "note": "collect something fromである場所から品物を受け取る。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べる",
+        "飲む",
+        "飼育する"
+      ],
+      "clozeDistractors": [
+        "eat",
+        "drink",
+        "breed"
+      ],
+      "seq": 60,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "return",
+      "word": "return",
+      "pos": "動詞",
+      "meaning": "返却する",
+      "example": "Please return the borrowed key to reception before leaving the building.",
+      "translation": "建物を出る前に、借りた鍵を受付に返却してください。",
+      "note": "return something toで借りた物などを元の場所に返す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ゆでる",
+        "飲む",
+        "飼育する"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "drink",
+        "breed"
+      ],
+      "seq": 61,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "borrow",
+      "word": "borrow",
+      "pos": "動詞",
+      "meaning": "借りる",
+      "example": "May I borrow your stapler and give it back after lunch?",
+      "translation": "あなたのホチキスを借りて、昼食後に返してもよいですか。",
+      "note": "borrowは借りる側の動作。返す予定の物に使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べる",
+        "飲む",
+        "飼育する"
+      ],
+      "clozeDistractors": [
+        "eat",
+        "drink",
+        "breed"
+      ],
+      "seq": 62,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "print",
+      "word": "print",
+      "pos": "動詞",
+      "meaning": "印刷する",
+      "example": "Click this button to print the invoice on a sheet of paper.",
+      "translation": "このボタンをクリックして、請求書を紙に印刷してください。",
+      "note": "print a documentで文書を紙に出力する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "泳ぐ",
+        "眠る",
+        "くしゃみをする"
+      ],
+      "clozeDistractors": [
+        "swim",
+        "sleep",
+        "sneeze"
+      ],
+      "seq": 63,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "経理"
+      ]
+    },
+    {
+      "id": "sign",
+      "word": "sign",
+      "pos": "動詞",
+      "meaning": "署名する",
+      "example": "Please sign your name on the dotted line using black ink.",
+      "translation": "黒いインクを使って、点線の上に署名してください。",
+      "note": "sign your nameで自分の名前を署名する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ゆでる",
+        "食べる",
+        "凍らせる"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "eat",
+        "freeze"
+      ],
+      "seq": 64,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "reserve",
+      "word": "reserve",
+      "pos": "動詞",
+      "meaning": "予約する",
+      "example": "We should reserve a table for eight before the restaurant fills up.",
+      "translation": "レストランが満席になる前に、8人用のテーブルを予約しておくべきです。",
+      "note": "reserve a tableは席を前もって確保すること。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "飲む",
+        "食べる",
+        "飼育する"
+      ],
+      "clozeDistractors": [
+        "drink",
+        "eat",
+        "breed"
+      ],
+      "seq": 65,
+      "level": "L1",
+      "tags": [
+        "旅行",
+        "店舗"
+      ]
+    },
+    {
+      "id": "cancel",
+      "word": "cancel",
+      "pos": "動詞",
+      "meaning": "取り消す",
+      "example": "Please cancel my booking because I can no longer travel that day.",
+      "translation": "その日に旅行できなくなったので、私の予約を取り消してください。",
+      "note": "cancel a bookingで予約を取り消す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "焼く",
+        "飲む",
+        "編む"
+      ],
+      "clozeDistractors": [
+        "bake",
+        "drink",
+        "knit"
+      ],
+      "seq": 66,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "charge",
+      "word": "charge",
+      "pos": "動詞",
+      "meaning": "請求する",
+      "example": "The garage will charge fifty dollars for replacing the damaged tyre.",
+      "translation": "修理工場は損傷したタイヤの交換に50ドルを請求します。",
+      "note": "charge an amount forで作業などの料金を請求する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "眠る",
+        "泳ぐ",
+        "くしゃみをする"
+      ],
+      "clozeDistractors": [
+        "sleep",
+        "swim",
+        "sneeze"
+      ],
+      "seq": 67,
+      "level": "L1",
+      "tags": [
+        "経理",
+        "店舗"
+      ]
+    },
+    {
+      "id": "accept",
+      "word": "accept",
+      "pos": "動詞",
+      "meaning": "受け入れる",
+      "example": "We accept cash payments, but customers cannot pay by card here.",
+      "translation": "ここでは現金での支払いを受け入れていますが、カードでは支払えません。",
+      "note": "accept paymentsで支払いを受け付ける。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ゆでる",
+        "剥く",
+        "飲む"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "peel",
+        "drink"
+      ],
+      "seq": 68,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "経理"
+      ]
+    },
+    {
+      "id": "select",
+      "word": "select",
+      "pos": "動詞",
+      "meaning": "選ぶ",
+      "example": "Please select one delivery date from the three options on screen.",
+      "translation": "画面の3つの選択肢から配送日を1つ選んでください。",
+      "note": "select one fromで候補から1つを選ぶ。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "焼く",
+        "縫う",
+        "飲む"
+      ],
+      "clozeDistractors": [
+        "bake",
+        "sew",
+        "drink"
+      ],
+      "seq": 69,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "provide",
+      "word": "provide",
+      "pos": "動詞",
+      "meaning": "提供する",
+      "example": "The hotel will provide clean towels for every guest at no extra cost.",
+      "translation": "ホテルはすべての宿泊客に、追加料金なしで清潔なタオルを提供します。",
+      "note": "provide something for someoneで人に必要な物を提供する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "飲む",
+        "食べる",
+        "飼育する"
+      ],
+      "clozeDistractors": [
+        "drink",
+        "eat",
+        "breed"
+      ],
+      "seq": 70,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "annual",
+      "word": "annual",
+      "pos": "形容詞",
+      "meaning": "年に1回の",
+      "example": "Our annual safety inspection is scheduled for the first week of October.",
+      "translation": "年次安全点検は10月の第1週に予定されています。",
+      "note": "annualは年に1回の行事や予定を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "透明な",
+        "酸っぱい"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "transparent",
+        "sour"
+      ],
+      "seq": 71,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "urgent",
+      "word": "urgent",
+      "pos": "形容詞",
+      "meaning": "至急の",
+      "example": "This urgent request needs an answer immediately, not next week.",
+      "translation": "この至急の依頼は、来週ではなく今すぐ回答が必要です。",
+      "note": "urgent requestで急いで対応する必要がある依頼。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べられる",
+        "毛深い",
+        "塩辛い"
+      ],
+      "clozeDistractors": [
+        "edible",
+        "hairy",
+        "salty"
+      ],
+      "seq": 72,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "local",
+      "word": "local",
+      "pos": "形容詞",
+      "meaning": "地元の",
+      "example": "We buy vegetables from local farms within five kilometres of our shop.",
+      "translation": "店から5キロ以内にある地元の農場から野菜を買っています。",
+      "note": "localはその地域にある物や人を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "眠そうな",
+        "透明な",
+        "塩辛い"
+      ],
+      "clozeDistractors": [
+        "sleepy",
+        "transparent",
+        "salty"
+      ],
+      "seq": 73,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "regular",
+      "word": "regular",
+      "pos": "形容詞",
+      "meaning": "定期的な",
+      "example": "These regular maintenance visits take place on the first Monday of each month.",
+      "translation": "この定期的な保守訪問は、毎月最初の月曜日に行われます。",
+      "note": "regularは一定の間隔で繰り返すことを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べられる",
+        "毛深い",
+        "塩辛い"
+      ],
+      "clozeDistractors": [
+        "edible",
+        "hairy",
+        "salty"
+      ],
+      "seq": 74,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "damaged",
+      "word": "damaged",
+      "pos": "形容詞",
+      "meaning": "損傷した",
+      "example": "This damaged box has a large hole, so we need another one.",
+      "translation": "この損傷した箱には大きな穴があるので、別の箱が必要です。",
+      "note": "物が壊れたり傷ついたりしている状態を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "嫉妬深い",
+        "空腹の",
+        "流暢な"
+      ],
+      "clozeDistractors": [
+        "jealous",
+        "hungry",
+        "fluent"
+      ],
+      "seq": 75,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "empty",
+      "word": "empty",
+      "pos": "形容詞",
+      "meaning": "空の",
+      "example": "The empty envelope contains no documents, so please check your desk.",
+      "translation": "その空の封筒には書類が入っていないので、机を確認してください。",
+      "note": "emptyは中に何も入っていない状態を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "眠そうな",
+        "嫉妬深い"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "sleepy",
+        "jealous"
+      ],
+      "seq": 76,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "crowded",
+      "word": "crowded",
+      "pos": "形容詞",
+      "meaning": "混雑した",
+      "example": "The crowded bus had no spare seats and almost no standing room.",
+      "translation": "その混雑したバスには空席がなく、立つ場所もほとんどありませんでした。",
+      "note": "人が多くて空間に余裕がない様子を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "嫉妬深い",
+        "流暢な"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "jealous",
+        "fluent"
+      ],
+      "seq": 77,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "nearby",
+      "word": "nearby",
+      "pos": "形容詞",
+      "meaning": "近くの",
+      "example": "The nearby pharmacy is just a two-minute walk from this hotel.",
+      "translation": "その近くの薬局は、このホテルから歩いてわずか2分です。",
+      "note": "名詞の前では近くにある場所を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "眠そうな",
+        "嫉妬深い"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "sleepy",
+        "jealous"
+      ],
+      "seq": 78,
+      "level": "L1",
+      "tags": [
+        "旅行",
+        "施設"
+      ]
+    },
+    {
+      "id": "suitable",
+      "word": "suitable",
+      "pos": "形容詞",
+      "meaning": "適した",
+      "example": "These waterproof boots are suitable for workers who stand in wet areas.",
+      "translation": "この防水ブーツは、水にぬれた場所に立つ作業員に適しています。",
+      "note": "suitable forで人や用途に適していることを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "眠そうな",
+        "嫉妬深い"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "sleepy",
+        "jealous"
+      ],
+      "seq": 79,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "convenient",
+      "word": "convenient",
+      "pos": "形容詞",
+      "meaning": "便利な",
+      "example": "This convenient location lets guests reach both stations in five minutes.",
+      "translation": "この便利な立地のおかげで、宿泊客はどちらの駅にも5分で行けます。",
+      "note": "convenient locationで移動などに都合のよい立地を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べられる",
+        "塩辛い",
+        "毛深い"
+      ],
+      "clozeDistractors": [
+        "edible",
+        "salty",
+        "hairy"
+      ],
+      "seq": 80,
+      "level": "L1",
+      "tags": [
+        "旅行",
+        "施設"
+      ]
+    },
+    {
+      "id": "final",
+      "word": "final",
+      "pos": "形容詞",
+      "meaning": "最後の",
+      "example": "This is the final delivery today, and no more trucks will arrive.",
+      "translation": "これが今日の最後の配送で、これ以上トラックは到着しません。",
+      "note": "finalは一連の中で最後のものを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "食べられる",
+        "眠そうな",
+        "毛深い"
+      ],
+      "clozeDistractors": [
+        "edible",
+        "sleepy",
+        "hairy"
+      ],
+      "seq": 81,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "temporary",
+      "word": "temporary",
+      "pos": "形容詞",
+      "meaning": "一時的な",
+      "example": "Our temporary office will close when the new building is ready.",
+      "translation": "新しい建物の準備ができたら、私たちの一時的なオフィスは閉まります。",
+      "note": "temporaryは限られた期間だけ続く状態を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "眠そうな",
+        "嫉妬深い"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "sleepy",
+        "jealous"
+      ],
+      "seq": 82,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "carefully",
+      "word": "carefully",
+      "pos": "副詞",
+      "meaning": "注意深く",
+      "example": "Please read the safety instructions carefully so you do not miss any warnings.",
+      "translation": "警告を見落とさないよう、安全上の説明を注意深く読んでください。",
+      "note": "read carefullyで注意を払って読むことを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "昨日",
+        "海外で",
+        "逆さまに"
+      ],
+      "clozeDistractors": [
+        "recklessly",
+        "negligently",
+        "inattentively"
+      ],
+      "seq": 83,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "promptly",
+      "word": "promptly",
+      "pos": "副詞",
+      "meaning": "速やかに",
+      "example": "Please reply promptly because we need your answer within ten minutes.",
+      "translation": "10分以内に回答が必要なので、速やかに返信してください。",
+      "note": "reply promptlyで遅れずに返信することを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "逆さまに",
+        "海外で"
+      ],
+      "clozeDistractors": [
+        "belatedly",
+        "tardily",
+        "late"
+      ],
+      "seq": 84,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "recently",
+      "word": "recently",
+      "pos": "副詞",
+      "meaning": "最近",
+      "example": "Our office moved here recently, just three days ago.",
+      "translation": "私たちのオフィスは最近、ほんの3日前にここへ移転しました。",
+      "note": "過去からあまり時間がたっていない出来事に使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "嫉妬して",
+        "眠そうに"
+      ],
+      "clozeDistractors": [
+        "yesterday",
+        "today",
+        "tomorrow"
+      ],
+      "seq": 85,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "usually",
+      "word": "usually",
+      "pos": "副詞",
+      "meaning": "たいてい",
+      "example": "The shop usually opens at nine, but it opens later on Sundays.",
+      "translation": "その店はたいてい9時に開店しますが、日曜日はもっと遅く開店します。",
+      "note": "普段はそうするという習慣を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "嫉妬して",
+        "逆さまに"
+      ],
+      "clozeDistractors": [
+        "hungrily",
+        "jealously",
+        "thirstily"
+      ],
+      "seq": 86,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "clearly",
+      "word": "clearly",
+      "pos": "副詞",
+      "meaning": "はっきりと",
+      "example": "The large sign displays the opening hours clearly for everyone to read.",
+      "translation": "その大きな看板は、誰もが読めるようにはっきりと営業時間を表示しています。",
+      "note": "clearlyは見たり理解したりしやすいことを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "嫉妬して",
+        "眠そうに"
+      ],
+      "clozeDistractors": [
+        "illegibly",
+        "indistinctly",
+        "invisibly"
+      ],
+      "seq": 87,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "directly",
+      "word": "directly",
+      "pos": "副詞",
+      "meaning": "まっすぐに",
+      "example": "The corridor leads directly to reception beside the entrance.",
+      "translation": "その廊下は入口のそばにある受付までまっすぐ続いています。",
+      "note": "directly toは、場所への移動では途中に寄らずまっすぐ向かうことも表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "逆さまに",
+        "眠そうに"
+      ],
+      "clozeDistractors": [
+        "hungrily",
+        "thirstily",
+        "sleepily"
+      ],
+      "seq": 88,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "safely",
+      "word": "safely",
+      "pos": "副詞",
+      "meaning": "安全に",
+      "example": "These protective gloves allow staff to handle hot trays safely, without danger to their hands.",
+      "translation": "この保護手袋を使えば、スタッフは手を危険にさらさず、安全に熱いトレーを扱えます。",
+      "note": "safelyは危険やけがを避けて行うことを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "昨日",
+        "逆さまに",
+        "海外で"
+      ],
+      "clozeDistractors": [
+        "dangerously",
+        "recklessly",
+        "perilously"
+      ],
+      "seq": 89,
+      "level": "L1",
+      "tags": [
+        "施設",
+        "店舗"
+      ]
+    },
+    {
+      "id": "together",
+      "word": "together",
+      "pos": "副詞",
+      "meaning": "一緒に",
+      "example": "Please staple these three pages together to make a single handout.",
+      "translation": "1つの配布資料にするため、この3ページを一緒にホチキスで留めてください。",
+      "note": "staple togetherで複数の紙をホチキスで一緒に留める。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "逆さまに",
+        "空腹そうに",
+        "眠そうに"
+      ],
+      "clozeDistractors": [
+        "separately",
+        "individually",
+        "apart"
+      ],
+      "seq": 90,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
     }
   ]
 }
