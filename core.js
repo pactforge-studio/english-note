@@ -74,3 +74,13 @@ export function saveRecord(storage,next,ids){
  storage.setItem(KEY,JSON.stringify(validated));
  return validated;
 }
+
+// Phrase slots are independent of the selectable word count; no new saved settings.
+export function dailyPhrases(s,phrases,date){
+ const ordered=[...phrases].sort((a,b)=>a.seq-b.seq);
+ const learned=ordered.filter(p=>s.progress[p.id]?.first===date);
+ return [...learned,...ordered.filter(p=>!s.progress[p.id]).slice(0,Math.max(0,3-learned.length))];
+}
+export const itemText=item=>item.phrase??item.word;
+export const escapePattern=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+export const clozeText=item=>item.example.replace(new RegExp('\\b'+escapePattern(itemText(item))+'\\b','i'),'______');

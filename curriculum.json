@@ -2372,5 +2372,1398 @@
         "オフィス"
       ]
     }
+  ],
+  "phrases": [
+    {
+      "id": "ph_in_charge_of",
+      "phrase": "in charge of",
+      "meaning": "～を担当して",
+      "example": "The supervisor is in charge of training all new warehouse staff.",
+      "translation": "その監督者は倉庫の新人全員の研修を担当しています。",
+      "note": "in charge ofの後ろに担当する仕事や人を置く。",
+      "meaningDistractors": [
+        "～に飽きて",
+        "～に反対して",
+        "～から遠く"
+      ],
+      "clozeDistractors": [
+        "in front of",
+        "at risk of",
+        "out of stock"
+      ],
+      "seq": 1,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_on_behalf_of",
+      "phrase": "on behalf of",
+      "meaning": "～を代表して",
+      "example": "I signed the agreement on behalf of our entire sales team.",
+      "translation": "私は営業チーム全体を代表して、その契約書に署名しました。",
+      "note": "on behalf ofの後ろに代表する人や集団を置く。",
+      "meaningDistractors": [
+        "～の下に",
+        "～を横切って",
+        "～を忘れて"
+      ],
+      "clozeDistractors": [
+        "on top of",
+        "in excess of",
+        "at risk of"
+      ],
+      "seq": 2,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_is_responsible_for",
+      "phrase": "is responsible for",
+      "meaning": "～に責任がある",
+      "example": "The receptionist is responsible for keeping the visitor records accurate.",
+      "translation": "受付係は来訪者の記録を正確に保つ責任があります。",
+      "note": "責任を負う仕事をforの後ろに置く。",
+      "meaningDistractors": [
+        "～から逃げる",
+        "～を延期する",
+        "～に謝る"
+      ],
+      "clozeDistractors": [
+        "is adjacent to",
+        "is absent from",
+        "is full of"
+      ],
+      "seq": 3,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_take_part_in",
+      "phrase": "take part in",
+      "meaning": "～に参加する",
+      "example": "All new employees can take part in the safety workshop tomorrow.",
+      "translation": "新入社員は全員、明日の安全講習に参加できます。",
+      "note": "活動や行事に参加するときに使う。",
+      "meaningDistractors": [
+        "～を処分する",
+        "～を使い果たす",
+        "～を拒絶する"
+      ],
+      "clozeDistractors": [
+        "run out of",
+        "get rid of",
+        "fall asleep on"
+      ],
+      "seq": 4,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "会議"
+      ]
+    },
+    {
+      "id": "ph_look_forward_to",
+      "phrase": "look forward to",
+      "meaning": "～を楽しみにする",
+      "example": "We look forward to meeting our new colleagues at the welcome lunch.",
+      "translation": "歓迎昼食会で新しい同僚に会うのを楽しみにしています。",
+      "note": "toの後ろは名詞か動名詞にする。",
+      "meaningDistractors": [
+        "～を取り壊す",
+        "～を払い戻す",
+        "～を使い果たす"
+      ],
+      "clozeDistractors": [
+        "run out of",
+        "get rid of",
+        "shake hands with"
+      ],
+      "seq": 5,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_is_eligible_for",
+      "phrase": "is eligible for",
+      "meaning": "～を受ける資格がある",
+      "example": "Every permanent employee is eligible for the company's training grant.",
+      "translation": "正社員は全員、会社の研修助成金を受ける資格があります。",
+      "note": "条件を満たして受けられる制度をforの後ろに置く。",
+      "meaningDistractors": [
+        "～を梱包する",
+        "～を中止する",
+        "～に囲まれる"
+      ],
+      "clozeDistractors": [
+        "is crowded with",
+        "is made of",
+        "is absent from"
+      ],
+      "seq": 6,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_fill_out",
+      "phrase": "fill out",
+      "meaning": "～に記入する",
+      "example": "Please fill out this application form using a black pen.",
+      "translation": "黒いペンを使って、この申請書に記入してください。",
+      "note": "fill out a formで用紙の必要事項を記入する。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を取り壊す",
+        "～を焼き上げる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "tear down",
+        "boil down"
+      ],
+      "seq": 7,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_hand_in",
+      "phrase": "hand in",
+      "meaning": "～を提出する",
+      "example": "Please hand in your completed expense report to the accounting clerk.",
+      "translation": "完成した経費報告書を経理担当者に提出してください。",
+      "note": "書類などを担当者に渡して提出するときに使う。",
+      "meaningDistractors": [
+        "～を煮詰める",
+        "～を飲み干す",
+        "～を眠らせる"
+      ],
+      "clozeDistractors": [
+        "boil down",
+        "drink up",
+        "hatch out"
+      ],
+      "seq": 8,
+      "level": "L1",
+      "tags": [
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_pick_up",
+      "phrase": "pick up",
+      "meaning": "～を受け取る",
+      "example": "You can pick up your repaired laptop at the service counter.",
+      "translation": "修理済みのノートパソコンはサービスカウンターで受け取れます。",
+      "note": "この文では準備された品物を受け取りに行く意味。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を眠らせる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 9,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_drop_off",
+      "phrase": "drop off",
+      "meaning": "～を預ける",
+      "example": "Please drop off your rental car at the airport return area.",
+      "translation": "レンタカーを空港の返却場所に預けてください。",
+      "note": "車などを指定の場所へ届けて置いていくときに使う。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を煮詰める",
+        "～を孵化させる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "boil down",
+        "hatch out"
+      ],
+      "seq": 10,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_check_in",
+      "phrase": "check in",
+      "meaning": "チェックインする",
+      "example": "Guests can check in at the hotel reception after three.",
+      "translation": "宿泊客は3時以降、ホテルの受付でチェックインできます。",
+      "note": "ホテルへの到着時に宿泊の受付を済ませること。",
+      "meaningDistractors": [
+        "値引きする",
+        "梱包する",
+        "署名を偽る"
+      ],
+      "clozeDistractors": [
+        "boil over",
+        "rust away",
+        "melt down"
+      ],
+      "seq": 11,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_check_out",
+      "phrase": "check out",
+      "meaning": "チェックアウトする",
+      "example": "Please check out at reception before leaving the hotel tomorrow.",
+      "translation": "明日ホテルを出発する前に、受付でチェックアウトしてください。",
+      "note": "ホテルを出る際に宿泊の精算などを済ませること。",
+      "meaningDistractors": [
+        "荷物を積む",
+        "採用する",
+        "取り壊す"
+      ],
+      "clozeDistractors": [
+        "boil over",
+        "rust away",
+        "melt down"
+      ],
+      "seq": 12,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_turn_on",
+      "phrase": "turn on",
+      "meaning": "～の電源を入れる",
+      "example": "Please turn on the printer so we can print these invoices.",
+      "translation": "これらの請求書を印刷できるよう、プリンターの電源を入れてください。",
+      "note": "機械を作動させるため電源を入れるときに使う。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を煮詰める"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 13,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_turn_off",
+      "phrase": "turn off",
+      "meaning": "～の電源を切る",
+      "example": "Always turn off the lights before you lock the empty office.",
+      "translation": "無人のオフィスに施錠する前に、必ず照明の電源を切ってください。",
+      "note": "照明や機械の動作を止めるときに使う。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を眠らせる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 14,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_set_up",
+      "phrase": "set up",
+      "meaning": "～を設置する",
+      "example": "Technicians will set up the new computers in the training room.",
+      "translation": "技術者が研修室に新しいコンピューターを設置します。",
+      "note": "使える状態になるよう機器などを準備すること。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を煮詰める",
+        "～を孵化させる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "boil down",
+        "hatch out"
+      ],
+      "seq": 15,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_put_off",
+      "phrase": "put off",
+      "meaning": "～を延期する",
+      "example": "We must put off the inspection until the damaged bridge is repaired.",
+      "translation": "損傷した橋が修理されるまで、点検を延期しなければなりません。",
+      "note": "予定している行動を後の時期へ延ばすときに使う。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を眠らせる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 16,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_find_out",
+      "phrase": "find out",
+      "meaning": "～を調べて知る",
+      "example": "Please find out whether the supplier can deliver these parts today.",
+      "translation": "その仕入れ先が今日これらの部品を配達できるか調べてください。",
+      "note": "疑問の答えや新しい情報を知ること。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を焼き上げる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 17,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_carry_out",
+      "phrase": "carry out",
+      "meaning": "～を実施する",
+      "example": "The engineers will carry out a safety test before reopening the lift.",
+      "translation": "エンジニアはエレベーターの運転再開前に安全試験を実施します。",
+      "note": "計画した作業や検査を実際に行うこと。",
+      "meaningDistractors": [
+        "～を飲み干す",
+        "～を孵化させる",
+        "～を眠らせる"
+      ],
+      "clozeDistractors": [
+        "drink up",
+        "hatch out",
+        "boil down"
+      ],
+      "seq": 18,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_run_out_of",
+      "phrase": "run out of",
+      "meaning": "～を使い果たす",
+      "example": "We may run out of paper if we print all these reports.",
+      "translation": "これらの報告書をすべて印刷すると、紙を使い果たすかもしれません。",
+      "note": "必要な物の残りがなくなるときに使う。",
+      "meaningDistractors": [
+        "～に署名する",
+        "～を代表する",
+        "～を招待する"
+      ],
+      "clozeDistractors": [
+        "take part in",
+        "look forward to",
+        "shake hands with"
+      ],
+      "seq": 19,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_get_rid_of",
+      "phrase": "get rid of",
+      "meaning": "～を処分する",
+      "example": "We should get rid of these broken chairs before the office move.",
+      "translation": "オフィス移転前に、これらの壊れた椅子を処分するべきです。",
+      "note": "不要になった物を取り除くときに使う。",
+      "meaningDistractors": [
+        "～に参加する",
+        "～を払い戻す",
+        "～と挨拶する"
+      ],
+      "clozeDistractors": [
+        "take part in",
+        "look forward to",
+        "shake hands with"
+      ],
+      "seq": 20,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_take_care_of",
+      "phrase": "take care of",
+      "meaning": "～の世話をする",
+      "example": "Our neighbor will take care of the plants during our business trip.",
+      "translation": "出張中は隣人が植物の世話をしてくれます。",
+      "note": "人や物がよい状態でいられるよう世話をすること。",
+      "meaningDistractors": [
+        "～を使い果たす",
+        "～に署名する",
+        "～を値引きする"
+      ],
+      "clozeDistractors": [
+        "make fun of",
+        "shake hands with",
+        "take part in"
+      ],
+      "seq": 21,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_pay_attention_to",
+      "phrase": "pay attention to",
+      "meaning": "～に注意を払う",
+      "example": "Please pay attention to the warning signs near the loading area.",
+      "translation": "荷積み場所の近くにある警告標識に注意を払ってください。",
+      "note": "見落とさないよう意識して見る、聞くときに使う。",
+      "meaningDistractors": [
+        "～を使い果たす",
+        "～を代表する",
+        "～と握手する"
+      ],
+      "clozeDistractors": [
+        "run out of",
+        "shake hands with",
+        "take part in"
+      ],
+      "seq": 22,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_keep_track_of",
+      "phrase": "keep track of",
+      "meaning": "～を把握し続ける",
+      "example": "This spreadsheet helps us keep track of every package we send.",
+      "translation": "この表計算シートは、発送するすべての小包を把握するのに役立ちます。",
+      "note": "変化や状況を記録して分かるようにしておくこと。",
+      "meaningDistractors": [
+        "～に参加する",
+        "～を使い果たす",
+        "～と握手する"
+      ],
+      "clozeDistractors": [
+        "take part in",
+        "run out of",
+        "shake hands with"
+      ],
+      "seq": 23,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_make_sure",
+      "phrase": "make sure",
+      "meaning": "確かめる",
+      "example": "Please make sure the door is locked before you leave.",
+      "translation": "出かける前に、ドアに鍵がかかっていることを確かめてください。",
+      "note": "後ろに文を続け、確実かどうか確認する。",
+      "meaningDistractors": [
+        "沸騰する",
+        "さびる",
+        "居眠りする"
+      ],
+      "clozeDistractors": [
+        "boil over",
+        "rust away",
+        "doze off"
+      ],
+      "seq": 24,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_at_least",
+      "phrase": "at least",
+      "meaning": "少なくとも",
+      "example": "The van can carry at least six boxes, possibly more.",
+      "translation": "そのバンには少なくとも6箱、場合によってはそれ以上積めます。",
+      "note": "最低限の数や量を示すときに使う。",
+      "meaningDistractors": [
+        "空腹そうに",
+        "嫉妬して",
+        "逆さまに"
+      ],
+      "clozeDistractors": [
+        "on foot",
+        "at sea",
+        "in bed"
+      ],
+      "seq": 25,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_at_most",
+      "phrase": "at most",
+      "meaning": "多くても",
+      "example": "The small locker holds at most two bags, never three.",
+      "translation": "その小さなロッカーに入るのは多くても2つのバッグで、3つは入りません。",
+      "note": "最大の数や量を示すときに使う。",
+      "meaningDistractors": [
+        "空腹そうに",
+        "嫉妬して",
+        "眠そうに"
+      ],
+      "clozeDistractors": [
+        "on foot",
+        "at sea",
+        "in bed"
+      ],
+      "seq": 26,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_at_once",
+      "phrase": "at once",
+      "meaning": "すぐに",
+      "example": "Smoke is coming from the machine, so switch it off at once.",
+      "translation": "機械から煙が出ているので、すぐに電源を切ってください。",
+      "note": "すぐに行動する必要がある場面で使う。",
+      "meaningDistractors": [
+        "徒歩で",
+        "海外で",
+        "眠りながら"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "on sale",
+        "for rent"
+      ],
+      "seq": 27,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_in_person",
+      "phrase": "in person",
+      "meaning": "本人が直接",
+      "example": "Applicants must attend the interview in person, rather than joining by video.",
+      "translation": "応募者はビデオで参加するのではなく、本人が直接面接に出席しなければなりません。",
+      "note": "代理や遠隔ではなく、その場に本人が行くこと。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "逆さまに",
+        "無料で"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "on sale",
+        "for rent"
+      ],
+      "seq": 28,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_by_hand",
+      "phrase": "by hand",
+      "meaning": "手作業で",
+      "example": "We must write every label by hand because the printer is broken.",
+      "translation": "プリンターが壊れているので、すべてのラベルを手書きしなければなりません。",
+      "note": "機械に任せず人の手で行うこと。",
+      "meaningDistractors": [
+        "海路で",
+        "徒歩で",
+        "空腹で"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "on sale",
+        "for rent"
+      ],
+      "seq": 29,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_on_foot",
+      "phrase": "on foot",
+      "meaning": "徒歩で",
+      "example": "The hotel is close enough to reach on foot from the station.",
+      "translation": "そのホテルは駅から徒歩で行けるほど近くにあります。",
+      "note": "乗り物を使わず歩いて移動すること。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "無作為に",
+        "借金で"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "at random",
+        "in debt"
+      ],
+      "seq": 30,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_in_stock",
+      "phrase": "in stock",
+      "meaning": "在庫があって",
+      "example": "The blue folders are in stock and ready for immediate delivery.",
+      "translation": "青いフォルダーは在庫があり、すぐに配送できます。",
+      "note": "商品をすぐ販売できる状態を表す。",
+      "meaningDistractors": [
+        "借金を抱えて",
+        "眠っていて",
+        "怒っていて"
+      ],
+      "clozeDistractors": [
+        "in debt",
+        "on foot",
+        "at sea"
+      ],
+      "seq": 31,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_out_of_stock",
+      "phrase": "out of stock",
+      "meaning": "在庫切れで",
+      "example": "That printer model is out of stock, so we cannot sell one today.",
+      "translation": "その機種のプリンターは在庫切れなので、今日は販売できません。",
+      "note": "商品が売り切れて手元にない状態を表す。",
+      "meaningDistractors": [
+        "責任者で",
+        "徒歩で",
+        "故意に"
+      ],
+      "clozeDistractors": [
+        "in charge of",
+        "on behalf of",
+        "in front of"
+      ],
+      "seq": 32,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_for_sale",
+      "phrase": "for sale",
+      "meaning": "売りに出されて",
+      "example": "The bicycles displayed near the entrance are for sale, not for rent.",
+      "translation": "入口近くに展示してある自転車は貸出用ではなく、売りに出されています。",
+      "note": "買い手を探して販売していることを示す。",
+      "meaningDistractors": [
+        "眠っていて",
+        "借金をして",
+        "徒歩で"
+      ],
+      "clozeDistractors": [
+        "in debt",
+        "on foot",
+        "at sea"
+      ],
+      "seq": 33,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_on_sale",
+      "phrase": "on sale",
+      "meaning": "値下げ販売中で",
+      "example": "These coats are on sale this week at half their usual price.",
+      "translation": "これらのコートは今週、通常価格の半額で値下げ販売中です。",
+      "note": "この文では通常より低い価格で販売する意味。",
+      "meaningDistractors": [
+        "借金をして",
+        "徒歩で",
+        "海上で"
+      ],
+      "clozeDistractors": [
+        "in debt",
+        "on foot",
+        "at sea"
+      ],
+      "seq": 34,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "広告"
+      ]
+    },
+    {
+      "id": "ph_free_of_charge",
+      "phrase": "free of charge",
+      "meaning": "無料で",
+      "example": "The hotel provides clean towels free of charge for every guest.",
+      "translation": "ホテルは宿泊客全員に清潔なタオルを無料で提供します。",
+      "note": "追加の代金がかからないことを案内する表現。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "責任者として",
+        "目の前に"
+      ],
+      "clozeDistractors": [
+        "out of stock",
+        "in charge of",
+        "in front of"
+      ],
+      "seq": 35,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_in_cash",
+      "phrase": "in cash",
+      "meaning": "現金で",
+      "example": "The card reader is broken, so please pay in cash today.",
+      "translation": "カード読取機が壊れているので、今日は現金で支払ってください。",
+      "note": "硬貨や紙幣を使って支払うこと。",
+      "meaningDistractors": [
+        "徒歩で",
+        "海上で",
+        "眠っていて"
+      ],
+      "clozeDistractors": [
+        "in bloom",
+        "in stock",
+        "on sale"
+      ],
+      "seq": 36,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_by_credit_card",
+      "phrase": "by credit card",
+      "meaning": "クレジットカードで",
+      "example": "Customers can pay by credit card using the reader beside the register.",
+      "translation": "客はレジのそばの読取機を使ってクレジットカードで支払えます。",
+      "note": "カードによる支払い方法を示す。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "責任者として",
+        "目の前に"
+      ],
+      "clozeDistractors": [
+        "out of stock",
+        "in charge of",
+        "in front of"
+      ],
+      "seq": 37,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_in_writing",
+      "phrase": "in writing",
+      "meaning": "書面で",
+      "example": "Please submit your complaint in writing so we have a clear record.",
+      "translation": "明確な記録を残せるよう、苦情を書面で提出してください。",
+      "note": "口頭ではなく文書として伝えること。",
+      "meaningDistractors": [
+        "徒歩で",
+        "海上で",
+        "眠っていて"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "on sale",
+        "for rent"
+      ],
+      "seq": 38,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_on_duty",
+      "phrase": "on duty",
+      "meaning": "勤務中で",
+      "example": "The guard on duty checks every visitor's badge at the entrance.",
+      "translation": "勤務中の警備員は入口で来訪者全員の入館証を確認します。",
+      "note": "担当する仕事に就いている時間や状態を表す。",
+      "meaningDistractors": [
+        "値下げ販売中で",
+        "在庫があって",
+        "売りに出されて"
+      ],
+      "clozeDistractors": [
+        "on sale",
+        "in stock",
+        "for sale"
+      ],
+      "seq": 39,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_in_a_hurry",
+      "phrase": "in a hurry",
+      "meaning": "急いで",
+      "example": "The customer was in a hurry because her train was leaving soon.",
+      "translation": "列車がまもなく出発するので、その客は急いでいました。",
+      "note": "時間がなく急ぐ必要がある状態を表す。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "誰かを代表して",
+        "責任者で"
+      ],
+      "clozeDistractors": [
+        "out of stock",
+        "on behalf of",
+        "in charge of"
+      ],
+      "seq": 40,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_as_soon_as",
+      "phrase": "as soon as",
+      "meaning": "～するとすぐに",
+      "example": "Please call me as soon as the replacement parts arrive.",
+      "translation": "交換部品が届いたらすぐに電話してください。",
+      "note": "後ろに主語と動詞を続け、出来事の直後を表す。",
+      "meaningDistractors": [
+        "～の担当で",
+        "～の前に立って",
+        "～を使い果たして"
+      ],
+      "clozeDistractors": [
+        "as far as",
+        "as much as",
+        "as well as"
+      ],
+      "seq": 41,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_as_long_as",
+      "phrase": "as long as",
+      "meaning": "～する限り",
+      "example": "You may use this room as long as you keep it clean.",
+      "translation": "清潔に保つ限り、この部屋を使ってかまいません。",
+      "note": "条件を表すときは後ろに文を続ける。",
+      "meaningDistractors": [
+        "～を使い果たして",
+        "～の担当で",
+        "～の危険があって"
+      ],
+      "clozeDistractors": [
+        "as far as",
+        "as much as",
+        "as well as"
+      ],
+      "seq": 42,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_in_order_to",
+      "phrase": "in order to",
+      "meaning": "～するために",
+      "example": "We moved the shelves in order to create more space for deliveries.",
+      "translation": "配送品を置く場所を増やすため、棚を移動しました。",
+      "note": "目的を表し、後ろには動詞の原形を置く。",
+      "meaningDistractors": [
+        "～を代表して",
+        "～の担当で",
+        "～の危険があって"
+      ],
+      "clozeDistractors": [
+        "on behalf of",
+        "in charge of",
+        "at risk of"
+      ],
+      "seq": 43,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_because_of",
+      "phrase": "because of",
+      "meaning": "～のために",
+      "example": "The outdoor market was canceled because of the severe storm.",
+      "translation": "激しい嵐のため、屋外市場は中止になりました。",
+      "note": "理由を表す名詞を後ろに置く。",
+      "meaningDistractors": [
+        "～を除いて",
+        "～の上に",
+        "～に署名して"
+      ],
+      "clozeDistractors": [
+        "apart from",
+        "along with",
+        "up against"
+      ],
+      "seq": 44,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_instead_of",
+      "phrase": "instead of",
+      "meaning": "～の代わりに",
+      "example": "Please send a digital receipt instead of printing a paper copy.",
+      "translation": "紙の控えを印刷する代わりに、電子領収書を送ってください。",
+      "note": "ある選択を別の選択に替えるときに使う。",
+      "meaningDistractors": [
+        "～のせいで",
+        "～の上に",
+        "～に署名して"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "up against",
+        "far above"
+      ],
+      "seq": 45,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_according_to",
+      "phrase": "according to",
+      "meaning": "～によると",
+      "example": "The store closes at seven, according to the notice on its door.",
+      "translation": "ドアにある掲示によると、その店は7時に閉店します。",
+      "note": "情報の根拠となる文書や発言を後ろに置く。",
+      "meaningDistractors": [
+        "～に衝突して",
+        "～に代金を払い",
+        "～を飲み干して"
+      ],
+      "clozeDistractors": [
+        "up against",
+        "far above",
+        "deep inside"
+      ],
+      "seq": 46,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "ph_in_front_of",
+      "phrase": "in front of",
+      "meaning": "～の前に",
+      "example": "Please wait in front of the building, beside the main entrance.",
+      "translation": "建物の前の、正面入口のそばでお待ちください。",
+      "note": "物や場所の前方に位置することを表す。",
+      "meaningDistractors": [
+        "～を使い果たして",
+        "～を担当して",
+        "～の危険があって"
+      ],
+      "clozeDistractors": [
+        "out of stock",
+        "in charge of",
+        "at risk of"
+      ],
+      "seq": 47,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_next_to",
+      "phrase": "next to",
+      "meaning": "～の隣に",
+      "example": "The printer stands next to the copier in the small office.",
+      "translation": "その小さなオフィスでは、プリンターはコピー機の隣に置かれています。",
+      "note": "すぐ隣の位置を示す表現。",
+      "meaningDistractors": [
+        "～によると",
+        "～のせいで",
+        "～に代金を払う"
+      ],
+      "clozeDistractors": [
+        "according to",
+        "because of",
+        "instead of"
+      ],
+      "seq": 48,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_across_from",
+      "phrase": "across from",
+      "meaning": "～の向かいに",
+      "example": "The pharmacy is across from the bank on the opposite sidewalk.",
+      "translation": "薬局は銀行の向かいの、反対側の歩道沿いにあります。",
+      "note": "道などを挟んだ向かい側を示す。",
+      "meaningDistractors": [
+        "～のせいで",
+        "～によると",
+        "～を除いて"
+      ],
+      "clozeDistractors": [
+        "because of",
+        "according to",
+        "regardless of"
+      ],
+      "seq": 49,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_close_to",
+      "phrase": "close to",
+      "meaning": "～の近くに",
+      "example": "Our office is close to the station, just a short walk away.",
+      "translation": "私たちのオフィスは駅の近くで、歩いてすぐです。",
+      "note": "距離があまり離れていないことを表す。",
+      "meaningDistractors": [
+        "～によると",
+        "～のせいで",
+        "～の代わりに"
+      ],
+      "clozeDistractors": [
+        "according to",
+        "because of",
+        "instead of"
+      ],
+      "seq": 50,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "旅行"
+      ]
+    },
+    {
+      "id": "ph_far_from",
+      "phrase": "far from",
+      "meaning": "～から遠くに",
+      "example": "The factory is far from town, beyond the distant mountains.",
+      "translation": "その工場は町から遠く離れた、遠方の山々の向こうにあります。",
+      "note": "距離が大きく離れていることを表す。",
+      "meaningDistractors": [
+        "～によると",
+        "～のせいで",
+        "～の代わりに"
+      ],
+      "clozeDistractors": [
+        "according to",
+        "because of",
+        "instead of"
+      ],
+      "seq": 51,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_at_the_end_of",
+      "phrase": "at the end of",
+      "meaning": "～の終わりに",
+      "example": "Please sign at the end of the document, below the final paragraph.",
+      "translation": "最後の段落の下、文書の終わりに署名してください。",
+      "note": "文書や期間の最後の部分を指す。",
+      "meaningDistractors": [
+        "～の責任者で",
+        "～に参加して",
+        "～を使い果たして"
+      ],
+      "clozeDistractors": [
+        "in the middle of",
+        "on the roof of",
+        "under the weight of"
+      ],
+      "seq": 52,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_from_now_on",
+      "phrase": "from now on",
+      "meaning": "今後は",
+      "example": "From now on, all visitors must wear badges inside this building.",
+      "translation": "今後は、来訪者全員がこの建物内で入館証を着用しなければなりません。",
+      "note": "今を起点にして以後続ける決まりに使う。",
+      "meaningDistractors": [
+        "在庫切れで",
+        "責任者として",
+        "目の前に"
+      ],
+      "clozeDistractors": [
+        "out of stock",
+        "in charge of",
+        "in front of"
+      ],
+      "seq": 53,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_so_far",
+      "phrase": "so far",
+      "meaning": "これまでのところ",
+      "example": "We have received twelve applications so far, and more may arrive tomorrow.",
+      "translation": "これまでのところ12件の応募を受け付けており、明日はさらに届くかもしれません。",
+      "note": "過去から現在までに起きたことを表す。",
+      "meaningDistractors": [
+        "徒歩で",
+        "在庫があって",
+        "借金をして"
+      ],
+      "clozeDistractors": [
+        "on foot",
+        "in stock",
+        "in debt"
+      ],
+      "seq": 54,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "ph_once_again",
+      "phrase": "once again",
+      "meaning": "もう一度",
+      "example": "Please read the instructions once again before starting the packing machine.",
+      "translation": "梱包機を動かす前に、説明をもう一度読んでください。",
+      "note": "すでにしたことを繰り返すときに使う。",
+      "meaningDistractors": [
+        "海上で",
+        "在庫があって",
+        "借金をして"
+      ],
+      "clozeDistractors": [
+        "in stock",
+        "on sale",
+        "for rent"
+      ],
+      "seq": 55,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_is_aware_of",
+      "phrase": "is aware of",
+      "meaning": "～を認識している",
+      "example": "The manager is aware of the delay and has informed every customer.",
+      "translation": "管理者は遅延を認識しており、すべての客に知らせました。",
+      "note": "事実や問題を知っている状態を表す。",
+      "meaningDistractors": [
+        "～で満員だ",
+        "～で作られている",
+        "～から欠席している"
+      ],
+      "clozeDistractors": [
+        "is crowded with",
+        "is made of",
+        "is absent from"
+      ],
+      "seq": 56,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "ph_is_familiar_with",
+      "phrase": "is familiar with",
+      "meaning": "～に詳しい",
+      "example": "Our technician is familiar with this printer and can explain its settings.",
+      "translation": "当社の技術者はこのプリンターに詳しく、設定を説明できます。",
+      "note": "経験などを通じてよく知っていることを表す。",
+      "meaningDistractors": [
+        "～で満員だ",
+        "～で作られている",
+        "～から欠席している"
+      ],
+      "clozeDistractors": [
+        "is crowded with",
+        "is made of",
+        "is absent from"
+      ],
+      "seq": 57,
+      "level": "L1",
+      "tags": [
+        "オフィス"
+      ]
+    },
+    {
+      "id": "ph_is_interested_in",
+      "phrase": "is interested in",
+      "meaning": "～に興味がある",
+      "example": "The applicant is interested in accounting and hopes to join our finance team.",
+      "translation": "その応募者は経理に興味があり、当社の財務チームへの参加を望んでいます。",
+      "note": "興味を持つ分野や活動を後ろに置く。",
+      "meaningDistractors": [
+        "～で満員だ",
+        "～で作られている",
+        "～から欠席している"
+      ],
+      "clozeDistractors": [
+        "is crowded with",
+        "is made of",
+        "is absent from"
+      ],
+      "seq": 58,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "経理"
+      ]
+    },
+    {
+      "id": "ph_is_suitable_for",
+      "phrase": "is suitable for",
+      "meaning": "～に適している",
+      "example": "This lightweight trolley is suitable for moving boxes through narrow office corridors.",
+      "translation": "この軽い台車は、狭いオフィスの廊下で箱を運ぶのに適しています。",
+      "note": "用途や使う人に合っていることを表す。",
+      "meaningDistractors": [
+        "～から欠席している",
+        "～と握手する",
+        "～を使い果たす"
+      ],
+      "clozeDistractors": [
+        "is absent from",
+        "is allergic to",
+        "is jealous of"
+      ],
+      "seq": 59,
+      "level": "L1",
+      "tags": [
+        "施設"
+      ]
+    },
+    {
+      "id": "ph_is_full_of",
+      "phrase": "is full of",
+      "meaning": "～でいっぱいだ",
+      "example": "The storeroom is full of boxes, leaving no space for the new delivery.",
+      "translation": "倉庫は箱でいっぱいで、新しい配送品を置く場所がありません。",
+      "note": "ある物で満たされている状態を表す。",
+      "meaningDistractors": [
+        "～から欠席している",
+        "～を担当している",
+        "～を代表している"
+      ],
+      "clozeDistractors": [
+        "is absent from",
+        "is responsible for",
+        "is eligible for"
+      ],
+      "seq": 60,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    }
   ]
 }
