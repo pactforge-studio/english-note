@@ -1,0 +1,48 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {KEY,BACKUP_KEY,empty,validate,answer,balance,merge,dailyWords,readRecord,saveRecord} from '../core.js';
+const words=JSON.parse(fs.readFileSync(new URL('../curriculum.json',import.meta.url))).words;
+const ids=new Set(words.map(w=>w.id));
+const fixture=JSON.parse(fs.readFileSync(new URL('./fixtures/v1-record.json',import.meta.url)));
+const before=JSON.stringify(fixture),m=validate(fixture,ids);
+assert.equal(KEY,'mb_english_v1');assert.equal(m.schemaVersion,2);assert.equal(m.settings.dailyNew,3);
+assert.equal(JSON.stringify(fixture),before);
+assert.deepEqual(Object.keys(m.progress),Object.keys(fixture.progress));
+for(const [id,p] of Object.entries(fixture.progress)){const {first,...old}=m.progress[id];assert.deepEqual(old,p);assert.equal(first,p.last);}
+assert.deepEqual(m.awards,fixture.awards);assert.equal(balance(m),balance(fixture));
+for(const date of ['2026-10-10','2026-10-15','2026-10-25'])assert.deepEqual(Object.keys(m.progress).filter(id=>m.progress[id].due<=date),Object.keys(fixture.progress).filter(id=>fixture.progress[id].due<=date));
+assert.deepEqual(validate(JSON.parse(JSON.stringify(m)),ids),m);
+let s=empty();s.settings.dailyNew=20;
+answer(s,words[0],true,'2027-01-01');const merged=merge(s,m);
+assert.equal(merged.settings.dailyNew,20);assert.equal(merged.progress[words[0].id].first,fixture.progress[words[0].id].last);
+assert.equal(merged.progress[words[0].id].last,'2027-01-01');assert.equal(balance(merged),13);
+assert.equal(s.progress[words[0].id].first,'2027-01-01');
+assert.deepEqual(merge(merged,m),merged);
+assert.equal(merge(m,s).settings.dailyNew,3);assert.equal(merge(m,s).progress[words[0].id].first,fixture.progress[words[0].id].last);
+for(const n of [3,5,10,20]){
+ s=empty();s.settings.dailyNew=n;
+ const today=dailyWords(s,[...words].reverse(),'2027-01-01');assert.deepEqual(today,words.slice(0,n));
+ for(const w of today)answer(s,w,true,'2027-01-01');
+ assert.deepEqual(dailyWords(validate(JSON.parse(JSON.stringify(s)),ids),words,'2027-01-01'),today);
+ assert.deepEqual(dailyWords(s,words,'2027-01-02'),words.slice(n,n+n));
+ for(const w of today)assert.equal(answer(s,w,true,'2027-01-01').earned,false);
+ assert.equal(balance(s),n);
+}
+s=empty();answer(s,words[0],false,'2027-01-01');assert.equal(s.progress[words[0].id].first,'2027-01-01');assert.equal(dailyWords(s,words,'2027-01-01').length,3);
+assert.equal(answer(s,words[0],true,'2027-01-01').earned,true);answer(s,words[0],true,'2027-01-02');assert.equal(s.progress[words[0].id].first,'2027-01-01');
+s=empty();for(const w of words.slice(0,3))answer(s,w,true,'2027-01-01');s.settings.dailyNew=5;assert.deepEqual(dailyWords(s,words,'2027-01-01'),words.slice(0,5));
+for(const w of words.slice(3,5))answer(s,w,true,'2027-01-01');s.settings.dailyNew=3;assert.deepEqual(dailyWords(s,words,'2027-01-01'),words.slice(0,5));s.settings.dailyNew=10;assert.deepEqual(dailyWords(s,words,'2027-01-01'),words.slice(0,10));
+for(const w of words.slice(5))answer(s,w,true,'2027-01-01');assert.deepEqual(dailyWords(s,words,'2027-01-02'),[]);
+for(const n of [0,1,4,21,'3',null,NaN])assert.throws(()=>validate({...empty(),settings:{dailyNew:n}},ids));
+assert.throws(()=>validate({...m,schemaVersion:3},ids));assert.throws(()=>validate({...m,progress:{...m.progress,missing:m.progress[words[0].id]}},ids));
+assert.throws(()=>validate({...m,progress:{[words[0].id]:{...m.progress[words[0].id],first:'2099-01-01'}}},ids));
+const raw='  '+JSON.stringify(fixture,null,2)+'\n';
+const memory=new Map([[KEY,raw]]);const writes=[];const storage={getItem:k=>memory.has(k)?memory.get(k):null,setItem:(k,v)=>{writes.push(k);memory.set(k,v);}};
+let next=readRecord(storage,ids);assert.equal(memory.get(KEY),raw);assert.equal(memory.has(BACKUP_KEY),false);
+next.settings.dailyNew=10;saveRecord(storage,next,ids);assert.equal(memory.get(BACKUP_KEY),raw);assert.deepEqual(writes,[BACKUP_KEY,KEY]);assert.equal(readRecord(storage,ids).settings.dailyNew,10);
+saveRecord(storage,readRecord(storage,ids),ids);assert.deepEqual(writes,[BACKUP_KEY,KEY,KEY]);assert.equal(memory.get(BACKUP_KEY),raw);
+memory.set(KEY,raw);memory.set(BACKUP_KEY,'');saveRecord(storage,readRecord(storage,ids),ids);assert.equal(memory.get(BACKUP_KEY),'');
+memory.set(KEY,raw);memory.delete(BACKUP_KEY);const failing={getItem:storage.getItem,setItem:(k,v)=>{if(k===BACKUP_KEY)throw Error('quota');storage.setItem(k,v);}};
+assert.throws(()=>saveRecord(failing,readRecord(storage,ids),ids));assert.equal(memory.get(KEY),raw);
+memory.set(KEY,'{broken');assert.throws(()=>readRecord(storage,ids));assert.throws(()=>saveRecord(storage,empty(),ids));assert.equal(memory.get(KEY),'{broken');
+console.log('Self-paced: v1 fixture parity, v1/v2 merge/roundtrip, earliest first, daily counts/caps, raw backup once and failure safety passed.');
