@@ -4567,5 +4567,627 @@
       "explanation": "請求書に記載され、備品の代金として支払う合計を表すので、金額という意味のamountが正解です。weatherは「天候」、furnitureは「家具」、temperatureは「温度」で、どれもこの文で支払う金額を表せません。",
       "translation": "請求書には、備品の代金として支払う合計金額が記載されています。"
     }
+  ],
+  "reading": [
+    {
+      "id": "r_l1_001",
+      "seq": 1,
+      "level": "L1",
+      "docType": "メール",
+      "documents": [
+        {
+          "kind": "メール",
+          "title": "New Meeting Time",
+          "body": "The staff meeting on Tuesday will begin at 10:30 a.m., not 9:00 a.m. We will still meet in the small meeting room on the second floor. A repair worker will check the room's lights from 8:30 to 10:00 a.m. Please bring the sales report that was sent yesterday. We will discuss the report first and then plan next month's staff training. The meeting will end at 11:15 a.m. If you cannot attend at the new time, email the team leader by Monday afternoon. The team leader will send you a short summary after the meeting.",
+          "translation": "火曜日の職員会議は、午前9時ではなく午前10時30分に始まります。場所はこれまでどおり、2階の小会議室です。午前8時30分から10時まで、修理担当者がその部屋の照明を点検します。昨日送られた売上報告書を持参してください。最初に報告書について話し合い、その後、来月の職員研修の計画を立てます。会議は午前11時15分に終わります。変更後の時間に出席できない場合は、月曜日の午後までにチームリーダーにメールしてください。会議後にチームリーダーから簡単なまとめをお送りします。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_001_q1",
+          "type": "目的",
+          "question": "What is the main purpose of this email?",
+          "choices": [
+            "To cancel next month’s training",
+            "To announce a change in the meeting time",
+            "To ask staff to write a sales report",
+            "To introduce a new team leader"
+          ],
+          "answer": "To announce a change in the meeting time",
+          "evidence": "The staff meeting on Tuesday will begin at 10:30 a.m., not 9:00 a.m.",
+          "explanation": "冒頭で会議の開始時刻を9時から10時30分に変更すると伝えているため、「会議時刻の変更を知らせる」が正解です。研修は中止ではなく計画を立てます。売上報告書はすでに送付済みで、作成依頼ではありません。新しいリーダーの紹介もありません。"
+        },
+        {
+          "id": "r_l1_001_q2",
+          "type": "詳細",
+          "question": "What should staff bring to the meeting?",
+          "choices": [
+            "A room key",
+            "A training schedule",
+            "A sales report",
+            "A list of broken lights"
+          ],
+          "answer": "A sales report",
+          "evidence": "Please bring the sales report that was sent yesterday.",
+          "explanation": "本文の「昨日送られた売上報告書を持参してください」が根拠で、「売上報告書」が正解です。部屋の鍵を持参する指示はありません。研修の計画は会議中に立てるため、日程表の持参は求めていません。故障した照明の一覧を持参する指示もありません。"
+        },
+        {
+          "id": "r_l1_001_q3",
+          "type": "推測",
+          "question": "What can be inferred about the small meeting room at 9:00 a.m. on Tuesday?",
+          "choices": [
+            "A staff training class will be using it.",
+            "It will be closed for the whole day.",
+            "The sales meeting will already be over.",
+            "A repair worker will be checking its lights."
+          ],
+          "answer": "A repair worker will be checking its lights.",
+          "evidence": "A repair worker will check the room's lights from 8:30 to 10:00 a.m.",
+          "explanation": "点検は8時30分から10時までなので、その間の9時には修理担当者が照明を点検していると判断できます。研修をその時間に行うとは書かれていません。10時30分には会議で使うため、終日閉鎖ではありません。会議は10時30分開始なので、9時にはまだ終わっていません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_002",
+      "seq": 2,
+      "level": "L1",
+      "docType": "お知らせ",
+      "documents": [
+        {
+          "kind": "お知らせ",
+          "title": "Reading Corner Closed",
+          "body": "The reading corner on the ground floor will be closed on Wednesday and Thursday while workers paint the walls. It will open again at 9:00 a.m. on Friday. You can still borrow and return books at the usual desk during this time. Staff will place a small reading table near the front entrance while the work is taking place. Four seats will be available there. Please do not enter the reading corner, even if you only want to collect a magazine. Ask a staff member for help instead.",
+          "translation": "1階の読書コーナーは、壁の塗装作業のため、水曜日と木曜日は閉鎖します。金曜日の午前9時に再び利用できるようになります。その間も、いつものカウンターで本を借りたり返したりできます。作業中は、職員が正面入口の近くに小さな読書用テーブルを設置します。そこには利用できる席が4席あります。雑誌を取りに行くだけの場合でも、読書コーナーには入らないでください。代わりに職員にお声がけください。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_002_q1",
+          "type": "詳細",
+          "question": "When will the reading corner open again?",
+          "choices": [
+            "On Wednesday morning",
+            "On Friday at 9:00 a.m.",
+            "On Thursday afternoon",
+            "On Friday at 4:00 p.m."
+          ],
+          "answer": "On Friday at 9:00 a.m.",
+          "evidence": "It will open again at 9:00 a.m. on Friday.",
+          "explanation": "再開時刻は「金曜日の午前9時」と明記されています。水曜日と木曜日は塗装のため閉鎖するので、水曜の朝と木曜の午後は誤りです。金曜の午後4時ではなく午前9時です。"
+        },
+        {
+          "id": "r_l1_002_q2",
+          "type": "詳細",
+          "question": "Where can visitors return books during the painting work?",
+          "choices": [
+            "At the small reading table",
+            "Inside the reading corner",
+            "At the usual desk",
+            "At the workers’ desk"
+          ],
+          "answer": "At the usual desk",
+          "evidence": "You can still borrow and return books at the usual desk during this time.",
+          "explanation": "作業中も「いつものカウンター」で貸し出しと返却ができると書かれています。小さなテーブルは読書用です。読書コーナー内には入れません。作業員用のカウンターは本文に登場しません。"
+        },
+        {
+          "id": "r_l1_002_q3",
+          "type": "語彙",
+          "question": "The word \"available\" in the notice is closest in meaning to which of the following?",
+          "choices": [
+            "Ready for use",
+            "In need of repair",
+            "Difficult to move",
+            "Made of wood"
+          ],
+          "answer": "Ready for use",
+          "evidence": "Four seats will be available there.",
+          "explanation": "入口付近に席を4席用意する話なので、availableは「利用できる」、つまりReady for useの意味です。修理が必要とは述べていません。動かしにくさについての説明でもありません。座席の材質は述べられていないため、Made of wood（木製の）も違います。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_003",
+      "seq": 3,
+      "level": "L1",
+      "docType": "広告",
+      "documents": [
+        {
+          "kind": "広告",
+          "title": "Lunch Bag Sale",
+          "body": "Need a simple way to carry lunch? Our small cloth lunch bags are on sale from Thursday through Saturday. Each bag costs $8, including a small ice pack. Choose from green, yellow, or gray. The bags are washable and have a wide handle. Visit our shop between 10:00 a.m. and 6:00 p.m. You can purchase up to three bags at the sale price. We accept cash and cards. This offer is only available in the shop; we cannot send these bags to your home. Please keep your receipt if you want to return an unused bag within seven days.",
+          "translation": "手軽にお弁当を持ち運びたいと思いませんか。当店では木曜日から土曜日まで、小さな布製ランチバッグを特売します。1個8ドルで、小さな保冷剤も付いています。緑、黄色、灰色からお選びください。バッグは洗濯でき、幅の広い持ち手が付いています。午前10時から午後6時までにご来店ください。特売価格で購入できるのは3個までです。現金とカードが使えます。この特売は店頭限定で、ご自宅への配送はできません。未使用のバッグを7日以内に返品したい場合は、レシートを保管しておいてください。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_003_q1",
+          "type": "目的",
+          "question": "What is this advertisement mainly promoting?",
+          "choices": [
+            "A lunch delivery service",
+            "A new method for washing clothes",
+            "A sale on lunch bags",
+            "A class on making bags"
+          ],
+          "answer": "A sale on lunch bags",
+          "evidence": "Our small cloth lunch bags are on sale from Thursday through Saturday.",
+          "explanation": "木曜日から土曜日までのランチバッグの特売を案内しているため、「ランチバッグの特売」が正解です。昼食の配達サービスの広告ではありません。洗えるとは書かれていますが、洗濯方法の紹介ではありません。バッグを作る講座の案内もありません。"
+        },
+        {
+          "id": "r_l1_003_q2",
+          "type": "詳細",
+          "question": "What is included in the $8 price?",
+          "choices": [
+            "A small ice pack",
+            "A prepared lunch",
+            "Home delivery",
+            "A second lunch bag"
+          ],
+          "answer": "A small ice pack",
+          "evidence": "Each bag costs $8, including a small ice pack.",
+          "explanation": "1個8ドルには「小さな保冷剤」が含まれると明記されています。調理済みの昼食が付くとは書かれていません。自宅への配送はできません。8ドルはバッグ1個の価格で、2個目が含まれるとは書かれていません。"
+        },
+        {
+          "id": "r_l1_003_q3",
+          "type": "語彙",
+          "question": "The word \"purchase\" in the advertisement is closest in meaning to which of the following?",
+          "choices": [
+            "Wash",
+            "Return",
+            "Carry",
+            "Buy"
+          ],
+          "answer": "Buy",
+          "evidence": "You can purchase up to three bags at the sale price.",
+          "explanation": "特売価格でバッグを3個まで手に入れるという文なので、purchaseはBuy（買う）です。Wash（洗う）はバッグの手入れの話で、この語の意味ではありません。Return（返品する）は購入とは別の行動です。Carry（運ぶ）も代金を払って買う意味にはなりません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_004",
+      "seq": 4,
+      "level": "L1",
+      "docType": "記事",
+      "documents": [
+        {
+          "kind": "記事",
+          "title": "A Shelf for Sharing Books",
+          "body": "Last month, office staff turned an empty shelf into a small book exchange. Anyone in the office can leave a book or take one home for free. The shelf is beside the only coffee machine in the office. Staff from every department use that machine. The collection now includes novels, travel books, and cookbooks. People may take up to two books at a time and should return them when they finish reading. A volunteer checks the shelf each Friday and removes damaged books. The staff hope to add a second shelf if the collection continues to grow.",
+          "translation": "先月、職員たちは空いていた棚を小さな本の交換コーナーにしました。この職場で働く人なら誰でも、無料で本を置いたり、家に持ち帰ったりできます。棚は職場に1台しかないコーヒーメーカーの隣にあります。どの部署の職員もそのコーヒーメーカーを使います。今では小説、旅行の本、料理の本が集まっています。一度に持ち出せるのは2冊までで、読み終わったら返すことになっています。金曜日ごとにボランティアが棚を確認し、傷んだ本を取り除きます。本が今後も増えるようなら、職員たちはもう1つ棚を追加したいと考えています。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_004_q1",
+          "type": "目的",
+          "question": "What is the main subject of this article?",
+          "choices": [
+            "A new office coffee machine",
+            "A way for office staff to share books",
+            "A shop that sells damaged books",
+            "A plan to stop buying cookbooks"
+          ],
+          "answer": "A way for office staff to share books",
+          "evidence": "Last month, office staff turned an empty shelf into a small book exchange.",
+          "explanation": "空いた棚を使って職員が本を共有する取り組みの紹介が主題です。コーヒーメーカーは棚の場所を説明するために登場し、新しく設置したとは書かれていません。本は無料で利用できるので、傷んだ本を売る店ではありません。料理の本の購入をやめる計画もありません。"
+        },
+        {
+          "id": "r_l1_004_q2",
+          "type": "詳細",
+          "question": "What is the maximum number of books a person may take at one time?",
+          "choices": [
+            "One",
+            "Three",
+            "Four",
+            "Two"
+          ],
+          "answer": "Two",
+          "evidence": "People may take up to two books at a time and should return them when they finish reading.",
+          "explanation": "一度に持ち出せる上限は2冊と書かれています。1冊に限定されていません。3冊と4冊はいずれも上限の2冊を超えるので誤りです。"
+        },
+        {
+          "id": "r_l1_004_q3",
+          "type": "推測",
+          "question": "Why is the area beside the coffee machine a useful place for the book shelf?",
+          "choices": [
+            "Staff from all departments are likely to pass it.",
+            "Only the volunteer can enter that area.",
+            "Coffee is included with every book.",
+            "Books can be sold to people outside the office there."
+          ],
+          "answer": "Staff from all departments are likely to pass it.",
+          "evidence": "Staff from every department use that machine.",
+          "explanation": "棚は職場で唯一のコーヒーメーカーの隣にあり、全部署の職員がそれを使うため、さまざまな部署の人が棚の前を通ると推測できます。ボランティアしか入れない場所ではありません。本にコーヒーが付くとは書かれていません。職場の人が無料で本を利用する仕組みで、外部の人への販売の話でもありません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_005",
+      "seq": 5,
+      "level": "L1",
+      "docType": "チャット",
+      "documents": [
+        {
+          "kind": "チャット",
+          "title": "Boxes for the Front Desk",
+          "body": "Warehouse assistant: The six boxes for the front desk arrived this morning. I checked the labels. Four contain paper and two contain cups.\nOffice assistant: Thanks. Please leave the paper in the storage room. We need the cups near the front desk before the visitors arrive at 2:00 p.m.\nWarehouse assistant: I can move the paper now, but my cart is too small to carry both cup boxes together.\nOffice assistant: Please make two trips. I will meet you at the front desk at 1:30 p.m. to put the cups away.\nWarehouse assistant: All right. I will bring the first box at 1:20 p.m.",
+          "translation": "倉庫担当：受付向けの箱が6箱、今朝届きました。ラベルを確認したところ、4箱は紙で、2箱はカップです。\n事務担当：ありがとうございます。紙は保管室に置いてください。来訪者が午後2時に到着する前に、カップを受付の近くに用意しておく必要があります。\n倉庫担当：紙は今運べますが、私の台車は小さくて、カップの箱を2箱同時には運べません。\n事務担当：2回に分けて運んでください。午後1時30分に受付で合流して、私がカップをしまいます。\n倉庫担当：分かりました。最初の箱を午後1時20分に持っていきます。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_005_q1",
+          "type": "詳細",
+          "question": "How many of the boxes contain paper?",
+          "choices": [
+            "Two",
+            "Four",
+            "Five",
+            "Six"
+          ],
+          "answer": "Four",
+          "evidence": "Four contain paper and two contain cups.",
+          "explanation": "紙が入っているのは4箱と書かれています。2箱はカップの数です。5箱という数は本文にありません。6箱は紙とカップを合わせた箱の総数です。"
+        },
+        {
+          "id": "r_l1_005_q2",
+          "type": "詳細",
+          "question": "Where should the paper be left?",
+          "choices": [
+            "Near the visitors’ seats",
+            "On the front desk",
+            "In the storage room",
+            "Beside the coffee machine"
+          ],
+          "answer": "In the storage room",
+          "evidence": "Please leave the paper in the storage room.",
+          "explanation": "事務担当が紙を「保管室」に置くよう依頼しています。来訪者の席の近くとは書かれていません。受付近くに必要なのはカップで、紙を受付の机の上に置く指示はありません。コーヒーメーカーはこのチャットに登場しません。"
+        },
+        {
+          "id": "r_l1_005_q3",
+          "type": "推測",
+          "question": "What can be inferred about the two planned trips with the cups?",
+          "choices": [
+            "Each trip will carry one box of cups.",
+            "Both boxes will be moved on the first trip.",
+            "The trips will begin after the visitors arrive.",
+            "The paper will be delivered to the visitors first."
+          ],
+          "answer": "Each trip will carry one box of cups.",
+          "evidence": "Warehouse assistant: I can move the paper now, but my cart is too small to carry both cup boxes together.\nOffice assistant: Please make two trips.",
+          "explanation": "カップは2箱で、台車では2箱を同時に運べず、2回に分けるよう依頼されているため、1回に1箱ずつ運ぶと判断できます。最初の1回で2箱とも運ぶことはできません。最初の箱は1時20分で、来訪者の到着する2時より前です。紙を来訪者へ届ける指示はなく、保管室に置くことになっています。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_006",
+      "seq": 6,
+      "level": "L1",
+      "docType": "フォーム",
+      "documents": [
+        {
+          "kind": "フォーム",
+          "title": "Cooking Class Registration",
+          "body": "Class: Basic bread making\nDate: Saturday, November 14\nTime: 10:00 a.m. to noon\nPlace: The kitchen on the first floor\nFee: $12 per person, paid at the start of the class\nExperience: No cooking experience is needed.\nPlease enter your contact details and choose one apron option.\nName: __________\nEmail: __________\nApron: [ ] I will bring my own. [ ] I need to borrow one.\nImportant: We have aprons but no spare closed-toe shoes. Wear closed-toe shoes to join the class. Return this form to the front desk by Wednesday. There are only twelve places. We will email you on Thursday to confirm whether you have a place.",
+          "translation": "講座：パン作りの基礎\n日付：11月14日（土曜日）\n時間：午前10時から正午まで\n場所：1階のキッチン\n料金：1人12ドル。講座の開始時にお支払いください。\n経験：料理の経験は必要ありません。\n連絡先を記入し、エプロンについてどちらか1つを選んでください。\n氏名：__________\nメールアドレス：__________\nエプロン：[ ] 自分で持参します。 [ ] 借りたいです。\n重要：エプロンは用意していますが、つま先が覆われた靴の予備はありません。受講するには、そのような靴を履いてきてください。この用紙は水曜日までに受付に提出してください。定員は12名です。参加枠を確保できたかどうかを木曜日にメールでお知らせします。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_006_q1",
+          "type": "詳細",
+          "question": "How much does each participant need to pay?",
+          "choices": [
+            "10 dollars",
+            "24 dollars",
+            "6 dollars",
+            "12 dollars"
+          ],
+          "answer": "12 dollars",
+          "evidence": "Fee: $12 per person, paid at the start of the class",
+          "explanation": "料金欄に1人12ドルとあるため、12ドルが正解です。10ドル、24ドル、6ドルはいずれも本文に示された1人分の料金ではありません。"
+        },
+        {
+          "id": "r_l1_006_q2",
+          "type": "詳細",
+          "question": "When will applicants learn whether they have a place in the class?",
+          "choices": [
+            "On Thursday",
+            "On Wednesday",
+            "On Saturday morning",
+            "At the end of the class"
+          ],
+          "answer": "On Thursday",
+          "evidence": "We will email you on Thursday to confirm whether you have a place.",
+          "explanation": "参加枠を確保できたかどうかは木曜日にメールで知らせると書かれています。水曜日は用紙の提出期限です。土曜日の朝は講座当日ですが、結果を知らせる日ではありません。講座が終わってから知らせることにもなっていません。"
+        },
+        {
+          "id": "r_l1_006_q3",
+          "type": "推測",
+          "question": "What can be inferred about someone who arrives without closed-toe shoes?",
+          "choices": [
+            "They will pay a lower fee.",
+            "They cannot join the class as they are.",
+            "They will be given a free pair of shoes.",
+            "They must attend a class that afternoon instead."
+          ],
+          "answer": "They cannot join the class as they are.",
+          "evidence": "We have aprons but no spare closed-toe shoes. Wear closed-toe shoes to join the class.",
+          "explanation": "受講にはつま先が覆われた靴が必要で、会場に予備もないため、その靴を履かずに来た人はそのままでは参加できません。料金の割引は書かれていません。予備の靴がないので、無料の靴を渡してもらえるとはいえません。午後の別講座への振り替えも書かれていません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_007",
+      "seq": 7,
+      "level": "L1",
+      "docType": "メール",
+      "documents": [
+        {
+          "kind": "メール",
+          "title": "Information for Your Stay",
+          "body": "Thank you for booking a room for Friday night. Rooms are ready at 3:00 p.m. If you arrive earlier, we can keep your bags at the front desk at no charge. Our morning shuttle leaves the guesthouse at 8:15 a.m. and reaches the bus station at 8:35 a.m. Seats must be reserved by 8:00 p.m. the night before travel. Please reply to this email if you need a seat. Breakfast is served from 7:00 to 9:00 a.m. in the dining room. The price is included in your room payment. To cancel your room, contact us before 6:00 p.m. on Thursday.",
+          "translation": "金曜日の夜のご宿泊をご予約いただき、ありがとうございます。お部屋は午後3時からご利用いただけます。それより早く到着された場合は、受付で無料でお荷物をお預かりできます。朝の送迎車は午前8時15分に宿を出発し、午前8時35分にバスターミナルに到着します。座席は利用前日の午後8時までに予約する必要があります。座席が必要な場合は、このメールに返信してください。朝食は午前7時から9時まで食堂で提供します。朝食の料金は宿泊料金に含まれています。客室の予約をキャンセルする場合は、木曜日の午後6時より前にご連絡ください。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_007_q1",
+          "type": "目的",
+          "question": "Why was this email sent?",
+          "choices": [
+            "To ask a guest to repair a shuttle",
+            "To advertise a cooking class",
+            "To give a guest information about their stay",
+            "To change a bus station’s opening hours"
+          ],
+          "answer": "To give a guest information about their stay",
+          "evidence": "Thank you for booking a room for Friday night. Rooms are ready at 3:00 p.m.",
+          "explanation": "予約した客に、客室の利用開始時刻や送迎、朝食などの宿泊情報を伝えるメールです。客に送迎車の修理を頼んでいません。料理講座の広告ではありません。バスターミナルの営業時間を変更する内容もありません。"
+        },
+        {
+          "id": "r_l1_007_q2",
+          "type": "詳細",
+          "question": "What time does the morning shuttle reach the bus station?",
+          "choices": [
+            "At 8:35 a.m.",
+            "At 8:15 a.m.",
+            "At 7:00 a.m.",
+            "At 9:00 a.m."
+          ],
+          "answer": "At 8:35 a.m.",
+          "evidence": "Our morning shuttle leaves the guesthouse at 8:15 a.m. and reaches the bus station at 8:35 a.m.",
+          "explanation": "送迎車がバスターミナルに着くのは午前8時35分です。8時15分は宿を出発する時刻です。7時は朝食の提供開始、9時は朝食の提供終了の時刻で、送迎車の到着時刻ではありません。"
+        },
+        {
+          "id": "r_l1_007_q3",
+          "type": "語彙",
+          "question": "The word \"reserved\" in the email is closest in meaning to which of the following?",
+          "choices": [
+            "Cleaned",
+            "Moved",
+            "Counted",
+            "Booked"
+          ],
+          "answer": "Booked",
+          "evidence": "Seats must be reserved by 8:00 p.m. the night before travel.",
+          "explanation": "送迎車の座席を前日の夜までに確保する話なので、reservedはBooked（予約された）の意味です。Cleaned（清掃された）、Moved（移動された）、Counted（数えられた）は、座席の予約を求めるこの文の意味に合いません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_008",
+      "seq": 8,
+      "level": "L1",
+      "docType": "お知らせ",
+      "documents": [
+        {
+          "kind": "お知らせ",
+          "title": "Travel Expense Forms",
+          "body": "Please use the new expense form for all work travel from next month. You can find the form in the shared office folder. Submit one form for each trip and attach photos of your receipts. List taxi and train fares in the Travel section. Meals belong in the Food section. Forms must reach the accounts team by the fifth day of the following month. For example, send a form for May travel by June 5. If a receipt is missing, add a note to explain why. The accounts team will contact you if more information is needed. Keep your paper receipts until your payment arrives.",
+          "translation": "来月から、仕事での移動にかかった経費の申請にはすべて新しい用紙を使ってください。用紙は職場の共有フォルダーにあります。1回の出張につき用紙を1枚提出し、領収書の写真を添付してください。タクシー代と電車代はTravel（交通費）欄に記入します。食事代はFood（食費）欄に記入します。用紙は翌月5日までに経理チームに届くようにしてください。例えば、5月の出張の用紙は6月5日までに送ります。領収書がない場合は、その理由を説明するメモを付けてください。さらに情報が必要な場合は、経理チームから連絡します。支払いを受け取るまでは紙の領収書を保管してください。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_008_q1",
+          "type": "詳細",
+          "question": "When is the deadline for a form covering travel in May?",
+          "choices": [
+            "May 5",
+            "May 31",
+            "June 1",
+            "June 5"
+          ],
+          "answer": "June 5",
+          "evidence": "For example, send a form for May travel by June 5.",
+          "explanation": "5月の出張の用紙は6月5日までに送ると例が示されています。5月5日ではありません。5月31日でもありません。翌月の締め切りは5日なので、6月1日も誤りです。"
+        },
+        {
+          "id": "r_l1_008_q2",
+          "type": "詳細",
+          "question": "What should an employee do if a receipt is missing?",
+          "choices": [
+            "Cancel the whole trip",
+            "Add a note explaining why",
+            "Send the form without any explanation",
+            "Ask the team to delete the form"
+          ],
+          "answer": "Add a note explaining why",
+          "evidence": "If a receipt is missing, add a note to explain why.",
+          "explanation": "領収書がない場合は理由を説明するメモを付けるよう指示されています。出張そのものを中止する必要があるとは書かれていません。説明なしで送るのはこの指示に反します。用紙の削除を経理チームに頼む指示もありません。"
+        },
+        {
+          "id": "r_l1_008_q3",
+          "type": "語彙",
+          "question": "The word \"submit\" in the notice is closest in meaning to which of the following?",
+          "choices": [
+            "Send in",
+            "Throw away",
+            "Read aloud",
+            "Copy by hand"
+          ],
+          "answer": "Send in",
+          "evidence": "Submit one form for each trip and attach photos of your receipts.",
+          "explanation": "経理チームへ用紙を提出する文なので、submitはSend in（提出する、送る）の意味です。Throw away（捨てる）では申請できません。Read aloud（声に出して読む）ことは求められていません。Copy by hand（手で書き写す）という意味でもありません。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_009",
+      "seq": 9,
+      "level": "L1",
+      "docType": "複数文書",
+      "documents": [
+        {
+          "kind": "広告",
+          "title": "Evening Drawing Course",
+          "body": "Our beginner drawing course has four weekly lessons. Each lesson lasts one hour. You may choose the Tuesday group, which meets at 6:00 p.m., or the Thursday group, which meets at 7:00 p.m. Both groups use the same course plan. The full course costs $40, and paper and pencils are included. Registration closes on Friday. To sign up, email the arts room and state the group you want. You will receive a payment request after your place is confirmed.",
+          "translation": "初心者向けの絵画講座は、週1回のレッスンが全4回あります。各レッスンは1時間です。午後6時開始の火曜日のグループ、または午後7時開始の木曜日のグループを選べます。どちらのグループも同じ内容で進めます。講座全体の料金は40ドルで、紙と鉛筆も含まれています。申し込みは金曜日に締め切ります。申し込むには美術室へメールし、希望するグループを記載してください。参加枠の確保が確認された後に、お支払いの案内をお送りします。"
+        },
+        {
+          "kind": "メール",
+          "title": "Request to Join the Course",
+          "body": "I would like to join your beginner drawing course. I work until 6:30 p.m. every weekday, and the arts room is only ten minutes from my office. I will need to go straight there after work. Please register me for the group that I can reach on time. I have not taken a drawing class before, so this beginner course sounds right for me. Please let me know how to pay after you confirm my place. I already have a sketchbook at home, but I will use the materials provided in the class.",
+          "translation": "初心者向けの絵画講座に参加したいと思っています。平日は毎日午後6時30分まで働いており、職場から美術室まではわずか10分です。仕事が終わったら直接そちらに向かう必要があります。開始時刻に間に合うグループに登録してください。絵の講座を受けたことがないので、この初心者向け講座は自分に合っていそうです。参加枠が確保できたら、支払い方法を教えてください。家にスケッチブックはありますが、授業で用意される材料を使います。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_009_q1",
+          "type": "詳細",
+          "question": "Based on both documents, which group should the arts room offer the email writer?",
+          "choices": [
+            "Tuesday at 7:00 p.m.",
+            "Thursday at 6:00 p.m.",
+            "Thursday at 7:00 p.m.",
+            "Tuesday at 6:00 p.m."
+          ],
+          "answer": "Thursday at 7:00 p.m.",
+          "evidence": "I work until 6:30 p.m. every weekday, and the arts room is only ten minutes from my office.",
+          "explanation": "メールでは仕事が6時30分までで移動に10分かかるため、到着は早くても6時40分です。広告にある木曜7時のグループなら間に合います。火曜7時と木曜6時のグループは広告にありません。火曜6時のグループはありますが、仕事が終わる前に始まるので間に合いません。両方の文書の情報を組み合わせて選びます。"
+        },
+        {
+          "id": "r_l1_009_q2",
+          "type": "詳細",
+          "question": "What does the $40 course fee cover?",
+          "choices": [
+            "Four lessons, paper, and pencils",
+            "One private lesson and a meal",
+            "Four lessons and travel to the arts room",
+            "A sketchbook to use at home only"
+          ],
+          "answer": "Four lessons, paper, and pencils",
+          "evidence": "Our beginner drawing course has four weekly lessons. Each lesson lasts one hour. You may choose the Tuesday group, which meets at 6:00 p.m., or the Thursday group, which meets at 7:00 p.m. Both groups use the same course plan. The full course costs $40, and paper and pencils are included.",
+          "explanation": "広告には講座が全4回で、全体の40ドルに紙と鉛筆も含まれるとあります。個人レッスン1回と食事のセットではありません。会場までの交通費が含まれるとは書かれていません。自宅用のスケッチブックだけを買う料金でもありません。"
+        },
+        {
+          "id": "r_l1_009_q3",
+          "type": "目的",
+          "question": "Why did the writer send the email?",
+          "choices": [
+            "To cancel a confirmed lesson",
+            "To offer drawing materials for sale",
+            "To request a new class for experienced artists",
+            "To request a place in a suitable class"
+          ],
+          "answer": "To request a place in a suitable class",
+          "evidence": "Please register me for the group that I can reach on time.",
+          "explanation": "間に合うグループに登録してほしいと依頼しているため、「都合の合う講座への参加を申し込む」が正解です。確定済みのレッスンの取り消しではありません。画材を売る申し出もありません。初心者向け講座を希望しており、経験者向けの新設講座を求めていません。"
+        },
+        {
+          "id": "r_l1_009_q4",
+          "type": "語彙",
+          "question": "The word \"lasts\" in the advertisement is closest in meaning to which of the following?",
+          "choices": [
+            "Ends before",
+            "Continues for",
+            "Starts after",
+            "Repeats every"
+          ],
+          "answer": "Continues for",
+          "evidence": "Each lesson lasts one hour.",
+          "explanation": "各レッスンの長さが1時間だという文なので、lastsはContinues for（その時間だけ続く）の意味です。Ends before（その前に終わる）やStarts after（その後に始まる）は継続時間を表しません。Repeats every（その間隔ごとに繰り返す）も、1回の授業時間を示す本文の意味とは違います。"
+        }
+      ]
+    },
+    {
+      "id": "r_l1_010",
+      "seq": 10,
+      "level": "L1",
+      "docType": "複数文書",
+      "documents": [
+        {
+          "kind": "お知らせ",
+          "title": "Replacement Desk Chairs",
+          "body": "The office supply room will replace old desk chairs next week. Two sizes are available: standard and tall. Standard chairs can be delivered on Monday; tall chairs will arrive on Wednesday. Both sizes come in black only. To request a chair, email the supply room by Thursday afternoon. Include the size you need and your room number. Staff will collect your old chair when they deliver the new one. You do not need to move it to the supply room.",
+          "translation": "来週、事務用品室が古いデスクチェアを交換します。サイズは標準サイズと背の高いサイズの2種類です。標準サイズは月曜日に配達でき、背の高いサイズは水曜日に届きます。どちらのサイズも色は黒のみです。交換を希望する場合は、木曜日の午後までに事務用品室へメールしてください。必要なサイズと部屋番号を記載してください。新しい椅子を届けるときに、担当者が古い椅子を回収します。古い椅子をご自分で事務用品室へ運ぶ必要はありません。"
+        },
+        {
+          "kind": "メール",
+          "title": "Chair for Room 204",
+          "body": "I work in room 204 and would like to replace my desk chair. I tried the sample chairs in the supply room yesterday. The standard chair was too low for my desk, but the tall one was comfortable. I will be away from the office on Monday and Tuesday. I will be back at my desk from Wednesday morning. I have an online meeting from 9:00 to 10:00 a.m. that day. Please bring the new chair after the meeting so I can help you move the old one.",
+          "translation": "204号室で働いており、デスクチェアの交換を希望しています。昨日、事務用品室で見本の椅子を試しました。標準サイズの椅子は私の机には低すぎましたが、背の高いほうは快適でした。月曜日と火曜日は職場を不在にします。水曜日の朝から自分の席に戻ります。その日は午前9時から10時までオンライン会議があります。古い椅子を動かすお手伝いができるよう、新しい椅子は会議後に持ってきてください。"
+        }
+      ],
+      "questions": [
+        {
+          "id": "r_l1_010_q1",
+          "type": "詳細",
+          "question": "Based on both documents, which chair matches the writer’s needs and is available from the supply room?",
+          "choices": [
+            "A tall white chair",
+            "A standard black chair",
+            "A standard white chair",
+            "A tall black chair"
+          ],
+          "answer": "A tall black chair",
+          "evidence": "The standard chair was too low for my desk, but the tall one was comfortable.",
+          "explanation": "メールでは標準サイズが低すぎ、背の高いサイズが快適だったとあります。お知らせでは色は黒のみなので、「背の高い黒い椅子」が正解です。背の高い白い椅子は色が対象外です。標準サイズの黒い椅子は高さが合いません。標準サイズの白い椅子は高さも色も条件に合いません。両文書を読んで高さと色を組み合わせます。"
+        },
+        {
+          "id": "r_l1_010_q2",
+          "type": "詳細",
+          "question": "When will staff collect an employee’s old chair?",
+          "choices": [
+            "When the employee first sends an email",
+            "When they deliver the new chair",
+            "At the end of the following month",
+            "Only after the employee takes it to the supply room"
+          ],
+          "answer": "When they deliver the new chair",
+          "evidence": "Staff will collect your old chair when they deliver the new one.",
+          "explanation": "新しい椅子を届けるときに古い椅子を回収すると明記されています。最初にメールを送る時点ではありません。翌月末とは書かれていません。自分で事務用品室に運ぶ必要はないので、そこへ持っていった後だけ回収するという説明も誤りです。"
+        },
+        {
+          "id": "r_l1_010_q3",
+          "type": "推測",
+          "question": "Which Wednesday delivery time would fit the email writer’s request?",
+          "choices": [
+            "9:00 a.m.",
+            "9:15 a.m.",
+            "10:30 a.m.",
+            "9:45 a.m."
+          ],
+          "answer": "10:30 a.m.",
+          "evidence": "I have an online meeting from 9:00 to 10:00 a.m. that day. Please bring the new chair after the meeting so I can help you move the old one.",
+          "explanation": "水曜日の会議は9時から10時で、配達は会議後を希望しているため、10時30分なら条件に合います。9時、9時15分、9時45分はいずれも会議中なので、希望する配達時刻には合いません。"
+        },
+        {
+          "id": "r_l1_010_q4",
+          "type": "目的",
+          "question": "What is the main purpose of the notice?",
+          "choices": [
+            "To explain how staff can get replacement chairs",
+            "To invite staff to an online meeting",
+            "To ask staff to paint their own chairs",
+            "To announce that the supply room is moving"
+          ],
+          "answer": "To explain how staff can get replacement chairs",
+          "evidence": "The office supply room will replace old desk chairs next week.",
+          "explanation": "古い椅子の交換について、種類、配達日、申し込み方法を知らせるお知らせです。オンライン会議への招待ではありません。黒色のみという説明はありますが、自分で椅子を塗る依頼ではありません。事務用品室が移転するという発表もありません。"
+        }
+      ]
+    }
   ]
 }
