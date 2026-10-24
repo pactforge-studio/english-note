@@ -1853,8 +1853,8 @@
       "word": "annual",
       "pos": "形容詞",
       "meaning": "年に1回の",
-      "example": "Our annual safety inspection takes place once every year in October.",
-      "translation": "当社の年に1回の安全点検は、毎年10月に行われます。",
+      "example": "Our annual safety inspection is scheduled for the first week of October.",
+      "translation": "年次安全点検は10月の第1週に予定されています。",
       "note": "annualは年に1回の行事や予定を表す。",
       "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
       "sources": [],
@@ -2245,8 +2245,8 @@
       "word": "usually",
       "pos": "副詞",
       "meaning": "たいてい",
-      "example": "We usually close at six, following this schedule on four of five weekdays.",
-      "translation": "平日は5日のうち4日がこの営業時間なので、たいてい6時に閉店します。",
+      "example": "The shop usually opens at nine, but it opens later on Sundays.",
+      "translation": "その店はたいてい9時に開店しますが、日曜日はもっと遅く開店します。",
       "note": "普段はそうするという習慣を表す。",
       "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
       "sources": [],
@@ -2256,9 +2256,9 @@
         "逆さまに"
       ],
       "clozeDistractors": [
-        "always",
-        "never",
-        "rarely"
+        "hungrily",
+        "jealously",
+        "thirstily"
       ],
       "seq": 86,
       "level": "L1",
@@ -2298,8 +2298,8 @@
       "word": "directly",
       "pos": "副詞",
       "meaning": "まっすぐに",
-      "example": "Walk directly to reception on this floor without any detours or changes of floor.",
-      "translation": "階を移動したり遠回りしたりせず、この階の受付までまっすぐ進んでください。",
+      "example": "The corridor leads directly to reception beside the entrance.",
+      "translation": "その廊下は入口のそばにある受付までまっすぐ続いています。",
       "note": "directly toは、場所への移動では途中に寄らずまっすぐ向かうことも表す。",
       "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
       "sources": [],
@@ -2309,9 +2309,9 @@
         "眠そうに"
       ],
       "clozeDistractors": [
-        "vertically",
-        "upstairs",
-        "downstairs"
+        "hungrily",
+        "thirstily",
+        "sleepily"
       ],
       "seq": 88,
       "level": "L1",
@@ -2351,8 +2351,8 @@
       "word": "together",
       "pos": "副詞",
       "meaning": "一緒に",
-      "example": "Staple the pages together into one packet, attaching every sheet to all the others.",
-      "translation": "すべての用紙が互いにつながるように、ホチキスで一緒に留めて1つの束にしてください。",
+      "example": "Please staple these three pages together to make a single handout.",
+      "translation": "1つの配布資料にするため、この3ページを一緒にホチキスで留めてください。",
       "note": "staple togetherで複数の紙をホチキスで一緒に留める。",
       "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
       "sources": [],
