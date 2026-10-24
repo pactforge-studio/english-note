@@ -3765,5 +3765,807 @@
         "物流"
       ]
     }
+  ],
+  "grammar": [
+    {
+      "id": "g_l1_001",
+      "seq": 1,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The assistant ------- checked every address before printing the invitations.",
+      "choices": [
+        "cares",
+        "carefulness",
+        "carefully",
+        "care"
+      ],
+      "answer": "carefully",
+      "explanation": "checkedという動詞を修飾するので、副詞のcarefullyが正解です。caresは動詞の三人称単数現在形で、checkedの直前にそのまま続けられません。carefulnessは名詞です。careは動詞または名詞であり、carefulnessとcareはいずれもこの位置でcheckedを修飾する副詞にはなれません。",
+      "translation": "そのアシスタントは招待状を印刷する前に、すべての住所を注意深く確認しました。"
+    },
+    {
+      "id": "g_l1_002",
+      "seq": 2,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "Please include a very ------- summary at the beginning of the report.",
+      "choices": [
+        "use",
+        "usefully",
+        "usefulness",
+        "useful"
+      ],
+      "answer": "useful",
+      "explanation": "veryの後で名詞summaryを修飾する形容詞usefulが正解です。useは名詞または動詞で、veryとsummaryの間には置けません。usefullyは副詞、usefulnessは名詞なので、この形容詞の位置には入りません。",
+      "translation": "報告書の冒頭に、とても役立つ要約を入れてください。"
+    },
+    {
+      "id": "g_l1_003",
+      "seq": 3,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "We finally reached a clear ------- about the delivery schedule this morning.",
+      "choices": [
+        "agreement",
+        "agree",
+        "agrees",
+        "agreeably"
+      ],
+      "answer": "agreement",
+      "explanation": "a clearの後には名詞が必要なので、agreementが正解です。agreeは動詞の原形、agreesは動詞の三人称単数現在形で、冠詞と形容詞の後の名詞の位置には置けません。agreeablyは副詞なので、ここでは使えません。",
+      "translation": "私たちは今朝、配送日程についてようやく明確な合意に達しました。"
+    },
+    {
+      "id": "g_l1_004",
+      "seq": 4,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The new filing system allows us to work more ------- during busy periods.",
+      "choices": [
+        "inefficiency",
+        "efficiently",
+        "efficiency",
+        "efficiencies"
+      ],
+      "answer": "efficiently",
+      "explanation": "workという動詞を修飾する副詞efficientlyが正解で、more efficientlyで「より効率よく」となります。inefficiencyは「非効率」を表す名詞、efficiencyとefficienciesも名詞なので、いずれもこの位置でworkの動作を修飾できません。",
+      "translation": "新しい書類整理システムのおかげで、忙しい時期にも以前より効率よく作業できます。"
+    },
+    {
+      "id": "g_l1_005",
+      "seq": 5,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "Please wait for written ------- before ordering any additional office equipment.",
+      "choices": [
+        "approve",
+        "approves",
+        "approval",
+        "approvingly"
+      ],
+      "answer": "approval",
+      "explanation": "writtenに修飾され、前置詞forの目的語になる名詞approvalが正解です。approveとapprovesは動詞なので、writtenの後にこのまま置けません。approvinglyは副詞であり、forの目的語となる名詞の役割を果たせません。",
+      "translation": "事務機器を追加で注文する前に、書面による承認を待ってください。"
+    },
+    {
+      "id": "g_l1_006",
+      "seq": 6,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The storage cabinet is so ------- that we need to order more supplies.",
+      "choices": [
+        "emptily",
+        "emptiness",
+        "empties",
+        "empty"
+      ],
+      "answer": "empty",
+      "explanation": "soとthatで程度を表し、isの後で戸棚の状態を説明する形容詞emptyが正解です。emptilyは副詞なので、この位置で戸棚の状態を表せません。emptinessは名詞で、so emptinessという形にはできません。emptiesは動詞の三人称単数現在形または複数名詞なので、ここではsoの後に置けません。",
+      "translation": "備品棚があまりにも空なので、備品を追加注文する必要があります。"
+    },
+    {
+      "id": "g_l1_007",
+      "seq": 7,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "A highly ------- technician will inspect the elevator before it returns to service.",
+      "choices": [
+        "qualified",
+        "qualification",
+        "qualify",
+        "qualifies"
+      ],
+      "answer": "qualified",
+      "explanation": "副詞highlyに修飾され、technicianを説明する形容詞qualifiedが正解です。qualificationは名詞なのでhighlyでは修飾できません。qualifyは動詞の原形、qualifiesは動詞の三人称単数現在形であり、highlyの後で名詞を修飾するこの形にはできません。",
+      "translation": "十分な資格と能力を持つ技術者が、運転再開前にエレベーターを点検します。"
+    },
+    {
+      "id": "g_l1_008",
+      "seq": 8,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Yesterday, the receptionist did not ------- the message until after lunch.",
+      "choices": [
+        "received",
+        "receive",
+        "receives",
+        "receiving"
+      ],
+      "answer": "receive",
+      "explanation": "Yesterdayが過去の時点を示し、過去の否定文はdid notと動詞の原形で作るためreceiveが正解です。receivedは過去形、receivesは三人称単数現在形、receivingは現在分詞なので、いずれもdid notの直後には置けません。",
+      "translation": "昨日、受付係がその伝言を受け取ったのは昼食後でした。"
+    },
+    {
+      "id": "g_l1_009",
+      "seq": 9,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "The team has already ------- all the boxes for tomorrow's move.",
+      "choices": [
+        "pack",
+        "packs",
+        "packed",
+        "packing"
+      ],
+      "answer": "packed",
+      "explanation": "has alreadyの後には、すでに完了したことを表す現在完了形の過去分詞packedが必要です。packは原形、packsは三人称単数現在形なのでhasの後に置けません。packingではhas packingとなり、現在完了進行形に必要なbeenもないため誤りです。",
+      "translation": "チームは明日の引っ越しに向けて、すべての箱の荷造りをすでに終えています。"
+    },
+    {
+      "id": "g_l1_010",
+      "seq": 10,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "At the moment, I am ------- a report for the weekly meeting.",
+      "choices": [
+        "prepare",
+        "prepares",
+        "preparation",
+        "preparing"
+      ],
+      "answer": "preparing",
+      "explanation": "At the momentが「今」を表し、amと現在分詞で進行中の動作を表すのでpreparingが正解です。prepareとpreparesはamの直後に置けません。preparationは名詞であり、am preparation a reportという形で動作や目的語を表すことはできません。",
+      "translation": "私は今、毎週の会議に向けて報告書を作成しています。"
+    },
+    {
+      "id": "g_l1_011",
+      "seq": 11,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Tomorrow morning, our manager will ------- the revised schedule to everyone.",
+      "choices": [
+        "send",
+        "sends",
+        "sending",
+        "sent"
+      ],
+      "answer": "send",
+      "explanation": "Tomorrow morningが未来の時点を示し、willの直後には動詞の原形sendを置きます。sendsは三人称単数現在形、sendingは現在分詞、sentは過去形・過去分詞なので、いずれもwillの直後には使えません。",
+      "translation": "明日の朝、上司が修正後の日程を全員に送ります。"
+    },
+    {
+      "id": "g_l1_012",
+      "seq": 12,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Every Friday, the delivery van ------- outside our building at noon.",
+      "choices": [
+        "stop",
+        "stops",
+        "stopping",
+        "to stop"
+      ],
+      "answer": "stops",
+      "explanation": "Every Fridayは習慣を表し、主語the delivery vanが三人称単数なので、現在形stopsが正解です。stopは主語に合う語尾のsがありません。stoppingは分詞、to stopは不定詞で、どちらも単独ではこの文の述語動詞になれません。",
+      "translation": "毎週金曜日、その配送車は正午に私たちの建物の前に停車します。"
+    },
+    {
+      "id": "g_l1_013",
+      "seq": 13,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "When I arrived yesterday, the staff were ------- the main conference room.",
+      "choices": [
+        "clean",
+        "cleans",
+        "cleaning",
+        "cleanliness"
+      ],
+      "answer": "cleaning",
+      "explanation": "yesterdayの到着時に進行していた作業なので、wereと現在分詞cleaningで過去進行形にします。cleanは形容詞としてwereの後に置けますが、その場合the main conference roomを目的語として続けられません。cleansは三人称単数現在形なのでwereの後に置けません。cleanlinessは「清潔さ」という名詞であり、wereの後に置いてthe main conference roomという目的語を続けることはできません。",
+      "translation": "昨日私が到着したとき、スタッフはメインの会議室を掃除していました。"
+    },
+    {
+      "id": "g_l1_014",
+      "seq": 14,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "By the time the meeting began yesterday, we had already ------- the documents.",
+      "choices": [
+        "print",
+        "prints",
+        "printing",
+        "printed"
+      ],
+      "answer": "printed",
+      "explanation": "昨日の会議開始より前に印刷が完了していたので、hadと過去分詞printedで過去完了形を作ります。printは原形、printsは三人称単数現在形で、hadの後には置けません。printingを使う過去完了進行形にはbeenが必要なので、had printingは誤りです。",
+      "translation": "昨日会議が始まるころには、私たちは書類の印刷をすでに終えていました。"
+    },
+    {
+      "id": "g_l1_015",
+      "seq": 15,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The final report ------- reviewed by two editors before it was published.",
+      "choices": [
+        "was",
+        "were",
+        "be",
+        "been"
+      ],
+      "answer": "was",
+      "explanation": "報告書が確認されたという受動態なので、単数主語に合うwasと過去分詞reviewedを組み合わせます。wereは複数主語などに用いる形で、The final reportには一致しません。beは原形、beenは過去分詞で、どちらもこの文の助動詞として単独では使えません。",
+      "translation": "最終報告書は公開前に、2人の編集者によって確認されました。"
+    },
+    {
+      "id": "g_l1_016",
+      "seq": 16,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The replacement parts will be ------- to the workshop by the supplier tomorrow.",
+      "choices": [
+        "deliver",
+        "delivered",
+        "delivers",
+        "delivery"
+      ],
+      "answer": "delivered",
+      "explanation": "部品が配送されるという受動態なので、will beの後には過去分詞deliveredが必要です。deliverは原形、deliversは三人称単数現在形で、beの後の受動態の形にはなりません。deliveryは名詞なので、配送される動作を表す受動態を作れません。",
+      "translation": "交換部品は明日、仕入れ先から作業場に配送されます。"
+    },
+    {
+      "id": "g_l1_017",
+      "seq": 17,
+      "level": "L1",
+      "category": "態",
+      "sentence": "No photographs may be ------- inside the laboratory without written permission from management.",
+      "choices": [
+        "take",
+        "takes",
+        "taken",
+        "took"
+      ],
+      "answer": "taken",
+      "explanation": "写真が撮られるという受動態はmay beと過去分詞takenで作ります。takeは原形、takesは三人称単数現在形なので、beの後で受動態を作れません。tookは過去形であり、ここで必要な過去分詞ではありません。",
+      "translation": "管理者の書面による許可なしに、実験室内で写真を撮ってはいけません。"
+    },
+    {
+      "id": "g_l1_018",
+      "seq": 18,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The damaged chair is being ------- by a carpenter in the storage room.",
+      "choices": [
+        "repair",
+        "repairs",
+        "repairing",
+        "repaired"
+      ],
+      "answer": "repaired",
+      "explanation": "修理されている最中という受動態の進行形は、is beingと過去分詞repairedで作ります。repairは原形、repairsは三人称単数現在形なのでbeingの後に置けません。repairingは現在分詞で、is being repairingという形では受動態を作れません。",
+      "translation": "壊れた椅子は、保管室で大工に修理してもらっているところです。"
+    },
+    {
+      "id": "g_l1_019",
+      "seq": 19,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The invitations had been ------- before we discovered the error in the address.",
+      "choices": [
+        "sent",
+        "send",
+        "sends",
+        "sender"
+      ],
+      "answer": "sent",
+      "explanation": "招待状が発送されていたという過去完了の受動態なので、had beenの後には過去分詞sentを置きます。sendは原形、sendsは三人称単数現在形で、受動態の過去分詞にはなりません。senderは人を表す単数の可算名詞で、冠詞なしにこの位置へ置いて発送の受動態を作ることはできません。",
+      "translation": "住所の誤りに気づいたときには、招待状はすでに発送されていました。"
+    },
+    {
+      "id": "g_l1_020",
+      "seq": 20,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The new safety signs ------- installed near every exit by the maintenance team yesterday.",
+      "choices": [
+        "was",
+        "were",
+        "be",
+        "being"
+      ],
+      "answer": "were",
+      "explanation": "複数主語The new safety signsが設置されたという過去の受動態なので、wereが正解です。wasは単数主語に用いるため一致しません。beは原形、beingは現在分詞であり、どちらも単独ではこの文の時制を持つ助動詞になれません。",
+      "translation": "昨日、設備管理チームがすべての出口の近くに新しい安全標識を設置しました。"
+    },
+    {
+      "id": "g_l1_021",
+      "seq": 21,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The security guard ------- the visitor's identification before allowing her into the building.",
+      "choices": [
+        "was examined",
+        "were examined",
+        "examined",
+        "been examined"
+      ],
+      "answer": "examined",
+      "explanation": "警備員が身分証明書を確認する能動態なので、直接目的語を取るexaminedが正解です。was examinedは警備員が確認される受動態になり、この直接目的語を続けられません。were examinedも受動態であるうえ、単数主語に一致しません。been examinedは助動詞がなく、述語動詞として成立しません。",
+      "translation": "警備員は女性の来訪者を建物に入れる前に、その人の身分証明書を確認しました。"
+    },
+    {
+      "id": "g_l1_022",
+      "seq": 22,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The technician ------- repaired our printer also checked the office network yesterday.",
+      "choices": [
+        "whom",
+        "whose",
+        "which",
+        "who"
+      ],
+      "answer": "who",
+      "explanation": "先行詞The technicianは人で、関係節の主語が欠けているためwhoが正解です。whomは目的格なのでrepairedの主語にはなれません。whoseは所有を表し、ここでは後ろに修飾する名詞がありません。whichはこのように人を先行詞とする主格の関係代名詞には使いません。",
+      "translation": "プリンターを修理してくれた技術者は、昨日、社内ネットワークも確認してくれました。"
+    },
+    {
+      "id": "g_l1_023",
+      "seq": 23,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The report, ------- contains several charts, will be discussed at tomorrow's meeting.",
+      "choices": [
+        "which",
+        "that",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "物を表すThe reportに説明を付け足す、コンマで区切られた関係節なのでwhichが正解です。thatはこの非制限用法では使えません。whoは人を表す先行詞に使うため不適切です。whoseは所有格なので、直後に名詞がなくcontainsへ続くこの構造にはできません。",
+      "translation": "その報告書にはグラフがいくつか含まれており、明日の会議で取り上げられます。"
+    },
+    {
+      "id": "g_l1_024",
+      "seq": 24,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The colleague ------- desk is next to mine speaks three languages fluently.",
+      "choices": [
+        "who",
+        "whose",
+        "whom",
+        "which"
+      ],
+      "answer": "whose",
+      "explanation": "「その同僚の机」という所有関係を示すため、deskの前にはwhoseを置きます。whoは主格、whomは目的格で、どちらもdeskの所有を表せません。whichも人を指す先行詞の所有格としてdeskの前には使えません。",
+      "translation": "私の隣の机を使っている同僚は、3か国語を流ちょうに話します。"
+    },
+    {
+      "id": "g_l1_025",
+      "seq": 25,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "This is the room in ------- we keep all the spare computer cables.",
+      "choices": [
+        "where",
+        "who",
+        "which",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "inの目的語になり、物であるthe roomを受ける関係代名詞whichが正解です。whereは場所を表す関係副詞で、in whereとはしません。whoは人を受ける語なのでroomには合いません。whoseは所有を表し、後ろに名詞がないこの構造では使えません。",
+      "translation": "ここが、予備のパソコン用ケーブルをすべて保管している部屋です。"
+    },
+    {
+      "id": "g_l1_026",
+      "seq": 26,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The woman to ------- I spoke requested a written explanation of the delay.",
+      "choices": [
+        "whose",
+        "which",
+        "where",
+        "whom"
+      ],
+      "answer": "whom",
+      "explanation": "人を表すThe womanを受け、前置詞toの目的語になるwhomが正解です。whoseは所有格で、後ろに修飾する名詞がありません。whichはこの人を指す関係代名詞として使えません。whereは場所を表す関係副詞であり、人を表すtoの目的語にはなれません。",
+      "translation": "私が話した女性は、遅延について書面で説明するよう求めました。"
+    },
+    {
+      "id": "g_l1_027",
+      "seq": 27,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "We need a cabinet ------- can hold all of these heavy reference books.",
+      "choices": [
+        "that",
+        "what",
+        "whose",
+        "whom"
+      ],
+      "answer": "that",
+      "explanation": "物を表すa cabinetを受け、can holdの主語になる関係代名詞thatが正解です。whatは先行詞を含む語なので、a cabinetという先行詞の直後には使えません。whoseは所有格で、ここでは後ろに名詞がありません。whomは人を受ける目的格であり、cabinetを受ける主語にはなれません。",
+      "translation": "この重い参考書をすべて収納できる戸棚が必要です。"
+    },
+    {
+      "id": "g_l1_028",
+      "seq": 28,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The warehouse, ------- we store spare furniture, is located behind the main office.",
+      "choices": [
+        "which",
+        "where",
+        "whose",
+        "whom"
+      ],
+      "answer": "where",
+      "explanation": "関係節we store spare furnitureは主語と目的語がそろっており、保管場所を補う関係副詞whereが正解です。whichだけでは場所を表せず、使うならin whichが必要です。whoseは所有格で、直後に修飾する名詞がありません。whomは人を受ける目的格なので、倉庫という場所の説明には使えません。",
+      "translation": "予備の家具を保管している倉庫は、本館の事務所の裏にあります。"
+    },
+    {
+      "id": "g_l1_029",
+      "seq": 29,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "Please place the signed form ------- the envelope before you leave the office.",
+      "choices": [
+        "although",
+        "if",
+        "inside",
+        "whereas"
+      ],
+      "answer": "inside",
+      "explanation": "名詞句the envelopeの前で場所を示す前置詞insideが正解です。although、if、whereasはこの用法では節を導く接続詞なので、主語と動詞のないthe envelopeだけを続けることはできません。",
+      "translation": "事務所を出る前に、署名済みの用紙を封筒の中に入れてください。"
+    },
+    {
+      "id": "g_l1_030",
+      "seq": 30,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "We moved the meeting indoors ------- it was raining heavily outside.",
+      "choices": [
+        "because of",
+        "despite",
+        "during",
+        "because"
+      ],
+      "answer": "because",
+      "explanation": "後ろに主語itと動詞wasを持つ節が続くので、理由を表す接続詞becauseが正解です。because of、despite、duringは前置詞として名詞句などを取るため、it was rainingという節をそのまま続けることはできません。",
+      "translation": "外で激しく雨が降っていたため、会議の場所を屋内に変更しました。"
+    },
+    {
+      "id": "g_l1_031",
+      "seq": 31,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "The delivery arrived on time ------- the heavy traffic near the station.",
+      "choices": [
+        "despite",
+        "although",
+        "because",
+        "while"
+      ],
+      "answer": "despite",
+      "explanation": "後ろがthe heavy trafficという名詞句なので、「にもかかわらず」を表す前置詞despiteが正解です。althoughとbecauseは接続詞であり、この名詞句だけを続けることはできません。whileもこの位置では節を導くため、the heavy trafficだけでは文が成立しません。",
+      "translation": "駅の近くはひどく渋滞していましたが、荷物は時間どおりに届きました。"
+    },
+    {
+      "id": "g_l1_032",
+      "seq": 32,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "You can use the meeting room ------- you finish before the next booking begins.",
+      "choices": [
+        "despite",
+        "if",
+        "during",
+        "because of"
+      ],
+      "answer": "if",
+      "explanation": "後ろにyou finishという節が続くので、条件を表す接続詞ifが正解です。despite、during、because ofは前置詞であり、you finishという主語と動詞のある節をそのまま続けることはできません。",
+      "translation": "次の予約が始まる前に使い終えるなら、その会議室を使えます。"
+    },
+    {
+      "id": "g_l1_033",
+      "seq": 33,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "The office will remain closed ------- the end of the holiday period.",
+      "choices": [
+        "because",
+        "whereas",
+        "until",
+        "unless"
+      ],
+      "answer": "until",
+      "explanation": "後ろのthe end of the holiday periodは名詞句なので、期間の終点を表す前置詞untilが正解です。because、whereas、unlessは節を導く接続詞であり、この名詞句だけを続けることはできません。",
+      "translation": "事務所は休暇期間が終わるまで閉まっています。"
+    },
+    {
+      "id": "g_l1_034",
+      "seq": 34,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "The manager reviewed the budget ------- the assistant prepared the presentation slides.",
+      "choices": [
+        "during",
+        "despite",
+        "because of",
+        "while"
+      ],
+      "answer": "while",
+      "explanation": "主語the assistantと動詞preparedを持つ節をつなぐ接続詞whileが正解です。during、despite、because ofは前置詞なので、the assistant preparedという節をそのまま続けることはできません。",
+      "translation": "アシスタントが発表用のスライドを準備している間、上司は予算を確認しました。"
+    },
+    {
+      "id": "g_l1_035",
+      "seq": 35,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "We need both the original receipt ------- a copy of the completed request form.",
+      "choices": [
+        "and",
+        "nor",
+        "but",
+        "or"
+      ],
+      "answer": "and",
+      "explanation": "「AとBの両方」を表すboth A and Bの組み合わせなので、andが正解です。norは通常neitherと、orはeitherと組み合わせ、bothとは組み合わせません。butもboth A but Bという組み合わせを作れません。",
+      "translation": "領収書の原本と、記入済みの申請用紙のコピーの両方が必要です。"
+    },
+    {
+      "id": "g_l1_036",
+      "seq": 36,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "The receptionist asked ------- to wait near the entrance until the manager arrived.",
+      "choices": [
+        "we",
+        "us",
+        "our",
+        "I"
+      ],
+      "answer": "us",
+      "explanation": "askedの目的語として「私たちを」を表す目的格usが正解です。weとIは主格なので、askedの目的語の位置には置けません。ourは所有格で、直後に名詞がないこの構造では使えません。",
+      "translation": "受付係は私たちに、責任者が来るまで入り口の近くで待つように言いました。"
+    },
+    {
+      "id": "g_l1_037",
+      "seq": 37,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "All employees must bring ------- own identification cards to the security desk.",
+      "choices": [
+        "them",
+        "they",
+        "their",
+        "theirs"
+      ],
+      "answer": "their",
+      "explanation": "own identification cardsの前には所有格が必要なので、複数の従業員を受けるtheirが正解です。themは目的格、theyは主格で、名詞の所有を表せません。theirsは単独で使う所有代名詞なので、その後にown identification cardsを続けられません。",
+      "translation": "従業員は全員、自分の身分証明書を警備受付に持参しなければなりません。"
+    },
+    {
+      "id": "g_l1_038",
+      "seq": 38,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "The coordinator checked ------- name against the list before giving me a badge.",
+      "choices": [
+        "I",
+        "myself",
+        "mine",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "名詞nameの前で「私の」を表す所有格myが正解です。Iは主格、myselfは再帰代名詞なので、nameをこのように修飾できません。mineは単独で使う所有代名詞であり、直後にnameを続けることはできません。",
+      "translation": "担当者は私に名札を渡す前に、名簿で私の名前を確認しました。"
+    },
+    {
+      "id": "g_l1_039",
+      "seq": 39,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "I taught ------- to use the new accounting software during the summer break.",
+      "choices": [
+        "myself",
+        "me",
+        "my",
+        "I"
+      ],
+      "answer": "myself",
+      "explanation": "教える側のIと教わる側が同じ本人なので、再帰代名詞myselfが正解です。meはこの位置で主語Iと同一人物を指す目的語には使えません。myは所有格で後ろに名詞が必要です。Iは主格なのでtaughtの目的語にはなれません。",
+      "translation": "私は夏休み中に、新しい会計ソフトの使い方を独学で覚えました。"
+    },
+    {
+      "id": "g_l1_040",
+      "seq": 40,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "After the guests arrived, ------- were shown to their seats by the receptionist.",
+      "choices": [
+        "them",
+        "they",
+        "their",
+        "he"
+      ],
+      "answer": "they",
+      "explanation": "複数のthe guestsを受け、were shownの主語になるtheyが正解です。themは目的格なので主語には置けません。theirは所有格で、後ろに名詞が必要です。heは単数の主格なので、この直説法の過去形wereに一致しません。",
+      "translation": "来客が到着すると、受付係がそれぞれの席へ案内しました。"
+    },
+    {
+      "id": "g_l1_041",
+      "seq": 41,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "These folders belong to us, so please write ------- names on the labels.",
+      "choices": [
+        "ours",
+        "us",
+        "our",
+        "we"
+      ],
+      "answer": "our",
+      "explanation": "名詞namesの前で「私たちの」を表す所有格ourが正解です。oursは単独で使う所有代名詞なので、namesを続けられません。usは目的格、weは主格であり、名詞の前で所有を表す形としては使えません。",
+      "translation": "これらは私たちのフォルダーなので、ラベルに私たちの名前を書いてください。"
+    },
+    {
+      "id": "g_l1_042",
+      "seq": 42,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "Please remove ------- two empty boxes from the hallway before the visitors arrive.",
+      "choices": [
+        "that",
+        "it",
+        "theirs",
+        "those"
+      ],
+      "answer": "those",
+      "explanation": "複数名詞two empty boxesの前には、複数を指す指示限定詞thoseを置きます。thatは単数を指すためtwo boxesと一致しません。itは人称代名詞で、名詞の前の限定詞にはなれません。theirsは単独で使う所有代名詞なので、直後にtwo empty boxesを続けられません。",
+      "translation": "来客が到着する前に、廊下にあるあの空き箱2つを片づけてください。"
+    },
+    {
+      "id": "g_l1_043",
+      "seq": 43,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "This storage box is ------- than the one we used last week.",
+      "choices": [
+        "larger",
+        "large",
+        "largest",
+        "largely"
+      ],
+      "answer": "larger",
+      "explanation": "thanを使って2つの箱の大きさを比較しているので、比較級largerが正解です。largeは原級、largestは最上級で、このthanによる比較の形には使えません。largelyは副詞なので、箱の大きさを表す形容詞の補語にはなれません。",
+      "translation": "この収納箱は、先週使ったものより大きいです。"
+    },
+    {
+      "id": "g_l1_044",
+      "seq": 44,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "Of all the available rooms, this one is the ------- to the elevator.",
+      "choices": [
+        "close",
+        "closest",
+        "closing",
+        "closely"
+      ],
+      "answer": "closest",
+      "explanation": "Of allが候補全体の中での比較を示すため、theの後には最上級closestが正解です。closeは原級であり、the close toという最上級の形にはできません。closingは「閉める」を表す動詞の分詞や名詞として使いますが、the closing toという形で距離の近さを表すことはできません。closelyは副詞なので、この部屋の近さを表す形容詞の補語にはなれません。",
+      "translation": "利用できる部屋の中で、この部屋がエレベーターに最も近いです。"
+    },
+    {
+      "id": "g_l1_045",
+      "seq": 45,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "The new scanner works as ------- as the machine in the upstairs office.",
+      "choices": [
+        "quicker",
+        "quickest",
+        "quickly",
+        "quickness"
+      ],
+      "answer": "quickly",
+      "explanation": "asとasの間には原級を置き、worksを修飾する副詞quicklyが正解です。quickerは比較級、quickestは最上級なので、この同等比較の形には使えません。quicknessは名詞で、worksを修飾する副詞として使えません。",
+      "translation": "新しいスキャナーは、上の階の事務所にある機械と同じくらい速く動きます。"
+    },
+    {
+      "id": "g_l1_046",
+      "seq": 46,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "Today's delivery arrived ------- than yesterday's, so we finished unpacking before lunch.",
+      "choices": [
+        "early",
+        "earliest",
+        "earliness",
+        "earlier"
+      ],
+      "answer": "earlier",
+      "explanation": "thanを使って到着時刻を比較するため、副詞の比較級earlierが正解です。earlyは原級、earliestは最上級なので、このthanを使う比較にはできません。earlinessは名詞なので、arrivedを修飾する副詞としては使えません。",
+      "translation": "今日の荷物は昨日より早く届いたので、昼食前に荷ほどきを終えられました。"
+    },
+    {
+      "id": "g_l1_047",
+      "seq": 47,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "This manual is much ------- to understand than the previous version.",
+      "choices": [
+        "easier",
+        "easy",
+        "easiest",
+        "easily"
+      ],
+      "answer": "easier",
+      "explanation": "thanを使う比較で、muchが比較級を強めるためeasierが正解です。easyは原級で、much easyとはしません。easiestは最上級なので、このthanと対応する比較級の位置には入りません。easilyは副詞で、この構造でmanualの性質を表す形容詞の補語にはなれません。",
+      "translation": "この説明書は、以前の版よりずっと理解しやすいです。"
+    },
+    {
+      "id": "g_l1_048",
+      "seq": 48,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "The revised application form has ------- questions than the old one.",
+      "choices": [
+        "few",
+        "fewer",
+        "fewest",
+        "a few"
+      ],
+      "answer": "fewer",
+      "explanation": "数えられる複数名詞questionsの数をthanで比較するので、比較級fewerが正解です。fewは原級、fewestは最上級なので、このthanとの比較には使えません。a fewは「いくつかの」という数量表現であって比較級ではないため、thanをこの形で続けられません。",
+      "translation": "改訂された申請用紙は、以前のものより質問の数が少なくなっています。"
+    },
+    {
+      "id": "g_l1_049",
+      "seq": 49,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "The sooner you submit the form, the ------- we can process your request.",
+      "choices": [
+        "soon",
+        "soonest",
+        "sooner",
+        "shortly"
+      ],
+      "answer": "sooner",
+      "explanation": "theと比較級を2回使う「〜すればするほど、ますます〜」の構文なので、後半も比較級soonerが正解です。soonとshortlyは比較級ではありません。soonestは最上級なので、前半のThe soonerと対応するこの構文の比較級の位置には使えません。",
+      "translation": "用紙を早く提出していただければ、その分早く申請を処理できます。"
+    },
+    {
+      "id": "g_l1_050",
+      "seq": 50,
+      "level": "L1",
+      "category": "語彙",
+      "sentence": "The invoice shows the total ------- that we must pay for the supplies.",
+      "choices": [
+        "weather",
+        "furniture",
+        "temperature",
+        "amount"
+      ],
+      "answer": "amount",
+      "explanation": "請求書に記載され、備品の代金として支払う合計を表すので、金額という意味のamountが正解です。weatherは「天候」、furnitureは「家具」、temperatureは「温度」で、どれもこの文で支払う金額を表せません。",
+      "translation": "請求書には、備品の代金として支払う合計金額が記載されています。"
+    }
   ]
 }

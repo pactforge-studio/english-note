@@ -2,3 +2,5 @@
 
 /* Long phrases wrap without squeezing mobile cards. */
 .word-list li>*,.row>*{min-width:0}.word-list strong,.word-entry strong,.choice span{overflow-wrap:anywhere}.word-list li>small{flex-shrink:0}.record-stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+
+.grammar-table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:14px}.grammar-table th,.grammar-table td{padding:10px 4px;text-align:left;vertical-align:top;border-bottom:1px solid #e2e8f0;overflow-wrap:anywhere}.grammar-table th:first-child{width:32%}.grammar-table button{font-size:13px;padding:10px 6px}.example,.feedback{overflow-wrap:anywhere}
