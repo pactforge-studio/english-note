@@ -3,10 +3,11 @@ import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {KEY,empty,validate,answer,balance,merge,dailyWords,dailyPhrases,clozeText,escapePattern,readRecord,saveRecord} from '../core.js';
 const c=JSON.parse(fs.readFileSync(new URL('../curriculum.json',import.meta.url))),{words,phrases}=c;
-assert.equal(c.schemaVersion,2);assert.equal(words.length,90);assert.equal(phrases.length,60);
+assert.equal(c.schemaVersion,2);assert.equal(words.length,150);assert.equal(phrases.length,60);
 // Freeze all 90 E03 word fields, not only the original 30 lesson entries.
-assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),'61be552701b8e4fde351612ef2f27f543a0042fef576a57ad51631a14515f99c');
-const ids=new Set([...words,...phrases].map(w=>w.id));assert.equal(ids.size,150);
+assert.deepEqual(words.map(w=>w.seq),Array.from({length:150},(_,i)=>i+1),'Words must remain in consecutive seq order, including the frozen first 90.');
+assert.equal(createHash('sha256').update(JSON.stringify(words.slice(0,90))).digest('hex'),'61be552701b8e4fde351612ef2f27f543a0042fef576a57ad51631a14515f99c');
+const ids=new Set([...words,...phrases].map(w=>w.id));assert.equal(ids.size,210);
 const match=(s,p)=>(s.match(new RegExp('\\b'+escapePattern(p)+'\\b','gi'))||[]).length;
 for(const [i,p] of phrases.entries()){
  assert.deepEqual(Object.keys(p).sort(),['id','phrase','meaning','example','translation','note','meaningDistractors','clozeDistractors','seq','level','tags'].sort());

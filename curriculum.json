@@ -2371,6 +2371,1594 @@
       "tags": [
         "オフィス"
       ]
+    },
+    {
+      "id": "advertisement",
+      "word": "advertisement",
+      "pos": "名詞",
+      "meaning": "広告",
+      "example": "The newspaper advertisement promotes our weekend sale with a large picture and bold prices.",
+      "translation": "その新聞広告は、大きな写真と目立つ価格表示で週末のセールを宣伝しています。",
+      "note": "商品やサービスを知らせる広告。an advertisement forで何の広告かを示せる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "地震",
+        "歯痛",
+        "片手鍋"
+      ],
+      "clozeDistractors": [
+        "earthquake",
+        "toothache",
+        "saucepan"
+      ],
+      "seq": 91,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "poster",
+      "word": "poster",
+      "pos": "名詞",
+      "meaning": "ポスター",
+      "example": "A colorful poster on the shop wall announces the furniture sale starting next week.",
+      "translation": "店の壁にある色鮮やかなポスターが、来週始まる家具のセールを告知しています。",
+      "note": "壁などに掲示する大きな紙の広告や案内を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "頭痛",
+        "降雨",
+        "足首"
+      ],
+      "clozeDistractors": [
+        "headache",
+        "rainfall",
+        "ankle"
+      ],
+      "seq": 92,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "campaign",
+      "word": "campaign",
+      "pos": "名詞",
+      "meaning": "宣伝活動",
+      "example": "Our advertising campaign uses radio messages and online banners to promote the new service.",
+      "translation": "私たちの宣伝活動では、ラジオのメッセージやオンラインのバナーで新しいサービスを広めています。",
+      "note": "共通の目的に向けて行う一連の活動。advertising campaignは広告による宣伝活動。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "毛布",
+        "ひじ",
+        "やかん"
+      ],
+      "clozeDistractors": [
+        "blanket",
+        "elbow",
+        "kettle"
+      ],
+      "seq": 93,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "audience",
+      "word": "audience",
+      "pos": "名詞",
+      "meaning": "聴衆",
+      "example": "The speaker thanked the audience for listening quietly throughout the presentation.",
+      "translation": "話し手は、発表の間ずっと静かに聞いてくれた聴衆に感謝しました。",
+      "note": "発表や講演などを聞く人々をひとまとめに表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "天井",
+        "舗道",
+        "歯磨き粉"
+      ],
+      "clozeDistractors": [
+        "ceiling",
+        "pavement",
+        "toothpaste"
+      ],
+      "seq": 94,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "brand",
+      "word": "brand",
+      "pos": "名詞",
+      "meaning": "ブランド",
+      "example": "Customers recognize this coffee brand by the same logo on every bag.",
+      "translation": "客は、すべての袋に付いている共通のロゴでこのコーヒーのブランドを見分けます。",
+      "note": "商品をほかの商品と区別する名前や印で示されるブランドを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "雷",
+        "足首",
+        "天井"
+      ],
+      "clozeDistractors": [
+        "thunder",
+        "ankle",
+        "ceiling"
+      ],
+      "seq": 95,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "survey",
+      "word": "survey",
+      "pos": "名詞",
+      "meaning": "アンケート調査",
+      "example": "This customer survey asks shoppers to rate our service by answering ten questions.",
+      "translation": "この顧客アンケート調査では、買い物客に10の質問に答えてサービスを評価してもらいます。",
+      "note": "意見や状況を調べるための調査。customer surveyは顧客への調査。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "キャベツ",
+        "滝",
+        "枕"
+      ],
+      "clozeDistractors": [
+        "cabbage",
+        "waterfall",
+        "pillow"
+      ],
+      "seq": 96,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "conference",
+      "word": "conference",
+      "pos": "名詞",
+      "meaning": "会議・大会",
+      "example": "The annual sales conference brings speakers and hundreds of representatives together for two days.",
+      "translation": "年に一度の営業会議には、講演者と数百人の担当者が2日間にわたって集まります。",
+      "note": "多くの参加者が集まる会議や大会に使う。sales conferenceは営業関係の会議。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "フォーク",
+        "靴下",
+        "レモン"
+      ],
+      "clozeDistractors": [
+        "fork",
+        "sock",
+        "lemon"
+      ],
+      "seq": 97,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "participant",
+      "word": "participant",
+      "pos": "名詞",
+      "meaning": "参加者",
+      "example": "Every participant in the workshop must join the group exercises and discussions.",
+      "translation": "ワークショップの参加者は全員、グループ演習と話し合いに加わらなければなりません。",
+      "note": "行事や活動に加わる人。participant inで参加先を示す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "階段",
+        "首飾り",
+        "温度計"
+      ],
+      "clozeDistractors": [
+        "staircase",
+        "necklace",
+        "thermometer"
+      ],
+      "seq": 98,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "人事"
+      ]
+    },
+    {
+      "id": "topic",
+      "word": "topic",
+      "pos": "名詞",
+      "meaning": "話題・議題",
+      "example": "Our next topic is workplace safety, which we will discuss after lunch.",
+      "translation": "次の議題は職場の安全で、昼食後に話し合います。",
+      "note": "話したり考えたりする対象。会議では取り上げる議題を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "足首",
+        "おたま",
+        "天井"
+      ],
+      "clozeDistractors": [
+        "ankle",
+        "ladle",
+        "ceiling"
+      ],
+      "seq": 99,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "decision",
+      "word": "decision",
+      "pos": "名詞",
+      "meaning": "決定",
+      "example": "After considering both options, the committee made a decision to rent the larger hall.",
+      "translation": "両方の案を検討した後、委員会は大きい方の会場を借りる決定をしました。",
+      "note": "make a decisionで決定を下す。toの後に決めた行動を続けられる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "じゅうたん",
+        "サンドイッチ",
+        "山"
+      ],
+      "clozeDistractors": [
+        "carpet",
+        "sandwich",
+        "mountain"
+      ],
+      "seq": 100,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "employer",
+      "word": "employer",
+      "pos": "名詞",
+      "meaning": "雇用主",
+      "example": "My employer pays my wages and provides the equipment I use at work.",
+      "translation": "私の雇用主は賃金を支払い、仕事で使う機器を用意してくれます。",
+      "note": "人を雇う会社や人。雇われる側を表すemployeeと区別する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ひじ",
+        "スイカ",
+        "夕焼け"
+      ],
+      "clozeDistractors": [
+        "elbow",
+        "watermelon",
+        "sunset"
+      ],
+      "seq": 101,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "candidate",
+      "word": "candidate",
+      "pos": "名詞",
+      "meaning": "候補者",
+      "example": "The strongest candidate for the manager position has already passed two job interviews.",
+      "translation": "管理職の最有力候補者は、すでに2回の採用面接に合格しています。",
+      "note": "職や役割の候補になっている人。candidate forで対象の役職などを続ける。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "煙突",
+        "玄関マット",
+        "雪の結晶"
+      ],
+      "clozeDistractors": [
+        "chimney",
+        "doormat",
+        "snowflake"
+      ],
+      "seq": 102,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "vacancy",
+      "word": "vacancy",
+      "pos": "名詞",
+      "meaning": "欠員",
+      "example": "We have a vacancy for an accountant because our previous accountant left last month.",
+      "translation": "前任の会計担当者が先月退職したため、会計担当の欠員があります。",
+      "note": "人を募集している空きの職。a vacancy forで募集する職種を示す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "小さじ",
+        "虹",
+        "足首"
+      ],
+      "clozeDistractors": [
+        "teaspoon",
+        "rainbow",
+        "ankle"
+      ],
+      "seq": 103,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "benefit",
+      "word": "benefit",
+      "pos": "名詞",
+      "meaning": "福利厚生",
+      "example": "Free dental care is a benefit that our company offers to all employees.",
+      "translation": "無料の歯科診療は、当社が全従業員に提供する福利厚生の一つです。",
+      "note": "ここでは給与以外に従業員が受けられる待遇を表す。employee benefitsで福利厚生。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "受け皿",
+        "雷雨",
+        "靴ひも"
+      ],
+      "clozeDistractors": [
+        "saucer",
+        "thunderstorm",
+        "shoelace"
+      ],
+      "seq": 104,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "promotion",
+      "word": "promotion",
+      "pos": "名詞",
+      "meaning": "昇進",
+      "example": "Her promotion from assistant to supervisor came with greater responsibility and higher pay.",
+      "translation": "彼女は補佐役から監督者に昇進し、責任が増えて給料も上がりました。",
+      "note": "ここでは役職が上がること。promotion from A to BでAからBへの昇進。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "スイカ",
+        "ハンカチ",
+        "降雨"
+      ],
+      "clozeDistractors": [
+        "watermelon",
+        "handkerchief",
+        "rainfall"
+      ],
+      "seq": 105,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "shipment",
+      "word": "shipment",
+      "pos": "名詞",
+      "meaning": "出荷される荷物",
+      "example": "This shipment contains fifty cartons that will travel together from our factory to the customer.",
+      "translation": "今回出荷される荷物は50箱で、工場から顧客のもとへまとめて運ばれます。",
+      "note": "一度に発送するひとまとまりの荷物を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "歯痛",
+        "天井",
+        "サンドイッチ"
+      ],
+      "clozeDistractors": [
+        "toothache",
+        "ceiling",
+        "sandwich"
+      ],
+      "seq": 106,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "supplier",
+      "word": "supplier",
+      "pos": "名詞",
+      "meaning": "供給業者",
+      "example": "Our paper supplier delivers printing materials to the office every Monday.",
+      "translation": "取引先の紙の供給業者は、毎週月曜日に印刷用の資材を事務所へ届けます。",
+      "note": "商品や資材を供給する会社や人。paper supplierは紙の供給業者。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "浴槽",
+        "日の出",
+        "小さじ"
+      ],
+      "clozeDistractors": [
+        "bathtub",
+        "sunrise",
+        "teaspoon"
+      ],
+      "seq": 107,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "container",
+      "word": "container",
+      "pos": "名詞",
+      "meaning": "輸送用コンテナ",
+      "example": "Workers sealed the steel container before the crane lifted it onto the cargo ship.",
+      "translation": "作業員は鋼鉄製の輸送用コンテナを密閉し、その後クレーンが貨物船へつり上げました。",
+      "note": "物を入れる容器。ここでは貨物をまとめて運ぶ大型の箱を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "頭痛",
+        "虹",
+        "空腹"
+      ],
+      "clozeDistractors": [
+        "headache",
+        "rainbow",
+        "hunger"
+      ],
+      "seq": 108,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "route",
+      "word": "route",
+      "pos": "名詞",
+      "meaning": "経路",
+      "example": "The driver chose a shorter route that avoids the bridge and saves ten kilometers.",
+      "translation": "運転手は、その橋を通らずに走行距離を10キロ短くできる経路を選びました。",
+      "note": "目的地まで通る道筋。a shorter routeは距離の短い経路。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "枕",
+        "キュウリ",
+        "給料"
+      ],
+      "clozeDistractors": [
+        "pillow",
+        "cucumber",
+        "salary"
+      ],
+      "seq": 109,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "旅行"
+      ]
+    },
+    {
+      "id": "quantity",
+      "word": "quantity",
+      "pos": "名詞",
+      "meaning": "数量",
+      "example": "Enter the quantity of chairs required, such as ten or twenty, on this order form.",
+      "translation": "この注文書に、10脚や20脚など、必要な椅子の数量を記入してください。",
+      "note": "物の数や量。the quantity ofの後に数える対象を続ける。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "風味",
+        "温度",
+        "旋律"
+      ],
+      "clozeDistractors": [
+        "flavor",
+        "temperature",
+        "melody"
+      ],
+      "seq": 110,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "店舗"
+      ]
+    },
+    {
+      "id": "advertise",
+      "word": "advertise",
+      "pos": "動詞",
+      "meaning": "宣伝する",
+      "example": "We will advertise the bakery in local newspapers to let more people know about it.",
+      "translation": "より多くの人に知ってもらうため、そのパン屋を地元の新聞で宣伝します。",
+      "note": "広告を使って店や商品を知らせる。advertise inで広告を載せる媒体を示す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "噛む",
+        "眠る",
+        "登る"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "knit",
+        "swallow"
+      ],
+      "seq": 111,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "attract",
+      "word": "attract",
+      "pos": "動詞",
+      "meaning": "引きつける",
+      "example": "Bright window displays attract shoppers and encourage them to enter the store.",
+      "translation": "明るいショーウインドーの展示は買い物客を引きつけ、入店を促します。",
+      "note": "人の注意や関心を向けさせる。attract customersで客を引きつける。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "消化する",
+        "差し引く",
+        "こねる"
+      ],
+      "clozeDistractors": [
+        "digest",
+        "subtract",
+        "knead"
+      ],
+      "seq": 112,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "compare",
+      "word": "compare",
+      "pos": "動詞",
+      "meaning": "比較する",
+      "example": "Please compare the two price lists to see which supplier offers lower prices.",
+      "translation": "どちらの業者の価格が安いか分かるように、2つの価格表を比較してください。",
+      "note": "違いや共通点を調べるために比べる。compare A with Bという形も使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "飲み込む",
+        "編む",
+        "揚げる"
+      ],
+      "clozeDistractors": [
+        "swallow",
+        "knit",
+        "fry"
+      ],
+      "seq": 113,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "物流"
+      ]
+    },
+    {
+      "id": "announce",
+      "word": "announce",
+      "pos": "動詞",
+      "meaning": "発表する",
+      "example": "The manager will announce the winner's name aloud so that everyone hears the result.",
+      "translation": "全員が結果を聞けるように、責任者が受賞者の名前を声に出して発表します。",
+      "note": "結果や予定などを人々に知らせる。announceの直後に発表する内容を置く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "皮をむく",
+        "溶かす",
+        "縫う"
+      ],
+      "clozeDistractors": [
+        "peel",
+        "melt",
+        "sew"
+      ],
+      "seq": 114,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "広告"
+      ]
+    },
+    {
+      "id": "recommend",
+      "word": "recommend",
+      "pos": "動詞",
+      "meaning": "勧める",
+      "example": "I recommend this printer because it works reliably and costs very little to run.",
+      "translation": "安定して動き、使用にかかる費用もとても少ないので、このプリンターを勧めます。",
+      "note": "よいと思う物や方法を相手に勧める。recommend a productで商品を勧める。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "こねる",
+        "消化する",
+        "水をやる"
+      ],
+      "clozeDistractors": [
+        "knead",
+        "digest",
+        "water"
+      ],
+      "seq": 115,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "introduce",
+      "word": "introduce",
+      "pos": "動詞",
+      "meaning": "紹介する",
+      "example": "Please introduce the guest speaker by telling us her name and professional background.",
+      "translation": "氏名と職歴を伝えて、ゲストの講演者を紹介してください。",
+      "note": "初めて会う人などを紹介する。introduce A to BでAをBに紹介する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "凍らせる",
+        "焼く",
+        "差し引く"
+      ],
+      "clozeDistractors": [
+        "freeze",
+        "bake",
+        "subtract"
+      ],
+      "seq": 116,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "respond",
+      "word": "respond",
+      "pos": "動詞",
+      "meaning": "返事をする",
+      "example": "Please respond to the invitation by telling us whether you can attend.",
+      "translation": "出席できるかどうかを知らせて、招待に返事をしてください。",
+      "note": "respond toの後に返答する対象を置く。招待や問い合わせへの返信に使える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "溶ける",
+        "いびきをかく",
+        "発芽する"
+      ],
+      "clozeDistractors": [
+        "melt",
+        "snore",
+        "germinate"
+      ],
+      "seq": 117,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "agree",
+      "word": "agree",
+      "pos": "動詞",
+      "meaning": "同意する",
+      "example": "All committee members agree that the proposal is useful, with nobody expressing a different opinion.",
+      "translation": "委員は全員、その提案が有用だという意見に同意しており、異なる意見を述べる人はいません。",
+      "note": "agree thatの後に、同意している内容を文で続けられる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "沸騰する",
+        "縫う",
+        "はい進む"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "sew",
+        "crawl"
+      ],
+      "seq": 118,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "participate",
+      "word": "participate",
+      "pos": "動詞",
+      "meaning": "参加する",
+      "example": "New employees can participate in the workshop by joining its discussions and group activities.",
+      "translation": "新入社員は、話し合いやグループ活動に加わってワークショップに参加できます。",
+      "note": "participate inで行事や活動に参加する。対象の前のinを忘れない。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "蒸発する",
+        "冬眠する",
+        "滴る"
+      ],
+      "clozeDistractors": [
+        "evaporate",
+        "hibernate",
+        "drip"
+      ],
+      "seq": 119,
+      "level": "L1",
+      "tags": [
+        "会議",
+        "人事"
+      ]
+    },
+    {
+      "id": "vote",
+      "word": "vote",
+      "pos": "動詞",
+      "meaning": "投票する",
+      "example": "Committee members will vote by marking their preferred candidate's name on a ballot.",
+      "translation": "委員は、投票用紙で支持する候補者の名前に印を付けて投票します。",
+      "note": "票を投じて意思を示す。vote forで支持する候補や案を示せる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "編む",
+        "沸騰する",
+        "いびきをかく"
+      ],
+      "clozeDistractors": [
+        "knit",
+        "boil",
+        "snore"
+      ],
+      "seq": 120,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "hire",
+      "word": "hire",
+      "pos": "動詞",
+      "meaning": "雇う",
+      "example": "The restaurant will hire two cooks and pay them to prepare meals.",
+      "translation": "そのレストランは料理人を2人雇い、報酬を支払って食事を作ってもらいます。",
+      "note": "仕事をしてもらうために人を雇う。hireの後に雇う人を置く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "ゆでる",
+        "折り畳む",
+        "消す"
+      ],
+      "clozeDistractors": [
+        "boil",
+        "fold",
+        "erase"
+      ],
+      "seq": 121,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "店舗"
+      ]
+    },
+    {
+      "id": "retire",
+      "word": "retire",
+      "pos": "動詞",
+      "meaning": "退職する",
+      "example": "Our oldest mechanic plans to retire and stop working after forty years of service.",
+      "translation": "当社で最年長の整備士は、40年間の勤務を終えて退職し、仕事をやめる予定です。",
+      "note": "仕事を引退するときに使う。retire fromで退職する会社や仕事を続けられる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "孵化する",
+        "蒸発する",
+        "さびる"
+      ],
+      "clozeDistractors": [
+        "hatch",
+        "evaporate",
+        "rust"
+      ],
+      "seq": 122,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "earn",
+      "word": "earn",
+      "pos": "動詞",
+      "meaning": "稼ぐ",
+      "example": "Employees can earn extra money by working additional hours during the busy season.",
+      "translation": "従業員は、繁忙期に追加で働くことで収入を増やせます。",
+      "note": "働いて金銭を得る。earn moneyをひとまとまりで覚える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "吸い込む",
+        "溶かす",
+        "消化する"
+      ],
+      "clozeDistractors": [
+        "inhale",
+        "melt",
+        "digest"
+      ],
+      "seq": 123,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "経理"
+      ]
+    },
+    {
+      "id": "recruit",
+      "word": "recruit",
+      "pos": "動詞",
+      "meaning": "募集する",
+      "example": "The hospital wants to recruit nurses to fill ten vacant positions.",
+      "translation": "その病院は、10人の欠員を埋めるために看護師を募集したいと考えています。",
+      "note": "働く人や活動に加わる人を募る。recruitの後に必要な人材を置く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "すりおろす",
+        "焼く",
+        "膨らませる"
+      ],
+      "clozeDistractors": [
+        "grate",
+        "bake",
+        "inflate"
+      ],
+      "seq": 124,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "load",
+      "word": "load",
+      "pos": "動詞",
+      "meaning": "荷物を積み込む",
+      "example": "Workers will load the truck by putting all twenty cartons inside it.",
+      "translation": "作業員は、20個の箱をすべて中に入れてトラックに荷物を積み込みます。",
+      "note": "load a truckでトラックに荷物を積み込む。load A with Bの形も使う。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "味見する",
+        "縫う",
+        "ゆでる"
+      ],
+      "clozeDistractors": [
+        "taste",
+        "sew",
+        "boil"
+      ],
+      "seq": 125,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "unload",
+      "word": "unload",
+      "pos": "動詞",
+      "meaning": "荷物を降ろす",
+      "example": "We must unload the van and carry every box from it into the storeroom.",
+      "translation": "バンから荷物を降ろし、すべての箱を倉庫へ運び入れなければなりません。",
+      "note": "unload a vanでバンから荷物を降ろす。積み込むloadと対にして覚える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "編む",
+        "飲む",
+        "皮をむく"
+      ],
+      "clozeDistractors": [
+        "knit",
+        "drink",
+        "peel"
+      ],
+      "seq": 126,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "weigh",
+      "word": "weigh",
+      "pos": "動詞",
+      "meaning": "重さを量る",
+      "example": "Please weigh each parcel on these scales to find its weight before shipping.",
+      "translation": "発送前に重さを確かめるため、このはかりで小包を一つずつ量ってください。",
+      "note": "weighの後に量る物を置く。名詞weightは重さを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "歌う",
+        "味見する",
+        "縫う"
+      ],
+      "clozeDistractors": [
+        "sing",
+        "taste",
+        "sew"
+      ],
+      "seq": 127,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "store",
+      "word": "store",
+      "pos": "動詞",
+      "meaning": "保管する",
+      "example": "We store unused office supplies in this locked cabinet until someone needs them.",
+      "translation": "使っていない事務用品は、必要になるまでこの鍵付きの戸棚に保管します。",
+      "note": "後で使う物をしまっておく。store A in BでAをBに保管する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "消化する",
+        "ゆでる",
+        "少しずつ飲む"
+      ],
+      "clozeDistractors": [
+        "digest",
+        "boil",
+        "sip"
+      ],
+      "seq": 128,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "transport",
+      "word": "transport",
+      "pos": "動詞",
+      "meaning": "輸送する",
+      "example": "These trucks transport fresh vegetables from farms to supermarkets every morning.",
+      "translation": "これらのトラックは毎朝、新鮮な野菜を農場からスーパーへ輸送します。",
+      "note": "人や物を別の場所へ運ぶ。transport A from B to Cの形で使える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "編む",
+        "暗唱する",
+        "飲み込む"
+      ],
+      "clozeDistractors": [
+        "knit",
+        "recite",
+        "swallow"
+      ],
+      "seq": 129,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "reduce",
+      "word": "reduce",
+      "pos": "動詞",
+      "meaning": "減らす",
+      "example": "We will reduce paper use from twenty boxes per month to ten.",
+      "translation": "紙の使用量を、月に20箱から10箱に減らします。",
+      "note": "量や数を小さくする。fromとtoで変更前と変更後の量を示せる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "揚げる",
+        "刺繍する",
+        "泳ぐ"
+      ],
+      "clozeDistractors": [
+        "fry",
+        "embroider",
+        "swim"
+      ],
+      "seq": 130,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "経理"
+      ]
+    },
+    {
+      "id": "effective",
+      "word": "effective",
+      "pos": "形容詞",
+      "meaning": "効果的な",
+      "example": "The new advertisement is effective because it has doubled the number of customer inquiries.",
+      "translation": "新しい広告は顧客からの問い合わせを倍増させており、効果的です。",
+      "note": "狙った結果を生むことを表す。an effective advertisementで効果的な広告。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "眠っている",
+        "のどが渇いた",
+        "失業中の"
+      ],
+      "clozeDistractors": [
+        "asleep",
+        "thirsty",
+        "unemployed"
+      ],
+      "seq": 131,
+      "level": "L1",
+      "tags": [
+        "広告"
+      ]
+    },
+    {
+      "id": "monthly",
+      "word": "monthly",
+      "pos": "形容詞",
+      "meaning": "毎月の",
+      "example": "Our monthly newsletter about store promotions arrives twelve times a year, once each month.",
+      "translation": "店の販促情報を載せた毎月のニュースレターは、月に1回、年に12回届きます。",
+      "note": "名詞の前では毎月行うことを表す。a monthly newsletterは月刊のニュースレター。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "毎日の",
+        "毎年の",
+        "1時間ごとの"
+      ],
+      "clozeDistractors": [
+        "daily",
+        "annual",
+        "hourly"
+      ],
+      "seq": 132,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "affordable",
+      "word": "affordable",
+      "pos": "形容詞",
+      "meaning": "手ごろな価格の",
+      "example": "These office chairs are affordable because their low price fits our small budget.",
+      "translation": "これらのオフィスチェアは安く、少ない予算に収まるので、手ごろな価格です。",
+      "note": "無理なく支払える価格について使う。affordable pricesで手ごろな価格。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "読み書きができる",
+        "流暢な"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "literate",
+        "fluent"
+      ],
+      "seq": 133,
+      "level": "L1",
+      "tags": [
+        "広告",
+        "店舗"
+      ]
+    },
+    {
+      "id": "eligible",
+      "word": "eligible",
+      "pos": "形容詞",
+      "meaning": "資格がある",
+      "example": "Employees become eligible for paid leave after completing the required three months of service.",
+      "translation": "従業員は、必要な3か月の勤務を終えると、有給休暇を取る資格を得ます。",
+      "note": "eligible forで、定められた条件を満たして対象になることを表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "三角形の",
+        "液体の",
+        "食べられる"
+      ],
+      "clozeDistractors": [
+        "triangular",
+        "liquid",
+        "edible"
+      ],
+      "seq": 134,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "qualified",
+      "word": "qualified",
+      "pos": "形容詞",
+      "meaning": "資格を持った",
+      "example": "Only qualified technicians with the required certificates may repair this electrical equipment.",
+      "translation": "必要な証明書を持つ、有資格の技術者だけが、この電気機器を修理できます。",
+      "note": "必要な資格や技能が備わっていることを表す。qualified techniciansで有資格の技術者。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "長方形の",
+        "球形の",
+        "液体の"
+      ],
+      "clozeDistractors": [
+        "rectangular",
+        "spherical",
+        "liquid"
+      ],
+      "seq": 135,
+      "level": "L1",
+      "tags": [
+        "人事",
+        "施設"
+      ]
+    },
+    {
+      "id": "permanent",
+      "word": "permanent",
+      "pos": "形容詞",
+      "meaning": "無期限の",
+      "example": "Unlike temporary staff, she has a permanent position with no scheduled end date.",
+      "translation": "一時雇用の職員とは異なり、彼女は終了日が決まっていない無期限の職に就いています。",
+      "note": "ここでは雇用期間の期限が決まっていないことを表す。temporaryと対比して使える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "塩辛い",
+        "毛織りの",
+        "食べられる"
+      ],
+      "clozeDistractors": [
+        "salty",
+        "woolen",
+        "edible"
+      ],
+      "seq": 136,
+      "level": "L1",
+      "tags": [
+        "人事"
+      ]
+    },
+    {
+      "id": "full",
+      "word": "full",
+      "pos": "形容詞",
+      "meaning": "いっぱいの",
+      "example": "The storage cabinet is full, with no space left for another box.",
+      "translation": "収納戸棚はいっぱいで、もう1つ箱を入れる空間も残っていません。",
+      "note": "これ以上入らない状態を表す。full ofで何で満ちているかを示せる。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空の",
+        "読み書きができる",
+        "のどが渇いた"
+      ],
+      "clozeDistractors": [
+        "empty",
+        "literate",
+        "thirsty"
+      ],
+      "seq": 137,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "fragile",
+      "word": "fragile",
+      "pos": "形容詞",
+      "meaning": "壊れやすい",
+      "example": "The fragile glass ornaments can break easily, so wrap them before shipping.",
+      "translation": "その壊れやすいガラスの飾りは簡単に割れるので、発送前に包んでください。",
+      "note": "割れたり壊れたりしやすい物に使う。荷物の取り扱い表示でも見かける語。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "失業中の",
+        "空腹の",
+        "流暢な"
+      ],
+      "clozeDistractors": [
+        "unemployed",
+        "hungry",
+        "fluent"
+      ],
+      "seq": 138,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "店舗"
+      ]
+    },
+    {
+      "id": "heavy",
+      "word": "heavy",
+      "pos": "形容詞",
+      "meaning": "重い",
+      "example": "This crate is heavy, so two workers are needed to lift it.",
+      "translation": "この木箱は重いので、持ち上げるには作業員が2人必要です。",
+      "note": "物の重量が大きいことを表す。a heavy crateで重い木箱。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "眠っている",
+        "のどが渇いた",
+        "流暢な"
+      ],
+      "clozeDistractors": [
+        "asleep",
+        "thirsty",
+        "fluent"
+      ],
+      "seq": 139,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "accurate",
+      "word": "accurate",
+      "pos": "形容詞",
+      "meaning": "正確な",
+      "example": "The shipping records are accurate, with every weight and address matching the original documents.",
+      "translation": "出荷記録は正確で、すべての重量と住所が元の書類と一致しています。",
+      "note": "数値や情報に誤りがないことを表す。accurate recordsで正確な記録。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "おいしい",
+        "眠い",
+        "空腹の"
+      ],
+      "clozeDistractors": [
+        "delicious",
+        "sleepy",
+        "hungry"
+      ],
+      "seq": 140,
+      "level": "L1",
+      "tags": [
+        "物流",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "confident",
+      "word": "confident",
+      "pos": "形容詞",
+      "meaning": "自信がある",
+      "example": "She felt confident about her presentation because she knew the material and had rehearsed thoroughly.",
+      "translation": "内容を理解して十分に練習していたので、彼女は発表に自信を持っていました。",
+      "note": "confident aboutで、自信のある対象や事柄を続ける。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "長方形の",
+        "液体の",
+        "食べられる"
+      ],
+      "clozeDistractors": [
+        "rectangular",
+        "liquid",
+        "edible"
+      ],
+      "seq": 141,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "brief",
+      "word": "brief",
+      "pos": "形容詞",
+      "meaning": "短い",
+      "example": "The manager kept the opening speech brief, speaking for only one minute.",
+      "translation": "責任者はたった1分だけ話し、開会のスピーチを短くしました。",
+      "note": "時間や説明の長さが短いこと。keep A briefでAを短くする。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹の",
+        "眠っている",
+        "食べられる"
+      ],
+      "clozeDistractors": [
+        "hungry",
+        "asleep",
+        "edible"
+      ],
+      "seq": 142,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "immediately",
+      "word": "immediately",
+      "pos": "副詞",
+      "meaning": "すぐに",
+      "example": "When the alarm sounds, leave the building immediately, without waiting even a moment.",
+      "translation": "警報が鳴ったら、一瞬も待たず、すぐに建物から出てください。",
+      "note": "待ち時間を置かずに行うことを表す。leave immediatelyですぐに立ち去る。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "後で",
+        "いつかは",
+        "昨日"
+      ],
+      "clozeDistractors": [
+        "later",
+        "eventually",
+        "yesterday"
+      ],
+      "seq": 143,
+      "level": "L1",
+      "tags": [
+        "施設",
+        "オフィス"
+      ]
+    },
+    {
+      "id": "frequently",
+      "word": "frequently",
+      "pos": "副詞",
+      "meaning": "頻繁に",
+      "example": "These buses run frequently, with departures every five minutes throughout the working day.",
+      "translation": "これらのバスは、業務時間中ずっと5分おきに発車しており、頻繁に運行しています。",
+      "note": "短い間隔で何度も起こることを表す。run frequentlyは運行本数が多いときに使える。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "めったにないほど",
+        "一度もなく",
+        "年に1回"
+      ],
+      "clozeDistractors": [
+        "rarely",
+        "never",
+        "annually"
+      ],
+      "seq": 144,
+      "level": "L1",
+      "tags": [
+        "旅行"
+      ]
+    },
+    {
+      "id": "currently",
+      "word": "currently",
+      "pos": "副詞",
+      "meaning": "現在",
+      "example": "The shop is currently closed, but it will reopen in an hour.",
+      "translation": "その店は現在閉まっていますが、1時間後に再び開きます。",
+      "note": "今の時点の状況を表す。過去を表すpreviouslyなどと区別する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "昨日",
+        "以前は",
+        "かつて"
+      ],
+      "clozeDistractors": [
+        "yesterday",
+        "previously",
+        "formerly"
+      ],
+      "seq": 145,
+      "level": "L1",
+      "tags": [
+        "店舗"
+      ]
+    },
+    {
+      "id": "separately",
+      "word": "separately",
+      "pos": "副詞",
+      "meaning": "別々に",
+      "example": "The two boxes travel separately, never on the same truck or at the same time.",
+      "translation": "その2つの箱は別々に運ばれ、同じトラックに載ることも同じ時刻に移動することもありません。",
+      "note": "一緒にせず、個別に扱うことを表す。ship separatelyで別々に発送する。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "一緒に",
+        "同時に",
+        "並行して"
+      ],
+      "clozeDistractors": [
+        "together",
+        "simultaneously",
+        "concurrently"
+      ],
+      "seq": 146,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "approximately",
+      "word": "approximately",
+      "pos": "副詞",
+      "meaning": "およそ",
+      "example": "The visitor count is approximately fifty, not an exact figure because some people are still arriving.",
+      "translation": "来場者数はおよそ50人で、まだ到着する人がいるため、正確な数字ではありません。",
+      "note": "数字が厳密ではなく目安であることを表す。approximatelyの後に人数や数量を置く。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "正確に",
+        "厳密に",
+        "無限に"
+      ],
+      "clozeDistractors": [
+        "exactly",
+        "precisely",
+        "infinitely"
+      ],
+      "seq": 147,
+      "level": "L1",
+      "tags": [
+        "会議"
+      ]
+    },
+    {
+      "id": "exactly",
+      "word": "exactly",
+      "pos": "副詞",
+      "meaning": "正確に",
+      "example": "The parcel weighs exactly two kilograms, with no difference from the stated weight.",
+      "translation": "その小包の重さは正確に2キログラムで、記載された重量との差はありません。",
+      "note": "数値などが少しもずれていないことを表す。exactly two kilogramsでちょうど2キログラム。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "空腹そうに",
+        "騒々しく",
+        "怒って"
+      ],
+      "clozeDistractors": [
+        "hungrily",
+        "noisily",
+        "angrily"
+      ],
+      "seq": 148,
+      "level": "L1",
+      "tags": [
+        "物流"
+      ]
+    },
+    {
+      "id": "politely",
+      "word": "politely",
+      "pos": "副詞",
+      "meaning": "丁寧に",
+      "example": "Please speak politely to customers, using respectful words rather than rude language.",
+      "translation": "失礼な言葉ではなく、敬意のある言葉を使って、客に丁寧に話してください。",
+      "note": "礼儀正しい話し方や振る舞いを表す。speak politelyで丁寧に話す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "無礼に",
+        "罵倒するように",
+        "侮辱的に"
+      ],
+      "clozeDistractors": [
+        "rudely",
+        "abusively",
+        "insultingly"
+      ],
+      "seq": 149,
+      "level": "L1",
+      "tags": [
+        "店舗",
+        "人事"
+      ]
+    },
+    {
+      "id": "successfully",
+      "word": "successfully",
+      "pos": "副詞",
+      "meaning": "成功して",
+      "example": "The team completed the project successfully, meeting every goal without a single failure.",
+      "translation": "チームは一度も失敗することなくすべての目標を達成し、プロジェクトを成功のうちに完了しました。",
+      "note": "望んだ結果を得て物事を成し遂げる様子を表す。",
+      "etymology": "語源は未確認です。覚え方を史実の語源として記載していません。",
+      "sources": [],
+      "meaningDistractors": [
+        "失敗して",
+        "悲惨な結果に終わって",
+        "効果を上げずに"
+      ],
+      "clozeDistractors": [
+        "fruitlessly",
+        "disastrously",
+        "ineffectively"
+      ],
+      "seq": 150,
+      "level": "L1",
+      "tags": [
+        "オフィス",
+        "会議"
+      ]
     }
   ],
   "phrases": [
