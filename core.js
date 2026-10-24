@@ -81,7 +81,7 @@ export function dailyPhrases(s,phrases,date){
  const learned=ordered.filter(p=>s.progress[p.id]?.first===date);
  return [...learned,...ordered.filter(p=>!s.progress[p.id]).slice(0,Math.max(0,3-learned.length))];
 }
-export const itemText=item=>item.phrase??item.word??`文法 ${item.id}`;
+export const itemText=item=>item.phrase??item.word??`${item.documents?'読解':'文法'} ${item.id}`;
 export const escapePattern=s=>s.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 export const clozeText=item=>item.example.replace(new RegExp('\\b'+escapePattern(itemText(item))+'\\b','i'),'______');
 
@@ -92,3 +92,11 @@ export function dailyGrammar(s,grammar,date){
  return [...learned,...ordered.filter(g=>!s.progress[g.id]).slice(0,Math.max(0,5-learned.length))];
 }
 export const GRAMMAR_CATEGORIES=['品詞','時制','態','関係詞','前置詞と接続詞','代名詞','比較','語彙'];
+
+// Reading reserves one set per day, independently of other material counts.
+export function dailyReading(s,reading,date){
+ const ordered=[...reading].sort((a,b)=>a.seq-b.seq);
+ const learned=ordered.filter(r=>s.progress[r.id]?.first===date);
+ return [...learned,...ordered.filter(r=>!s.progress[r.id]).slice(0,Math.max(0,1-learned.length))];
+}
+export const readingResult=answers=>Array.isArray(answers)&&answers.length>0&&Array.from(answers).every(ok=>ok===true);
