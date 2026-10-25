@@ -36,17 +36,20 @@ assert.equal(BACKUP_KEY,'mb_english_v1_schema1_backup');
 assert.equal(curriculum.schemaVersion,2,'Reading must not introduce a new curriculum schema.');
 fields(curriculum,['schemaVersion','words','phrases','grammar','reading'],'curriculum');
 assert.equal(words.length,150);
-assert.equal(phrases.length,60);
+assert.equal(phrases.length,120);
 assert.equal(grammar.length,50);
 assert.deepEqual(seqs(words),Array.from({length:150},(_,index)=>index+1),'Words must remain in consecutive seq order, including the frozen first 90.');
 assert.equal(hash(words.slice(0,90)),'61be552701b8e4fde351612ef2f27f543a0042fef576a57ad51631a14515f99c','All 90 existing words must remain byte-equivalent as JSON.');
-assert.equal(hash(phrases),'a0a3a3f9b690ce6f4c07c75cbd73308cabceff6fce3d4e327898300dce48c0e8','All 60 existing phrases must remain byte-equivalent as JSON.');
+assert.equal(hash(words),'53cb5b374ab8912530ec79748164fc091747f66795151d4bd475be579e32978b','All 150 existing words must remain byte-equivalent as JSON.');
+assert.deepEqual(seqs(phrases),Array.from({length:120},(_,index)=>index+1),'All 120 phrases must remain in consecutive seq order.');
+assert.equal(hash(phrases.slice(0,60)),'a0a3a3f9b690ce6f4c07c75cbd73308cabceff6fce3d4e327898300dce48c0e8','All 60 existing phrases must remain byte-equivalent as JSON.');
 assert.equal(hash(grammar),'7960bc3dcfd02e69c26f07c22e63e8c3026565569433116ae97fd2fab29eebdd','All 50 existing grammar entries must remain byte-equivalent as JSON.');
 assert.ok(Array.isArray(reading),'curriculum.reading must be an array.');
 assert.equal(reading.length,10,'E06 contains exactly ten reading sets.');
+assert.equal(hash(reading),'7ddcdc4df90573df77a9976273b17c29a113ff879eb9de27d77defa830887e78','All ten existing reading sets must remain byte-equivalent as JSON.');
 const items=[...words,...phrases,...grammar,...reading];
 const ids=new Set(items.map(item=>item.id));
-assert.equal(ids.size,270,'All word, phrase, grammar and reading-set IDs must be globally unique.');
+assert.equal(ids.size,330,'All word, phrase, grammar and reading-set IDs must be globally unique.');
 const questionIds=new Set();
 const documentKinds=new Set();
 const counts=Object.fromEntries(types.map(type=>[type,0]));
@@ -378,7 +381,8 @@ assert.equal(corrupt.getItem(KEY),'{broken');
 assert.deepEqual(corrupt.writes,[]);
 
 // E07 adds words without rewriting an E06 v2 record or advancing other queues.
-const legacyIds=new Set([...words.slice(0,90),...phrases,...grammar,...reading].map(item=>item.id));
+// E06 had only the original 60 phrases; later additions are not historical IDs.
+const legacyIds=new Set([...words.slice(0,90),...phrases.slice(0,60),...grammar,...reading].map(item=>item.id));
 assert.equal(legacyIds.size,210,'The pre-E07 curriculum has exactly 210 record IDs.');
 const learnedBeforeExpansion=[...words.slice(0,90),...phrases.slice(0,3),...grammar.slice(0,5),reading[0]];
 const legacyRecord=empty();
@@ -426,6 +430,85 @@ for(const count of [3,20]){
 }
 assert.deepEqual(expandedRecord,legacySnapshot,'All continuation checks leave the original restored record untouched.');
 
+// E08 adds phrases without rewriting an E07 v2 record or changing other queues.
+const beforeE08Ids=new Set([...words,...phrases.slice(0,60),...grammar,...reading].map(item=>item.id));
+assert.equal(beforeE08Ids.size,270,'The pre-E08 curriculum has exactly 270 record IDs.');
+const learnedBeforeE08=[...words,...phrases.slice(0,60),...grammar.slice(0,5),reading[0]];
+const beforeE08=empty();
+for(const item of learnedBeforeE08)answer(beforeE08,item,true,yesterday);
+const beforeE08Snapshot=clone(beforeE08),beforeE08Raw=JSON.stringify(beforeE08);
+assert.equal(beforeE08.schemaVersion,2);
+assert.equal(Object.keys(beforeE08.progress).length,216,'The fixture contains 150 words, 60 phrases, 5 grammar questions and 1 reading set.');
+assert.equal(balance(beforeE08),216);
+assert.deepEqual(validate(clone(beforeE08),beforeE08Ids),beforeE08Snapshot,'The mixed record is already valid under the E07 IDs.');
+assert.deepEqual(dailyWords(beforeE08,words,today),[],'All 150 words were already learned before E08.');
+assert.deepEqual(dailyPhrases(beforeE08,phrases.slice(0,60),today),[],'All 60 previously available phrases were already learned before E08.');
+const afterE08=validate(clone(beforeE08),ids);
+assert.deepEqual(afterE08,beforeE08Snapshot,'Adding 60 phrase IDs must preserve every existing v2 record field and award.');
+assert.deepEqual(beforeE08,beforeE08Snapshot,'Expanded-ID validation must not mutate the old record.');
+assert.deepEqual(validate(clone(afterE08),ids),beforeE08Snapshot,'The 216-record fixture survives JSON export/import and validation.');
+assert.deepEqual(merge(afterE08,afterE08),beforeE08Snapshot,'Reimporting the E07 record cannot duplicate progress or PT.');
+assert.deepEqual(merge(empty(),afterE08),beforeE08Snapshot,'The E07 backup imports into a new v2 record without losing any item.');
+assertSetOnlyRecord(afterE08,'learned-150-word/60-phrase mixed v2 record');
+const beforeE08Storage=createStorage();beforeE08Storage.data.set(KEY,beforeE08Raw);
+assert.deepEqual(readRecord(beforeE08Storage,ids),beforeE08Snapshot,'Existing E07 storage is readable with all 330 E08 IDs.');
+assert.equal(beforeE08Storage.getItem(KEY),beforeE08Raw,'Reading the old v2 record must not rewrite it.');
+assert.deepEqual(beforeE08Storage.writes,[]);
+assert.deepEqual(saveRecord(beforeE08Storage,readRecord(beforeE08Storage,ids),ids),beforeE08Snapshot);
+assert.equal(beforeE08Storage.getItem(KEY),beforeE08Raw,'The unchanged E07 v2 record roundtrips byte-for-byte.');
+assert.equal(beforeE08Storage.getItem(BACKUP_KEY),null,'Adding phrases must not create a schema-v1 backup for an existing v2 record.');
+assert.deepEqual(beforeE08Storage.writes,[KEY]);
+assert.deepEqual(readRecord(beforeE08Storage,ids),beforeE08Snapshot);
+for(const count of [3,5,10,20]){
+ const continued=clone(afterE08);continued.settings.dailyNew=count;
+ const continuedSnapshot=clone(continued),expected=[61,62,63];
+ assert.deepEqual(dailyWords(continued,words,today),[],`A learned-150 record has no new words even with dailyNew=${count}.`);
+ assert.deepEqual(seqs(dailyPhrases(continued,phrases,today)),expected,'The next day starts at the first added phrase, seq 61.');
+ const reversedPhrases=[...phrases].reverse();
+ assert.deepEqual(seqs(dailyPhrases(continued,reversedPhrases,today)),expected,'The new phrases follow seq, not input order.');
+ assert.deepEqual(reversedPhrases,[...phrases].reverse(),'The phrase queue cannot sort its source in place.');
+ assert.deepEqual(seqs(dailyGrammar(continued,grammar,today)),[6,7,8,9,10],'Adding phrases must not advance the grammar queue.');
+ assert.deepEqual(seqs(dailyReading(continued,reading,today)),[2],'Adding phrases must not advance the reading queue.');
+ assert.deepEqual(continued,continuedSnapshot,'Examining every E08 queue must leave the record unchanged.');
+ const newPhrases=dailyPhrases(continued,phrases,today);
+ assert.equal(answer(continued,newPhrases[0],false,today).earned,false);
+ assert.equal(balance(continued),216,'An incorrect new phrase answer cannot change existing PT.');
+ assert.deepEqual(seqs(dailyPhrases(continued,phrases,today)),expected,'An incorrect answer still reserves the first new phrase slot.');
+ for(const item of newPhrases)assert.equal(answer(continued,item,true,today).earned,true);
+ assert.deepEqual(seqs(dailyPhrases(continued,phrases,today)),expected,'The three newly learned phrases reserve the same daily slots.');
+ assert.deepEqual(seqs(dailyPhrases(continued,phrases,tomorrow)),[64,65,66],'The following day starts with the next three added phrases.');
+ assert.deepEqual(dailyWords(continued,words,today),[]);
+ assert.deepEqual(dailyWords(continued,words,tomorrow),[]);
+ for(const date of [today,tomorrow]){
+  assert.deepEqual(seqs(dailyGrammar(continued,grammar,date)),[6,7,8,9,10]);
+  assert.deepEqual(seqs(dailyReading(continued,reading,date)),[2]);
+ }
+ for(const [id,progress] of Object.entries(beforeE08Snapshot.progress))assert.deepEqual(continued.progress[id],progress,'Learning added phrases must preserve all 216 old item records.');
+ for(const [key,award] of Object.entries(beforeE08Snapshot.awards))assert.equal(continued.awards[key],award,'Learning added phrases must preserve every old award.');
+ assert.deepEqual(Object.keys(continued.progress).filter(id=>!beforeE08Ids.has(id)),newPhrases.map(item=>item.id),'Only phrases 61–63 gain new progress.');
+ assert.deepEqual(Object.keys(continued.awards).filter(key=>!Object.hasOwn(beforeE08Snapshot.awards,key)),newPhrases.map(item=>`${today}:${item.id}`),'Only the three new phrase awards are added.');
+ assert.equal(Object.keys(continued.progress).length,219);
+ assert.equal(balance(continued),219,'Exactly three new PT are added to the existing 216 PT.');
+ const learnedSnapshot=clone(continued);
+ for(const item of newPhrases)for(const correct of [true,false])assert.equal(answer(continued,item,correct,today).earned,false);
+ assert.deepEqual(continued,learnedSnapshot,'Repeated new phrase practice cannot alter saved progress or duplicate PT.');
+ assert.deepEqual(validate(clone(continued),ids),learnedSnapshot,'Records containing new phrase IDs survive JSON and validation.');
+ assert.throws(()=>validate(clone(continued),beforeE08Ids),'The fixture really contains new IDs that did not exist in E07.');
+ assert.deepEqual(merge(continued,continuedSnapshot),learnedSnapshot,'Importing the old backup cannot erase new phrase progress or duplicate old PT.');
+ assert.deepEqual(merge(continuedSnapshot,continued),learnedSnapshot,'Importing the new phrase backup preserves old records and the destination setting.');
+ assert.deepEqual(merge(continued,continued),learnedSnapshot,'Reimporting the new phrase backup cannot duplicate PT.');
+ assert.deepEqual(continued,learnedSnapshot,'Merge must not mutate the new phrase record.');
+ assert.deepEqual(continuedSnapshot,{...beforeE08Snapshot,settings:{dailyNew:count}},'Merge must not mutate the old phrase record.');
+ const continuedStorage=createStorage();continuedStorage.data.set(KEY,beforeE08Raw);
+ assert.deepEqual(saveRecord(continuedStorage,continued,ids),learnedSnapshot,'New phrase progress can be saved over an E07 v2 record.');
+ assert.deepEqual(readRecord(continuedStorage,ids),learnedSnapshot,'New phrase progress and all old records survive storage reload.');
+ assert.deepEqual(JSON.parse(continuedStorage.getItem(KEY)),learnedSnapshot);
+ assert.equal(continuedStorage.getItem(BACKUP_KEY),null);
+ assert.deepEqual(continuedStorage.writes,[KEY]);
+ assertSetOnlyRecord(continued,'E08 learned-three-new-phrase v2 record');
+}
+assert.deepEqual(afterE08,beforeE08Snapshot,'All E08 continuation checks leave the restored 216-record fixture untouched.');
+
 const exhausted=empty();
 for(const item of reading)answer(exhausted,item,true,yesterday);
 assert.deepEqual(dailyReading(exhausted,reading,today),[],'An exhausted reading curriculum yields no invented sets.');
@@ -434,4 +517,4 @@ assert.deepEqual(dailyWords(exhausted,words,today),words.slice(0,3));
 assert.deepEqual(dailyPhrases(exhausted,phrases,today),phrases.slice(0,3));
 assert.deepEqual(dailyGrammar(exhausted,grammar,today),grammar.slice(0,5));
 assertSetOnlyRecord(exhausted,'fully learned reading curriculum');
-console.log(`Reading: 10 sets/8 single + 2 double documents/${totalQuestions} questions (${JSON.stringify(counts)}), 200 legacy entries frozen, 270 record IDs, strict set result, daily1 independence, v2 continuation, learned-90 mixed-record continuation, set-only SRS/JST awards/merge/JSON/storage, all question-ID rejection and original v1 raw-backup safety passed.`);
+console.log(`Reading: 10 sets/8 single + 2 double documents/${totalQuestions} questions (${JSON.stringify(counts)}), 270 legacy entries frozen, 330 record IDs, strict set result, daily1 independence, v2 continuation, learned-90 and learned-150/60 mixed-record continuation, set-only SRS/JST awards/merge/JSON/storage, all question-ID rejection and original v1 raw-backup safety passed.`);
