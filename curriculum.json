@@ -7561,6 +7561,806 @@
       "answer": "amount",
       "explanation": "請求書に記載され、備品の代金として支払う合計を表すので、金額という意味のamountが正解です。weatherは「天候」、furnitureは「家具」、temperatureは「温度」で、どれもこの文で支払う金額を表せません。",
       "translation": "請求書には、備品の代金として支払う合計金額が記載されています。"
+    },
+    {
+      "id": "g_l1_051",
+      "seq": 51,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The bakery sells a ------- selection of bread made with local flour.",
+      "choices": [
+        "wide",
+        "widely",
+        "width",
+        "widen"
+      ],
+      "answer": "wide",
+      "explanation": "selectionという名詞を修飾する形容詞wideが正解です。widelyは副詞、widthは名詞、widenは動詞なので、この位置でselectionを修飾できません。",
+      "translation": "そのパン屋では地元の小麦粉で作った幅広い種類のパンを販売しています。"
+    },
+    {
+      "id": "g_l1_052",
+      "seq": 52,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "Please speak ------- so that everyone at the back can hear you.",
+      "choices": [
+        "clearance",
+        "clearly",
+        "clarity",
+        "clarify"
+      ],
+      "answer": "clearly",
+      "explanation": "speakを修飾する副詞clearlyが正解です。clearanceとclarityは名詞、clarifyは動詞で、この文のspeakを修飾できません。",
+      "translation": "後ろにいる全員に聞こえるように、はっきり話してください。"
+    },
+    {
+      "id": "g_l1_053",
+      "seq": 53,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The gardener gave us some helpful ------- about growing herbs indoors.",
+      "choices": [
+        "advise",
+        "advisable",
+        "advice",
+        "advisably"
+      ],
+      "answer": "advice",
+      "explanation": "some helpfulの後には名詞adviceが必要です。adviseは動詞、advisableは形容詞、advisablyは副詞で、目的語となる名詞の位置には入りません。",
+      "translation": "庭師は室内でハーブを育てることについて、私たちに役立つ助言をくれました。"
+    },
+    {
+      "id": "g_l1_054",
+      "seq": 54,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The swimming pool is ------- enough for beginners to stand in safely.",
+      "choices": [
+        "shallowly",
+        "shallowness",
+        "shallower",
+        "shallow"
+      ],
+      "answer": "shallow",
+      "explanation": "isの後で状態を表しenoughの前に置く形容詞の原級shallowが正解です。shallowlyは副詞、shallownessは名詞でこの形にはできません。shallowerは比較級で、ここではshallower enoughとは言いません。",
+      "translation": "そのプールは初心者が安全に立てるほど浅いです。"
+    },
+    {
+      "id": "g_l1_055",
+      "seq": 55,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "The museum staff greeted the children very ------- at the ticket counter.",
+      "choices": [
+        "warmly",
+        "warmth",
+        "warming",
+        "warmed"
+      ],
+      "answer": "warmly",
+      "explanation": "greetedを修飾しveryの後に置ける副詞warmlyが正解です。warmthは名詞、warmingとwarmedは動詞の分詞形で、この位置からgreetedを修飾できません。",
+      "translation": "博物館の職員はチケット売り場で子どもたちをとても温かく迎えました。"
+    },
+    {
+      "id": "g_l1_056",
+      "seq": 56,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "Regular ------- of the water filter helps keep the aquarium clean.",
+      "choices": [
+        "replace",
+        "replacement",
+        "replaceable",
+        "replacing it"
+      ],
+      "answer": "replacement",
+      "explanation": "形容詞Regularの後に名詞replacementを置き、replacement of the water filterでフィルターの交換を表します。replaceは動詞、replaceableは形容詞です。replacing itでは後ろのof the water filterにつながらず、Regularともこの形では結び付きません。",
+      "translation": "水のフィルターを定期的に交換することは、水槽を清潔に保つのに役立ちます。"
+    },
+    {
+      "id": "g_l1_057",
+      "seq": 57,
+      "level": "L1",
+      "category": "品詞",
+      "sentence": "This recipe is surprisingly ------- even for someone who rarely cooks.",
+      "choices": [
+        "simply",
+        "simplicity",
+        "simple",
+        "simplify"
+      ],
+      "answer": "simple",
+      "explanation": "isの補語には形容詞simpleが必要です。simplyは副詞、simplicityは名詞、simplifyは動詞で、surprisinglyの後で料理法の性質を表すこの形には入りません。",
+      "translation": "このレシピは、めったに料理をしない人にとっても驚くほど簡単です。"
+    },
+    {
+      "id": "g_l1_058",
+      "seq": 58,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Last night, the storm ------- several branches off the tree beside our house.",
+      "choices": [
+        "breaks",
+        "breaking",
+        "break",
+        "broke"
+      ],
+      "answer": "broke",
+      "explanation": "Last nightで過去の出来事を示すため過去形brokeが正解です。breaksは現在形、breakingだけでは述語にならず、breakはこの過去の文に使えません。",
+      "translation": "昨夜、嵐で家のそばの木の枝が数本折れました。"
+    },
+    {
+      "id": "g_l1_059",
+      "seq": 59,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "The kettle has just ------- boiling, so the water is ready for tea.",
+      "choices": [
+        "finished",
+        "finish",
+        "finishes",
+        "finishing"
+      ],
+      "answer": "finished",
+      "explanation": "has justの後には現在完了の過去分詞finishedが必要です。finishは原形、finishesは現在形、finishingは現在分詞で、hasに直接続けて完了形を作れません。",
+      "translation": "やかんの湯がちょうど沸いたので、お茶を入れる準備ができています。"
+    },
+    {
+      "id": "g_l1_060",
+      "seq": 60,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Every winter, this small lake ------- when the temperature stays below zero.",
+      "choices": [
+        "freeze",
+        "freezes",
+        "freezing",
+        "have frozen"
+      ],
+      "answer": "freezes",
+      "explanation": "Every winterで繰り返す習慣を表し、単数のthis small lakeには現在形freezesが合います。freezeは主語との一致を欠き、freezingだけでは述語になりません。have frozenは単数主語と一致しません。",
+      "translation": "毎年冬、気温が零度を下回り続けると、この小さな湖は凍ります。"
+    },
+    {
+      "id": "g_l1_061",
+      "seq": 61,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "At noon yesterday, we were ------- lunch on the grass beside the river.",
+      "choices": [
+        "eat",
+        "eats",
+        "eating",
+        "eaten"
+      ],
+      "answer": "eating",
+      "explanation": "At noon yesterdayの進行中の動作をwere eatingで表します。eatは原形、eatsは現在形、eatenは過去分詞で、ここで能動の過去進行形を作れません。",
+      "translation": "昨日の正午、私たちは川沿いの草地で昼食を食べていました。"
+    },
+    {
+      "id": "g_l1_062",
+      "seq": 62,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "By the time we reached the cinema yesterday, the film had already -------.",
+      "choices": [
+        "begin",
+        "began",
+        "beginning",
+        "begun"
+      ],
+      "answer": "begun",
+      "explanation": "昨日映画館に着くより前の出来事なのでhad begunという過去完了にします。beginは原形、beganは過去形、beginningは現在分詞で、hadの後に必要な過去分詞ではありません。",
+      "translation": "昨日私たちが映画館に着いた時には、映画はすでに始まっていました。"
+    },
+    {
+      "id": "g_l1_063",
+      "seq": 63,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Next Saturday, the volunteers will ------- vegetables in the community garden.",
+      "choices": [
+        "plant",
+        "plants",
+        "planted",
+        "planting"
+      ],
+      "answer": "plant",
+      "explanation": "Next Saturdayの予定を表すwillの後には動詞の原形plantが必要です。plantsは現在形、plantedは過去形・過去分詞、plantingは現在分詞で、willに直接続けられません。",
+      "translation": "来週の土曜日、ボランティアたちは地域の共同菜園に野菜を植えます。"
+    },
+    {
+      "id": "g_l1_064",
+      "seq": 64,
+      "level": "L1",
+      "category": "時制",
+      "sentence": "Right now, the baby is ------- peacefully in the room upstairs.",
+      "choices": [
+        "sleep",
+        "sleeping",
+        "sleeps",
+        "slept"
+      ],
+      "answer": "sleeping",
+      "explanation": "Right nowの進行中の動作をis sleepingで表します。sleepは原形、sleepsは現在形、sleptは過去形・過去分詞で、isに続けてこの能動の進行形を作れません。",
+      "translation": "今、赤ちゃんは二階の部屋で安らかに眠っています。"
+    },
+    {
+      "id": "g_l1_065",
+      "seq": 65,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The fresh towels are ------- in a basket by the cleaner each morning.",
+      "choices": [
+        "place",
+        "placing",
+        "placed",
+        "places"
+      ],
+      "answer": "placed",
+      "explanation": "タオルが置かれるのでare placedという受動態です。placeは原形、placingは現在分詞、placesは現在形で、areの後で受動態を作る過去分詞ではありません。",
+      "translation": "清潔なタオルは毎朝、清掃担当者によってかごに入れられます。"
+    },
+    {
+      "id": "g_l1_066",
+      "seq": 66,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The bicycle must be ------- to the rack before you enter the shop.",
+      "choices": [
+        "lock",
+        "locking",
+        "locks",
+        "locked"
+      ],
+      "answer": "locked",
+      "explanation": "自転車が施錠されるのでmust be lockedが正解です。lockは原形、lockingは現在分詞、locksは現在形で、beの後でこの受動態を作れません。",
+      "translation": "店に入る前に、自転車をラックに施錠して固定しなければなりません。"
+    },
+    {
+      "id": "g_l1_067",
+      "seq": 67,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The picnic was ------- because the weather forecast predicted heavy snow.",
+      "choices": [
+        "canceled",
+        "cancel",
+        "canceling",
+        "cancels"
+      ],
+      "answer": "canceled",
+      "explanation": "ピクニックが中止されたのでwas canceledという受動態です。cancelは原形、cancelingは現在分詞、cancelsは現在形で、wasの後に必要な過去分詞ではありません。",
+      "translation": "天気予報で大雪が予想されたため、ピクニックは中止されました。"
+    },
+    {
+      "id": "g_l1_068",
+      "seq": 68,
+      "level": "L1",
+      "category": "態",
+      "sentence": "These handmade bowls were ------- by a local artist using natural clay.",
+      "choices": [
+        "make",
+        "made",
+        "making",
+        "makes"
+      ],
+      "answer": "made",
+      "explanation": "器が作られたのでwere madeが正解です。makeは原形、makingは現在分詞、makesは現在形で、wereとともに受動態を作れません。",
+      "translation": "これらの手作りの器は、地元の作家が天然の粘土を使って作りました。"
+    },
+    {
+      "id": "g_l1_069",
+      "seq": 69,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The old bridge is being ------- by engineers to check for cracks.",
+      "choices": [
+        "inspect",
+        "inspecting",
+        "inspected",
+        "inspects"
+      ],
+      "answer": "inspected",
+      "explanation": "橋が検査されているのでis being inspectedという進行形の受動態です。inspectは原形、inspectingは現在分詞、inspectsは現在形で、beingの後の過去分詞にはなりません。",
+      "translation": "古い橋はひび割れがないか、技師たちによって検査されています。"
+    },
+    {
+      "id": "g_l1_070",
+      "seq": 70,
+      "level": "L1",
+      "category": "態",
+      "sentence": "All borrowed costumes must be ------- before they are returned to the theater.",
+      "choices": [
+        "wash",
+        "washing",
+        "washes",
+        "washed"
+      ],
+      "answer": "washed",
+      "explanation": "衣装が洗濯されるのでmust be washedが正解です。washは原形、washingは現在分詞、washesは現在形で、beに続く受動態の過去分詞ではありません。",
+      "translation": "借りた衣装はすべて、劇場に返す前に洗濯しなければなりません。"
+    },
+    {
+      "id": "g_l1_071",
+      "seq": 71,
+      "level": "L1",
+      "category": "態",
+      "sentence": "The park gates are ------- by the caretaker at sunrise every day.",
+      "choices": [
+        "opened",
+        "open",
+        "opening",
+        "opens"
+      ],
+      "answer": "opened",
+      "explanation": "by the caretakerで動作主を示し、門が開けられるのでare openedです。openは原形または形容詞ですが、この動作主を伴う受動態にはできません。openingは現在分詞、opensは現在形で、受動態の過去分詞ではありません。",
+      "translation": "公園の門は毎日、日の出時に管理人によって開けられます。"
+    },
+    {
+      "id": "g_l1_072",
+      "seq": 72,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The baker ------- won the local contest now teaches classes on weekends.",
+      "choices": [
+        "whom",
+        "who",
+        "whose",
+        "where"
+      ],
+      "answer": "who",
+      "explanation": "人を表すThe bakerを先行詞とし、wonの主語になるwhoが正解です。whomは目的格、whoseは所有を表して後ろに名詞が必要です。whereは場所を表す関係副詞で、人を受けて主語にはなれません。",
+      "translation": "地元のコンテストで優勝したパン職人は、今では週末に教室を開いています。"
+    },
+    {
+      "id": "g_l1_073",
+      "seq": 73,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The tent, ------- we bought last spring, kept us dry during the rain.",
+      "choices": [
+        "who",
+        "whose",
+        "which",
+        "where"
+      ],
+      "answer": "which",
+      "explanation": "物を表すThe tentを受け、boughtの目的語になるwhichが正解です。whoは人を受け、whoseは後ろに名詞が必要です。whereは場所を表す関係副詞でboughtの目的語になれません。",
+      "translation": "昨春買ったテントのおかげで、雨の間も私たちはぬれずに済みました。"
+    },
+    {
+      "id": "g_l1_074",
+      "seq": 74,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "A runner ------- shoes were covered in mud stopped beside the fountain.",
+      "choices": [
+        "who",
+        "whom",
+        "which",
+        "whose"
+      ],
+      "answer": "whose",
+      "explanation": "runnerの靴という所有関係をwhose shoesで表します。whoとwhomはshoesの所有を表せず、whichも人を受けてこの所有関係を作れません。",
+      "translation": "靴が泥だらけの走者が、噴水のそばで立ち止まりました。"
+    },
+    {
+      "id": "g_l1_075",
+      "seq": 75,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The village in ------- my grandparents live has only one grocery store.",
+      "choices": [
+        "which",
+        "where",
+        "who",
+        "whose"
+      ],
+      "answer": "which",
+      "explanation": "前置詞inの目的語として場所を受ける関係代名詞whichが正解です。whereは関係副詞でinの直後には使えません。whoは人を受け、whoseは後ろに名詞が必要です。",
+      "translation": "祖父母が住む村には食料品店が一軒しかありません。"
+    },
+    {
+      "id": "g_l1_076",
+      "seq": 76,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The passenger ------- suitcase fell into the canal asked a nearby boat owner for help.",
+      "choices": [
+        "who",
+        "whose",
+        "whom",
+        "where"
+      ],
+      "answer": "whose",
+      "explanation": "whose は後ろの suitcase を修飾し「その人のスーツケース」を表します。who は主格、whom は目的格で、ここでは suitcase の所有者を示せません。where は場所を表すため人の所有関係には使えません。",
+      "translation": "スーツケースが運河に落ちてしまった乗客は、近くにいた船の持ち主に助けを求めました。"
+    },
+    {
+      "id": "g_l1_077",
+      "seq": 77,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "The cookbook, ------- includes photographs of every dish, is popular with beginners.",
+      "choices": [
+        "who",
+        "whose",
+        "which",
+        "where"
+      ],
+      "answer": "which",
+      "explanation": "which は物である The cookbook を受け、includes の主語になります。who は人を受けます。whose は所有を示すため後ろに名詞が必要です。where は場所を表す副詞で includes の主語にはなれません。",
+      "translation": "すべての料理の写真が載っているその料理本は、初心者に人気があります。"
+    },
+    {
+      "id": "g_l1_078",
+      "seq": 78,
+      "level": "L1",
+      "category": "関係詞",
+      "sentence": "We found a campsite ------- we could safely leave our bicycles overnight.",
+      "choices": [
+        "which",
+        "whose",
+        "whom",
+        "where"
+      ],
+      "answer": "where",
+      "explanation": "where は「その場所で」という意味で、後ろの完全な節を campsite につなぎます。which と whom を入れると節の中で担当する主語や目的語の空きがありません。whose は直後に所有される名詞が必要です。",
+      "translation": "私たちは、自転車を一晩安全に置いておけるキャンプ場を見つけました。"
+    },
+    {
+      "id": "g_l1_079",
+      "seq": 79,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "Please keep your phone silent ------- the entire concert this evening.",
+      "choices": [
+        "during",
+        "while",
+        "although",
+        "unless"
+      ],
+      "answer": "during",
+      "explanation": "during は名詞句 the entire concert の前に置く前置詞です。while、although、unless はここでは主語と動詞のある節を必要とし、この名詞句だけをつなげられません。",
+      "translation": "今晩のコンサートの間はずっと、電話の音が鳴らないようにしてください。"
+    },
+    {
+      "id": "g_l1_080",
+      "seq": 80,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "The picnic continued ------- the wind was unusually strong that afternoon.",
+      "choices": [
+        "despite",
+        "although",
+        "during",
+        "in spite of"
+      ],
+      "answer": "although",
+      "explanation": "although は主語 the wind と動詞 was のある節をつなぎ、逆接を表します。despite、during、in spite of は前置詞または前置詞句なので、この節をそのまま後ろに置けません。",
+      "translation": "その日の午後は風がいつになく強かったものの、ピクニックは続きました。"
+    },
+    {
+      "id": "g_l1_081",
+      "seq": 81,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "The outdoor pool is closed today ------- a broken water pump.",
+      "choices": [
+        "because",
+        "although",
+        "because of",
+        "unless"
+      ],
+      "answer": "because of",
+      "explanation": "because of は名詞句 a broken water pump を受け、理由を表します。because、although、unless は節をつなぐ接続詞なので、この名詞句だけを後ろに置けません。",
+      "translation": "給水ポンプの故障のため、屋外プールは今日休業しています。"
+    },
+    {
+      "id": "g_l1_082",
+      "seq": 82,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "Wash your hands thoroughly ------- handling any fresh food in this kitchen.",
+      "choices": [
+        "prior",
+        "previous",
+        "earlier",
+        "before"
+      ],
+      "answer": "before",
+      "explanation": "before は動名詞句 handling any fresh food の前に置けます。prior はこの意味では prior to が必要です。previous は形容詞、earlier はここでは副詞で、handling をつなぐ前置詞にはなりません。",
+      "translation": "この台所で生鮮食品を扱う前に、手を十分に洗ってください。"
+    },
+    {
+      "id": "g_l1_083",
+      "seq": 83,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "At this stall, you can pay either in cash ------- by card.",
+      "choices": [
+        "or",
+        "nor",
+        "but",
+        "and"
+      ],
+      "answer": "or",
+      "explanation": "either と組になるのは or で、二つの支払い方法を示します。nor は neither と組になります。but と and はこの either に対応する接続詞にはなりません。",
+      "translation": "この売店では、現金かカードのどちらかで支払えます。"
+    },
+    {
+      "id": "g_l1_084",
+      "seq": 84,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "We have grown vegetables here ------- we moved into this house.",
+      "choices": [
+        "during",
+        "since",
+        "despite",
+        "because of"
+      ],
+      "answer": "since",
+      "explanation": "since は「この家に引っ越して以来」という起点を表す節をつなぎます。during、despite、because of は前置詞または前置詞句なので、we moved で始まる節をそのまま受けられません。",
+      "translation": "私たちはこの家に引っ越して以来、ここで野菜を育てています。"
+    },
+    {
+      "id": "g_l1_085",
+      "seq": 85,
+      "level": "L1",
+      "category": "前置詞と接続詞",
+      "sentence": "Do not water these plants ------- the soil feels dry to the touch.",
+      "choices": [
+        "without",
+        "despite",
+        "unless",
+        "during"
+      ],
+      "answer": "unless",
+      "explanation": "unless は「土が触って乾いていると感じるのでなければ」という条件の節をつなぎます。without、despite、during は前置詞なので、the soil feels で始まる節をそのまま受けられません。",
+      "translation": "土に触れて乾いていると感じるのでなければ、これらの植物に水をやらないでください。"
+    },
+    {
+      "id": "g_l1_086",
+      "seq": 86,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "My sister brought a red umbrella, so this red one must be -------.",
+      "choices": [
+        "her",
+        "she",
+        "herself",
+        "hers"
+      ],
+      "answer": "hers",
+      "explanation": "hers は「彼女のもの」を表す所有代名詞で、be の補語になります。her は所有格なら後ろに名詞が必要で、目的格でもここで所有を表せません。she は主格、herself は再帰代名詞で、この傘の所有者を示す形ではありません。",
+      "translation": "姉は赤い傘を持ってきたので、この赤い傘は姉のものに違いありません。"
+    },
+    {
+      "id": "g_l1_087",
+      "seq": 87,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "The children made these paper hats by ------- without any adult help.",
+      "choices": [
+        "themselves",
+        "themself",
+        "their",
+        "they"
+      ],
+      "answer": "themselves",
+      "explanation": "by themselves は「自分たちだけで」という意味で、複数の The children に対応します。themself はここで必要な複数の再帰代名詞の形ではありません。their は名詞を伴う所有格、they は主格で、この位置には置けません。",
+      "translation": "子どもたちは大人の手助けを受けず、自分たちだけでこの紙の帽子を作りました。"
+    },
+    {
+      "id": "g_l1_088",
+      "seq": 88,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "The kettle is still hot, so do not touch ------- with bare hands.",
+      "choices": [
+        "its",
+        "it",
+        "itself",
+        "they"
+      ],
+      "answer": "it",
+      "explanation": "it は単数の The kettle を受ける目的格で、touch の目的語になります。its は所有格で後ろに名詞が必要です。itself はここでは主語 you と同じものを指せないため不適切です。they は複数の主格で、目的語にはなりません。",
+      "translation": "やかんはまだ熱いので、素手で触らないでください。"
+    },
+    {
+      "id": "g_l1_089",
+      "seq": 89,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "The two neighbors share a garden, but ------- houses have separate entrances.",
+      "choices": [
+        "they",
+        "them",
+        "their",
+        "themselves"
+      ],
+      "answer": "their",
+      "explanation": "their は所有格で、後ろの houses を修飾します。they は主格、them は目的格、themselves は再帰代名詞なので、このように houses の所有者を示す修飾語にはなりません。",
+      "translation": "その二人の隣人は庭を共有していますが、それぞれの家には別々の入口があります。"
+    },
+    {
+      "id": "g_l1_090",
+      "seq": 90,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "There is ------- waiting outside the bakery with a large basket.",
+      "choices": [
+        "we",
+        "people",
+        "they",
+        "someone"
+      ],
+      "answer": "someone",
+      "explanation": "someone は単数扱いの不定代名詞で、There is に続けられます。people は複数で There are が必要です。we と they は、この存在を示す There is の後ろに置く形ではありません。",
+      "translation": "大きなかごを持った誰かが、パン屋の外で待っています。"
+    },
+    {
+      "id": "g_l1_091",
+      "seq": 91,
+      "level": "L1",
+      "category": "代名詞",
+      "sentence": "Your seat is beside the window, and ------- is next to the aisle.",
+      "choices": [
+        "mine",
+        "my",
+        "me",
+        "myself"
+      ],
+      "answer": "mine",
+      "explanation": "mine は my seat の代わりになる所有代名詞で、is の主語になります。my は後ろに名詞が必要です。me は目的格で主語には使いません。myself は再帰代名詞で、ここでは自分の席を表せません。",
+      "translation": "あなたの席は窓の横で、私の席は通路の横です。"
+    },
+    {
+      "id": "g_l1_092",
+      "seq": 92,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "This homemade soup tastes much ------- than the canned soup we tried yesterday.",
+      "choices": [
+        "good",
+        "better",
+        "best",
+        "wellest"
+      ],
+      "answer": "better",
+      "explanation": "better は good の比較級で、much と than を伴う比較に使えます。good は原級、best は最上級なのでこの形には合いません。wellest という比較の形はありません。",
+      "translation": "この自家製スープは、昨日試した缶入りスープよりずっとおいしいです。"
+    },
+    {
+      "id": "g_l1_093",
+      "seq": 93,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "Of the three paths, the riverside trail is the ------- beautiful.",
+      "choices": [
+        "more",
+        "much",
+        "most",
+        "many"
+      ],
+      "answer": "most",
+      "explanation": "三つの道の中で最も美しいので、最上級を作る most を使います。more は比較級、much は程度や量を表し、この形の最上級を作れません。many は数えられる名詞の数を表すため beautiful を修飾できません。",
+      "translation": "三つの道のうち、川沿いの遊歩道が最も美しいです。"
+    },
+    {
+      "id": "g_l1_094",
+      "seq": 94,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "This small lamp uses ------- electricity than the large ceiling light.",
+      "choices": [
+        "few",
+        "little",
+        "least",
+        "less"
+      ],
+      "answer": "less",
+      "explanation": "less は不可算名詞 electricity の量を比較する形で、than と対応します。few は可算名詞の複数形に使います。little は原級、least は最上級で、この比較級の位置には合いません。",
+      "translation": "この小さなランプは、大きな天井灯より消費電力が少ないです。"
+    },
+    {
+      "id": "g_l1_095",
+      "seq": 95,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "The new bicycle is ------- comfortable than my old one on rough roads.",
+      "choices": [
+        "more",
+        "most",
+        "many",
+        "comfortably"
+      ],
+      "answer": "more",
+      "explanation": "more は comfortable の比較級を作り、than と対応します。most は最上級なのでこの形には合いません。many は形容詞 comfortable の程度を表せません。comfortably は副詞で comfortable の比較級を作る語ではありません。",
+      "translation": "でこぼこの道では、新しい自転車のほうが古い自転車より乗り心地がよいです。"
+    },
+    {
+      "id": "g_l1_096",
+      "seq": 96,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "The blue scarf is just as soft ------- the green one beside it.",
+      "choices": [
+        "than",
+        "as",
+        "of",
+        "to"
+      ],
+      "answer": "as",
+      "explanation": "as soft as は同じ程度の柔らかさを表します。than は比較級に使い、as soft とは組み合わせません。of と to もこの同等比較の後半をつなげません。",
+      "translation": "青いマフラーは、その横の緑のマフラーとまったく同じくらい柔らかいです。"
+    },
+    {
+      "id": "g_l1_097",
+      "seq": 97,
+      "level": "L1",
+      "category": "比較",
+      "sentence": "Of all the fruit in this basket, this peach is in the ------- condition.",
+      "choices": [
+        "worsens",
+        "badness",
+        "worst",
+        "badly"
+      ],
+      "answer": "worst",
+      "explanation": "果物の中で最も状態が悪いことを表す、bad の最上級 worst が正解です。worsens は動詞、badness は名詞、badly は副詞で、ここで condition の状態を表す形容詞にはなりません。",
+      "translation": "このかごの果物の中では、この桃の状態が最も悪いです。"
+    },
+    {
+      "id": "g_l1_098",
+      "seq": 98,
+      "level": "L1",
+      "category": "語彙",
+      "sentence": "The cashier gave me a ------- showing each item and the total paid.",
+      "choices": [
+        "ceiling",
+        "pillow",
+        "ladder",
+        "receipt"
+      ],
+      "answer": "receipt",
+      "explanation": "receipt は買った品目と支払総額を示す「レシート」です。ceiling は「天井」、pillow は「枕」、ladder は「はしご」で、会計の明細を示すものではありません。",
+      "translation": "レジ係は、各品目と支払総額が記載されたレシートを私に渡しました。"
+    },
+    {
+      "id": "g_l1_099",
+      "seq": 99,
+      "level": "L1",
+      "category": "語彙",
+      "sentence": "Use this thermometer to measure the ------- of the water before adding the yeast.",
+      "choices": [
+        "temperature",
+        "luggage",
+        "furniture",
+        "permission"
+      ],
+      "answer": "temperature",
+      "explanation": "temperature は温度計で測る「温度」です。luggage は「荷物」、furniture は「家具」、permission は「許可」で、いずれも水について温度計で測るものではありません。",
+      "translation": "酵母を加える前に、この温度計で水の温度を測ってください。"
+    },
+    {
+      "id": "g_l1_100",
+      "seq": 100,
+      "level": "L1",
+      "category": "語彙",
+      "sentence": "Visitors must enter through the front -------, not through the staff-only rear door.",
+      "choices": [
+        "weekday",
+        "entrance",
+        "appetite",
+        "rainfall"
+      ],
+      "answer": "entrance",
+      "explanation": "entrance は人が建物に入る「入口」で、後半の職員専用の裏口との対比に合います。weekday は「平日」、appetite は「食欲」、rainfall は「降雨量」で、人が通って入る場所ではありません。",
+      "translation": "来館者は職員専用の裏口ではなく、正面入口から入らなければなりません。"
     }
   ],
   "reading": [

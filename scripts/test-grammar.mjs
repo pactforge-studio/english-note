@@ -20,10 +20,12 @@ assert.deepEqual(seqs(words),Array.from({length:150},(_,index)=>index+1),'Words 
 assert.equal(hash(words.slice(0,90)),'61be552701b8e4fde351612ef2f27f543a0042fef576a57ad51631a14515f99c','All 90 existing word entries must remain byte-equivalent as JSON.');
 assert.deepEqual(seqs(phrases),Array.from({length:120},(_,index)=>index+1),'All 120 phrases must remain in consecutive seq order.');
 assert.equal(hash(phrases.slice(0,60)),'a0a3a3f9b690ce6f4c07c75cbd73308cabceff6fce3d4e327898300dce48c0e8','All 60 existing phrase entries must remain byte-equivalent as JSON.');
+assert.equal(hash(phrases),'51351a168346ae09d9faf90addee446aad191e0609566b99eec0d0038cfd9bbf','All 120 existing phrases must remain byte-equivalent as JSON.');
 assert.ok(Array.isArray(grammar),'curriculum.grammar must be an array.');
-assert.equal(grammar.length,50);
+assert.equal(hash(grammar.slice(0,50)),'7960bc3dcfd02e69c26f07c22e63e8c3026565569433116ae97fd2fab29eebdd','All 50 existing grammar entries must remain byte-equivalent as JSON.');
+assert.equal(grammar.length,100);
 const ids=new Set([...words,...phrases,...grammar].map(item=>item.id));
-assert.equal(ids.size,320,'Word, phrase and grammar IDs must be globally unique.');
+assert.equal(ids.size,370,'Word, phrase and grammar IDs must be globally unique.');
 
 const counts=Object.fromEntries(categories.map(category=>[category,0]));
 const escaped=value=>value.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
@@ -58,7 +60,20 @@ for(const [index,g] of grammar.entries()){
  assert.equal(itemText(g),`文法 ${g.id}`,`${label}: safe display text without word/phrase fields`);
 }
 for(const category of categories.slice(0,7))assert.ok(counts[category]>=5,`${category}: at least five grammar questions`);
-assert.ok(counts['語彙']>=1&&counts['語彙']<=5,'Vocabulary must be present but capped at five questions.');
+assert.ok(counts['語彙']>=1&&counts['語彙']<=10,'Vocabulary must be present but capped at ten questions.');
+// E09 independently checks the added batch, not just the combined totals.
+const added=grammar.slice(50);
+assert.equal(added.length,50);
+const addedCounts=Object.fromEntries(categories.map(category=>[category,added.filter(g=>g.category===category).length]));
+for(const category of categories.slice(0,7))assert.ok(addedCounts[category]>=6,`${category}: at least six added questions`);
+assert.ok(addedCounts['語彙']>=2&&addedCounts['語彙']<=4,'E09 vocabulary must contain two to four questions.');
+const answerPositions=Array.from({length:4},(_,position)=>added.filter(g=>g.choices.indexOf(g.answer)===position).length);
+for(const [position,count] of answerPositions.entries())assert.ok(count>=8&&count<=17,`E09 position ${position+1}: 8–17 answers`);
+const answerCounts=new Map();
+for(const g of added)answerCounts.set(g.answer.toLowerCase(),(answerCounts.get(g.answer.toLowerCase())||0)+1);
+for(const [answer,count] of answerCounts)assert.ok(count<=3,`E09 answer ${answer}: used no more than three times`);
+const normalizedSentences=grammar.map(g=>g.sentence.toLowerCase().replace(/\s+/g,' ').trim());
+assert.equal(new Set(normalizedSentences).size,100,'All old and new grammar sentences must be distinct.');
 assert.equal(itemText(words[0]),words[0].word,'Word display text must not regress.');
 assert.equal(itemText(phrases[0]),phrases[0].phrase,'Phrase display text must not regress.');
 
@@ -198,4 +213,4 @@ for(const item of grammar)answer(exhausted,item,true,yesterday);
 assert.deepEqual(dailyGrammar(exhausted,grammar,today),[],'An exhausted grammar curriculum yields no invented items.');
 assert.deepEqual(dailyWords(exhausted,words,today),words.slice(0,3));
 assert.deepEqual(dailyPhrases(exhausted,phrases,today),phrases.slice(0,3));
-console.log('Grammar: 50 valid entries/8 categories, original 90 words and 60 phrases frozen, 120 sequential phrases, 320 IDs, daily5 independence/reservation, v2 continuation, review/awards, merge/JSON/storage, v1 migration/backup and unknown-ID rejection passed.');
+console.log('Grammar: 100 valid entries/8 categories, original 90 words and 60 phrases frozen, 120 sequential phrases, 370 IDs, daily5 independence/reservation, v2 continuation, review/awards, merge/JSON/storage, v1 migration/backup and unknown-ID rejection passed.');
